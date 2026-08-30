@@ -1,0 +1,101 @@
+requirement_id,category,sub_category,description,description_hindi,frequency,due_days,regulatory_body,is_mandatory,penalty_amount,risk_level
+REQ-001,Safety,Mine Ventilation,Adequate ventilation system must be operational,खान में सदा हवादारी प्रणाली का संचालन अनिवार्य है,Daily,1,DGMS,True,50000,High
+REQ-002,Safety,Roof Support,All underground workings must have proper roof support,भूगर्भीय कार्य में छत का समुचित समर्थन अनिवार्य है,Daily,1,DGMS,True,100000,Critical
+REQ-003,Safety,Fire Prevention,Fire fighting equipment must be available and functional,अग्निशमन उपकरण उपलब्ध और कार्यशील होना चाहिए,Weekly,7,DGMS,True,75000,High
+REQ-004,Safety,Personal Protective Equipment,All workers must wear approved PPE,सभी कर्मचारियों को अनुमोदित पीपीई पहनना अनिवार्य है,Daily,1,DGMS,True,25000,Medium
+REQ-005,Safety,Emergency Evacuation,Emergency evacuation plan must be displayed and tested,आपातकालीन निकासी योजना प्रदर्शित और परीक्षित होनी चाहिए,Monthly,30,DGMS,True,150000,Critical
+REQ-006,Environmental,Air Quality,PM10 levels must not exceed 100 μg/m³,पीएम10 स्तर 100 माइक्रोग्राम/घनमीटर से अधिक नहीं होना चाहिए,Daily,1,CPCB,True,50000,High
+REQ-007,Environmental,PM2.5,PM2.5 levels must not exceed 60 μg/m³,पीएम2.5 स्तर 60 माइक्रोग्राम/घनमीटर से अधिक नहीं होना चाहिए,Daily,1,CPCB,True,75000,High
+REQ-008,Environmental,Noise,Noise levels must not exceed 85 dB,शोर स्तर 85 डेसीबल से अधिक नहीं होना चाहिए,Daily,1,CPCB,True,40000,Medium
+REQ-009,Labour,Working Hours,No worker shall work more than 8 hours in a day,कोई भी कर्मचारी एक दिन में 8 घंटे से अधिक काम नहीं करेगा,Daily,1,Labour Dept,True,25000,Medium
+REQ-010,Labour,Wages,Minimum wages must be paid as per government notification,न्यूनतम मजदूरी सरकारी अधिसूचना के अनुसार दी जानी चाहिए,Monthly,30,Labour Dept,True,100000,High
+REQ-011,Production,Dust,Dust must be maintained as per regulations,Dust को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,212768.65,Critical
+REQ-012,Production,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,163148.69,High
+REQ-013,Labour,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,Labour Dept,True,346542.31,Critical
+REQ-014,Safety,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,55682.75,Low
+REQ-015,Labour,Fire Prevention,Fire Prevention must be maintained as per regulations,Fire Prevention को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,Labour Dept,True,39390.68,High
+REQ-016,Safety,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,438067.61,Critical
+REQ-017,Safety,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,163099.96,Low
+REQ-018,Environmental,Fire Prevention,Fire Prevention must be maintained as per regulations,Fire Prevention को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,CPCB,True,119879.99,Low
+REQ-019,Labour,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,Labour Dept,True,66293.8,High
+REQ-020,Environmental,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,CPCB,True,487527.84,Low
+REQ-021,Labour,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,Labour Dept,True,143902.49,High
+REQ-022,Labour,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,98888.72,Medium
+REQ-023,Production,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,373074.84,Low
+REQ-024,Safety,Equipment,Equipment must be maintained as per regulations,Equipment को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,115415.11,Critical
+REQ-025,Production,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,191326.02,High
+REQ-026,Safety,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,87130.85,Low
+REQ-027,Safety,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,334349.96,Critical
+REQ-028,Production,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,115628.79,Low
+REQ-029,Labour,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,148790.77,Critical
+REQ-030,Labour,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,Labour Dept,True,203679.06,Low
+REQ-031,Safety,PPE,PPE must be maintained as per regulations,PPE को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,False,0,Medium
+REQ-032,Environmental,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,CPCB,True,170779.95,Low
+REQ-033,Production,Equipment,Equipment must be maintained as per regulations,Equipment को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,96090.45,Critical
+REQ-034,Environmental,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,CPCB,True,418343.56,High
+REQ-035,Safety,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,223747.6,Critical
+REQ-036,Safety,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,220349.3,Critical
+REQ-037,Production,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,208465.83,High
+REQ-038,Environmental,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,CPCB,True,417692.7,High
+REQ-039,Safety,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,129225.07,Critical
+REQ-040,Safety,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,375444.36,Medium
+REQ-041,Labour,Fire Prevention,Fire Prevention must be maintained as per regulations,Fire Prevention को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,260136.81,Low
+REQ-042,Environmental,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,CPCB,True,366415.76,Medium
+REQ-043,Environmental,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,CPCB,True,135424.43,Medium
+REQ-044,Environmental,Quality Control,Quality Control must be maintained as per regulations,Quality Control को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,CPCB,True,96801.6,Critical
+REQ-045,Production,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,229963.58,High
+REQ-046,Labour,Fire Prevention,Fire Prevention must be maintained as per regulations,Fire Prevention को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,Labour Dept,True,43460.27,Critical
+REQ-047,Labour,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,Labour Dept,True,37524.34,Low
+REQ-048,Labour,Dust,Dust must be maintained as per regulations,Dust को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,Labour Dept,True,28427.55,High
+REQ-049,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,311354.11,Critical
+REQ-050,Production,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,477573.42,Low
+REQ-051,Production,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,167548.11,Critical
+REQ-052,Environmental,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,CPCB,True,60715.92,High
+REQ-053,Safety,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,29179.64,Critical
+REQ-054,Production,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,308804.65,High
+REQ-055,Labour,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,Labour Dept,True,210297.0,High
+REQ-056,Safety,Quality Control,Quality Control must be maintained as per regulations,Quality Control को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,42296.81,Low
+REQ-057,Production,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,364629.49,Medium
+REQ-058,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,Labour Dept,True,335169.93,High
+REQ-059,Labour,Quality Control,Quality Control must be maintained as per regulations,Quality Control को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,Labour Dept,True,73186.31,Low
+REQ-060,Labour,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,Labour Dept,True,325311.7,High
+REQ-061,Environmental,Quality Control,Quality Control must be maintained as per regulations,Quality Control को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,CPCB,True,55791.95,Critical
+REQ-062,Labour,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,Labour Dept,True,161344.37,Medium
+REQ-063,Labour,Dust,Dust must be maintained as per regulations,Dust को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,Labour Dept,True,121006.09,Medium
+REQ-064,Environmental,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,CPCB,True,423769.91,Low
+REQ-065,Safety,Quality Control,Quality Control must be maintained as per regulations,Quality Control को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,439432.46,Medium
+REQ-066,Production,Fire Prevention,Fire Prevention must be maintained as per regulations,Fire Prevention को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,98614.52,Medium
+REQ-067,Production,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,188506.71,Medium
+REQ-068,Production,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,378671.67,Critical
+REQ-069,Environmental,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,CPCB,True,161639.27,Critical
+REQ-070,Environmental,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,CPCB,True,492375.5,Critical
+REQ-071,Labour,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,Labour Dept,True,268455.3,Medium
+REQ-072,Environmental,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,CPCB,True,437770.94,Low
+REQ-073,Production,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,467803.84,Low
+REQ-074,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,Labour Dept,True,143667.74,Medium
+REQ-075,Production,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,410184.6,High
+REQ-076,Safety,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,204262.44,High
+REQ-077,Environmental,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,CPCB,True,193707.21,Low
+REQ-078,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,Labour Dept,True,397776.51,Medium
+REQ-079,Safety,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,351075.27,Medium
+REQ-080,Production,Dust,Dust must be maintained as per regulations,Dust को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,12573.09,Low
+REQ-081,Safety,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,419131.92,Critical
+REQ-082,Safety,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Weekly,7,DGMS,True,157564.09,Low
+REQ-083,Environmental,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,CPCB,True,233985.67,Low
+REQ-084,Production,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,18053.32,Medium
+REQ-085,Environmental,Training,Training must be maintained as per regulations,Training को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,CPCB,True,10766.52,High
+REQ-086,Environmental,Wages,Wages must be maintained as per regulations,Wages को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,CPCB,True,101783.82,Low
+REQ-087,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,Labour Dept,True,276600.16,Low
+REQ-088,Production,Dust,Dust must be maintained as per regulations,Dust को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,321478.69,High
+REQ-089,Labour,Equipment,Equipment must be maintained as per regulations,Equipment को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,184976.0,Low
+REQ-090,Labour,PPE,PPE must be maintained as per regulations,PPE को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,388035.67,High
+REQ-091,Environmental,Ventilation,Ventilation must be maintained as per regulations,Ventilation को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,CPCB,True,277546.74,Medium
+REQ-092,Production,Equipment,Equipment must be maintained as per regulations,Equipment को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,319550.57,Medium
+REQ-093,Safety,Equipment,Equipment must be maintained as per regulations,Equipment को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,28122.06,Medium
+REQ-094,Safety,PPE,PPE must be maintained as per regulations,PPE को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,DGMS,True,164641.95,High
+REQ-095,Production,Working Hours,Working Hours must be maintained as per regulations,Working Hours को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,True,134123.74,Medium
+REQ-096,Labour,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Daily,1,Labour Dept,True,434241.16,High
+REQ-097,Labour,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,Labour Dept,True,224106.18,Critical
+REQ-098,Production,Water,Water must be maintained as per regulations,Water को नियम के अनुसार बनाए रखना अनिवार्य है,Monthly,30,DGMS,True,487124.56,Critical
+REQ-099,Production,Air Quality,Air Quality must be maintained as per regulations,Air Quality को नियम के अनुसार बनाए रखना अनिवार्य है,Annual,365,DGMS,True,140693.14,Low
+REQ-100,Production,Roof Support,Roof Support must be maintained as per regulations,Roof Support को नियम के अनुसार बनाए रखना अनिवार्य है,Quarterly,90,DGMS,False,0,Medium

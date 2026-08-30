@@ -1,0 +1,2740 @@
+{
+  "01_mine_master.csv": {
+    "row_count": 10,
+    "columns": [
+      "mine_id",
+      "mine_name",
+      "state",
+      "district",
+      "latitude",
+      "longitude",
+      "mine_type",
+      "operational_status",
+      "opening_date",
+      "closure_date",
+      "lease_area_ha",
+      "coal_seam_thickness",
+      "production_capacity",
+      "owner_company",
+      "contact_phone",
+      "email",
+      "address"
+    ],
+    "dtypes": {
+      "mine_id": "object",
+      "mine_name": "object",
+      "state": "object",
+      "district": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "mine_type": "object",
+      "operational_status": "object",
+      "opening_date": "object",
+      "closure_date": "float64",
+      "lease_area_ha": "float64",
+      "coal_seam_thickness": "float64",
+      "production_capacity": "int64",
+      "owner_company": "object",
+      "contact_phone": "int64",
+      "email": "object",
+      "address": "object"
+    },
+    "null_counts": {
+      "mine_id": 0,
+      "mine_name": 0,
+      "state": 0,
+      "district": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "mine_type": 0,
+      "operational_status": 0,
+      "opening_date": 0,
+      "closure_date": 10,
+      "lease_area_ha": 0,
+      "coal_seam_thickness": 0,
+      "production_capacity": 0,
+      "owner_company": 0,
+      "contact_phone": 0,
+      "email": 0,
+      "address": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "mine_id",
+      "mine_name",
+      "district",
+      "latitude",
+      "longitude",
+      "opening_date",
+      "lease_area_ha",
+      "production_capacity",
+      "owner_company",
+      "contact_phone",
+      "email",
+      "address"
+    ],
+    "date_fields": [
+      "state",
+      "latitude",
+      "operational_status",
+      "opening_date",
+      "closure_date"
+    ],
+    "coordinate_fields": [
+      "latitude",
+      "longitude"
+    ],
+    "categorical_samples": {
+      "mine_id": [
+        "JH-001",
+        "JH-002",
+        "JH-003",
+        "JH-004",
+        "JH-005",
+        "OD-001",
+        "OD-002",
+        "OD-003",
+        "CG-001",
+        "CG-002"
+      ],
+      "mine_name": [
+        "Bharat Coal Fields - Bokaro",
+        "Dhanbad Central Mine",
+        "Giridih East Mine",
+        "Ramgarh West Mine",
+        "Koderma North Mine",
+        "Angul Super Thermal Mine",
+        "Jharsuguda Mega Mine",
+        "Sundargarh Central Mine",
+        "Korba Super Mine",
+        "Raigarh Power Mine"
+      ],
+      "state": [
+        "Jharkhand",
+        "Odisha",
+        "Chhattisgarh"
+      ],
+      "district": [
+        "Bokaro",
+        "Dhanbad",
+        "Giridih",
+        "Ramgarh",
+        "Koderma",
+        "Angul",
+        "Jharsuguda",
+        "Sundargarh",
+        "Korba",
+        "Raigarh"
+      ],
+      "latitude": [
+        23.6667,
+        23.8,
+        24.1833,
+        23.65,
+        24.4667,
+        21.25,
+        21.85,
+        22.1167,
+        22.35,
+        22.0
+      ],
+      "longitude": [
+        85.95,
+        86.45,
+        86.3,
+        85.5167,
+        85.6,
+        85.1,
+        84.0167,
+        84.0,
+        82.7,
+        83.4
+      ],
+      "mine_type": [
+        "Open Cast",
+        "Underground"
+      ],
+      "operational_status": [
+        "Active",
+        "Suspended"
+      ],
+      "opening_date": [
+        "1972-03-15",
+        "1956-11-20",
+        "1985-07-10",
+        "1968-09-25",
+        "1990-04-01",
+        "1980-01-15",
+        "1995-08-20",
+        "1978-12-05",
+        "1975-05-20",
+        "1992-09-10"
+      ],
+      "closure_date": [],
+      "lease_area_ha": [
+        4500.0,
+        3200.0,
+        5800.0,
+        2800.0,
+        3500.0,
+        6500.0,
+        7200.0,
+        4200.0,
+        9000.0,
+        7500.0
+      ],
+      "coal_seam_thickness": [
+        12.5,
+        8.2,
+        15.0,
+        6.5,
+        9.8,
+        18.0,
+        20.0,
+        10.5,
+        25.0
+      ],
+      "production_capacity": [
+        15000,
+        8000,
+        20000,
+        6000,
+        9000,
+        25000,
+        30000,
+        12000,
+        40000,
+        32000
+      ],
+      "owner_company": [
+        "Bharat Coal Corporation Ltd",
+        "Dhanbad Coal Mines Pvt Ltd",
+        "Giridih Mining Co",
+        "Ramgarh Coal Ltd",
+        "Koderma Mining Solutions",
+        "Angul Coal Power Ltd",
+        "Jharsuguda Mining Corp",
+        "Sundargarh Coal Ltd",
+        "Korba Coal Mines",
+        "Raigarh Energy Ltd"
+      ],
+      "contact_phone": [
+        919876543210,
+        919876543211,
+        919876543212,
+        919876543213,
+        919876543214,
+        919876543215,
+        919876543216,
+        919876543217,
+        919876543220,
+        919876543221
+      ],
+      "email": [
+        "bcc.bokaro@bharatcoal.in",
+        "dcm.dhanbad@coalmines.in",
+        "gmc.giridih@miningcorp.com",
+        "rcl.ramgarh@coalindustry.in",
+        "kms.koderma@minesolutions.com",
+        "acp.angul@powercoal.in",
+        "jmc.jharsuguda@miningcorp.in",
+        "scl.sundargarh@coalodisha.in",
+        "kcmines.korba@cgcoal.in",
+        "rel.raigarh@energycoal.com"
+      ],
+      "address": [
+        "Plot No. 45, Bokaro Steel City, Jharkhand - 827001",
+        "Dhanbad Coalfields, Jharkhand - 826001",
+        "Giridih District, Jharkhand - 815301",
+        "Ramgarh Cantonment, Jharkhand - 825101",
+        "Koderma, Jharkhand - 825401",
+        "Angul District, Odisha - 759101",
+        "Jharsuguda, Odisha - 768201",
+        "Sundargarh, Odisha - 770001",
+        "Korba, Chhattisgarh - 495001",
+        "Raigarh, Chhattisgarh - 496001"
+      ]
+    },
+    "fk_candidates": [
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "mine_id": "JH-001",
+        "mine_name": "Bharat Coal Fields - Bokaro",
+        "state": "Jharkhand",
+        "district": "Bokaro",
+        "latitude": 23.6667,
+        "longitude": 85.95,
+        "mine_type": "Open Cast",
+        "operational_status": "Active",
+        "opening_date": "1972-03-15",
+        "closure_date": NaN,
+        "lease_area_ha": 4500.0,
+        "coal_seam_thickness": 12.5,
+        "production_capacity": 15000,
+        "owner_company": "Bharat Coal Corporation Ltd",
+        "contact_phone": 919876543210,
+        "email": "bcc.bokaro@bharatcoal.in",
+        "address": "Plot No. 45, Bokaro Steel City, Jharkhand - 827001"
+      },
+      {
+        "mine_id": "JH-002",
+        "mine_name": "Dhanbad Central Mine",
+        "state": "Jharkhand",
+        "district": "Dhanbad",
+        "latitude": 23.8,
+        "longitude": 86.45,
+        "mine_type": "Underground",
+        "operational_status": "Active",
+        "opening_date": "1956-11-20",
+        "closure_date": NaN,
+        "lease_area_ha": 3200.0,
+        "coal_seam_thickness": 8.2,
+        "production_capacity": 8000,
+        "owner_company": "Dhanbad Coal Mines Pvt Ltd",
+        "contact_phone": 919876543211,
+        "email": "dcm.dhanbad@coalmines.in",
+        "address": "Dhanbad Coalfields, Jharkhand - 826001"
+      },
+      {
+        "mine_id": "JH-003",
+        "mine_name": "Giridih East Mine",
+        "state": "Jharkhand",
+        "district": "Giridih",
+        "latitude": 24.1833,
+        "longitude": 86.3,
+        "mine_type": "Open Cast",
+        "operational_status": "Active",
+        "opening_date": "1985-07-10",
+        "closure_date": NaN,
+        "lease_area_ha": 5800.0,
+        "coal_seam_thickness": 15.0,
+        "production_capacity": 20000,
+        "owner_company": "Giridih Mining Co",
+        "contact_phone": 919876543212,
+        "email": "gmc.giridih@miningcorp.com",
+        "address": "Giridih District, Jharkhand - 815301"
+      }
+    ]
+  },
+  "02_production_monthly.csv": {
+    "row_count": 240,
+    "columns": [
+      "production_id",
+      "mine_id",
+      "month_year",
+      "target_production",
+      "actual_production",
+      "dispatch",
+      "coal_grade",
+      "equipment_downtime_hours",
+      "downtime_reason",
+      "created_at",
+      "updated_at"
+    ],
+    "dtypes": {
+      "production_id": "object",
+      "mine_id": "object",
+      "month_year": "object",
+      "target_production": "int64",
+      "actual_production": "int64",
+      "dispatch": "int64",
+      "coal_grade": "object",
+      "equipment_downtime_hours": "float64",
+      "downtime_reason": "object",
+      "created_at": "object",
+      "updated_at": "object"
+    },
+    "null_counts": {
+      "production_id": 0,
+      "mine_id": 0,
+      "month_year": 0,
+      "target_production": 0,
+      "actual_production": 0,
+      "dispatch": 0,
+      "coal_grade": 0,
+      "equipment_downtime_hours": 0,
+      "downtime_reason": 0,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "production_id",
+      "actual_production",
+      "dispatch"
+    ],
+    "date_fields": [
+      "month_year",
+      "dispatch",
+      "equipment_downtime_hours",
+      "downtime_reason",
+      "created_at",
+      "updated_at"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "JH-001",
+        "JH-002",
+        "JH-003",
+        "JH-004",
+        "JH-005",
+        "OD-001",
+        "OD-002",
+        "OD-003",
+        "CG-001",
+        "CG-002"
+      ],
+      "target_production": [
+        450000,
+        240000,
+        600000,
+        180000,
+        270000,
+        750000,
+        900000,
+        360000,
+        1200000,
+        960000
+      ],
+      "coal_grade": [
+        "C",
+        "E",
+        "B",
+        "A",
+        "D"
+      ],
+      "downtime_reason": [
+        "Planned maintenance",
+        "Equipment breakdown",
+        "Weather delay"
+      ]
+    },
+    "fk_candidates": [
+      "production_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "production_id": "PM-JH-001-20230101",
+        "mine_id": "JH-001",
+        "month_year": "2023-01-01",
+        "target_production": 450000,
+        "actual_production": 468822,
+        "dispatch": 445967,
+        "coal_grade": "C",
+        "equipment_downtime_hours": 11.8,
+        "downtime_reason": "Planned maintenance",
+        "created_at": "2023-01-06 00:00:00",
+        "updated_at": "2023-01-06 00:00:00"
+      },
+      {
+        "production_id": "PM-JH-001-20230201",
+        "mine_id": "JH-001",
+        "month_year": "2023-02-01",
+        "target_production": 450000,
+        "actual_production": 481923,
+        "dispatch": 474132,
+        "coal_grade": "E",
+        "equipment_downtime_hours": 4.2,
+        "downtime_reason": "Equipment breakdown",
+        "created_at": "2023-02-06 00:00:00",
+        "updated_at": "2023-02-06 00:00:00"
+      },
+      {
+        "production_id": "PM-JH-001-20230301",
+        "mine_id": "JH-001",
+        "month_year": "2023-03-01",
+        "target_production": 450000,
+        "actual_production": 386790,
+        "dispatch": 369262,
+        "coal_grade": "B",
+        "equipment_downtime_hours": 24.3,
+        "downtime_reason": "Planned maintenance",
+        "created_at": "2023-03-06 00:00:00",
+        "updated_at": "2023-03-06 00:00:00"
+      }
+    ]
+  },
+  "03_compliance_requirements.csv": {
+    "row_count": 100,
+    "columns": [
+      "requirement_id",
+      "category",
+      "sub_category",
+      "description",
+      "description_hindi",
+      "frequency",
+      "due_days",
+      "regulatory_body",
+      "is_mandatory",
+      "penalty_amount",
+      "risk_level"
+    ],
+    "dtypes": {
+      "requirement_id": "object",
+      "category": "object",
+      "sub_category": "object",
+      "description": "object",
+      "description_hindi": "object",
+      "frequency": "object",
+      "due_days": "int64",
+      "regulatory_body": "object",
+      "is_mandatory": "bool",
+      "penalty_amount": "float64",
+      "risk_level": "object"
+    },
+    "null_counts": {
+      "requirement_id": 0,
+      "category": 0,
+      "sub_category": 0,
+      "description": 0,
+      "description_hindi": 0,
+      "frequency": 0,
+      "due_days": 0,
+      "regulatory_body": 0,
+      "is_mandatory": 0,
+      "penalty_amount": 0,
+      "risk_level": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "requirement_id"
+    ],
+    "date_fields": [
+      "category",
+      "sub_category",
+      "due_days",
+      "regulatory_body",
+      "is_mandatory"
+    ],
+    "coordinate_fields": [
+      "regulatory_body"
+    ],
+    "categorical_samples": {
+      "category": [
+        "Safety",
+        "Environmental",
+        "Labour",
+        "Production"
+      ],
+      "frequency": [
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Annual",
+        "Quarterly"
+      ],
+      "due_days": [
+        1,
+        7,
+        30,
+        365,
+        90
+      ],
+      "regulatory_body": [
+        "DGMS",
+        "CPCB",
+        "Labour Dept"
+      ],
+      "is_mandatory": [
+        true,
+        false
+      ],
+      "risk_level": [
+        "High",
+        "Critical",
+        "Medium",
+        "Low"
+      ]
+    },
+    "fk_candidates": [
+      "requirement_id"
+    ],
+    "sample": [
+      {
+        "requirement_id": "REQ-001",
+        "category": "Safety",
+        "sub_category": "Mine Ventilation",
+        "description": "Adequate ventilation system must be operational",
+        "description_hindi": "\u0916\u093e\u0928 \u092e\u0947\u0902 \u0938\u0926\u093e \u0939\u0935\u093e\u0926\u093e\u0930\u0940 \u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u0915\u093e \u0938\u0902\u091a\u093e\u0932\u0928 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948",
+        "frequency": "Daily",
+        "due_days": 1,
+        "regulatory_body": "DGMS",
+        "is_mandatory": true,
+        "penalty_amount": 50000.0,
+        "risk_level": "High"
+      },
+      {
+        "requirement_id": "REQ-002",
+        "category": "Safety",
+        "sub_category": "Roof Support",
+        "description": "All underground workings must have proper roof support",
+        "description_hindi": "\u092d\u0942\u0917\u0930\u094d\u092d\u0940\u092f \u0915\u093e\u0930\u094d\u092f \u092e\u0947\u0902 \u091b\u0924 \u0915\u093e \u0938\u092e\u0941\u091a\u093f\u0924 \u0938\u092e\u0930\u094d\u0925\u0928 \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u0939\u0948",
+        "frequency": "Daily",
+        "due_days": 1,
+        "regulatory_body": "DGMS",
+        "is_mandatory": true,
+        "penalty_amount": 100000.0,
+        "risk_level": "Critical"
+      },
+      {
+        "requirement_id": "REQ-003",
+        "category": "Safety",
+        "sub_category": "Fire Prevention",
+        "description": "Fire fighting equipment must be available and functional",
+        "description_hindi": "\u0905\u0917\u094d\u0928\u093f\u0936\u092e\u0928 \u0909\u092a\u0915\u0930\u0923 \u0909\u092a\u0932\u092c\u094d\u0927 \u0914\u0930 \u0915\u093e\u0930\u094d\u092f\u0936\u0940\u0932 \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "frequency": "Weekly",
+        "due_days": 7,
+        "regulatory_body": "DGMS",
+        "is_mandatory": true,
+        "penalty_amount": 75000.0,
+        "risk_level": "High"
+      }
+    ]
+  },
+  "04_inspections.csv": {
+    "row_count": 5000,
+    "columns": [
+      "inspection_id",
+      "mine_id",
+      "inspection_date",
+      "inspection_time",
+      "inspector_id",
+      "inspector_name",
+      "inspector_role",
+      "requirement_id",
+      "checklist_item",
+      "response",
+      "observations",
+      "observations_hindi",
+      "severity",
+      "photo_reference",
+      "latitude",
+      "longitude",
+      "sync_status",
+      "sync_timestamp"
+    ],
+    "dtypes": {
+      "inspection_id": "object",
+      "mine_id": "object",
+      "inspection_date": "object",
+      "inspection_time": "object",
+      "inspector_id": "object",
+      "inspector_name": "object",
+      "inspector_role": "object",
+      "requirement_id": "object",
+      "checklist_item": "object",
+      "response": "object",
+      "observations": "object",
+      "observations_hindi": "object",
+      "severity": "object",
+      "photo_reference": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "sync_status": "object",
+      "sync_timestamp": "object"
+    },
+    "null_counts": {
+      "inspection_id": 0,
+      "mine_id": 0,
+      "inspection_date": 0,
+      "inspection_time": 0,
+      "inspector_id": 0,
+      "inspector_name": 0,
+      "inspector_role": 0,
+      "requirement_id": 0,
+      "checklist_item": 0,
+      "response": 1654,
+      "observations": 0,
+      "observations_hindi": 0,
+      "severity": 0,
+      "photo_reference": 1016,
+      "latitude": 0,
+      "longitude": 0,
+      "sync_status": 0,
+      "sync_timestamp": 3402
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "inspection_id"
+    ],
+    "date_fields": [
+      "inspection_date",
+      "inspection_time",
+      "observations",
+      "observations_hindi",
+      "latitude",
+      "sync_status",
+      "sync_timestamp"
+    ],
+    "coordinate_fields": [
+      "latitude",
+      "longitude"
+    ],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-002",
+        "OD-001",
+        "CG-001",
+        "JH-003",
+        "JH-001",
+        "JH-002",
+        "CG-002"
+      ],
+      "inspector_id": [
+        "INS-001",
+        "INS-002",
+        "INS-003"
+      ],
+      "inspector_name": [
+        "Rajesh Kumar",
+        "Sita Devi",
+        "Amit Patel"
+      ],
+      "inspector_role": [
+        "Safety Officer",
+        "Environmental Officer",
+        "Labour Inspector"
+      ],
+      "checklist_item": [
+        "PPE compliance",
+        "Fire equipment",
+        "Roof support",
+        "Ventilation system",
+        "Gas monitoring"
+      ],
+      "response": [
+        "Non-Compliant",
+        "Compliant"
+      ],
+      "observations": [
+        "PPE compliance is not adequate",
+        "Fire equipment is not adequate",
+        "Fire equipment is functional",
+        "Roof support is not adequate",
+        "Roof support is functional",
+        "Ventilation system is not adequate",
+        "Gas monitoring is not adequate",
+        "Gas monitoring is functional",
+        "Ventilation system is functional",
+        "PPE compliance is functional"
+      ],
+      "observations_hindi": [
+        "PPE compliance \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "Fire equipment \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "Fire equipment \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
+        "Roof support \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "Roof support \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
+        "Ventilation system \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "Gas monitoring \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "Gas monitoring \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
+        "Ventilation system \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
+        "PPE compliance \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948"
+      ],
+      "severity": [
+        "Critical",
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "sync_status": [
+        "Pending",
+        "Failed",
+        "Synced"
+      ]
+    },
+    "fk_candidates": [
+      "inspection_id",
+      "mine_id",
+      "inspector_id",
+      "requirement_id"
+    ],
+    "sample": [
+      {
+        "inspection_id": "INS-OD-002-0000",
+        "mine_id": "OD-002",
+        "inspection_date": "2023-05-31",
+        "inspection_time": "10:06:00",
+        "inspector_id": "INS-001",
+        "inspector_name": "Rajesh Kumar",
+        "inspector_role": "Safety Officer",
+        "requirement_id": "REQ-042",
+        "checklist_item": "PPE compliance",
+        "response": "Non-Compliant",
+        "observations": "PPE compliance is not adequate",
+        "observations_hindi": "PPE compliance \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "severity": "Critical",
+        "photo_reference": "PHOTO-OD-002-0000.jpg",
+        "latitude": 23.5928161,
+        "longitude": 86.1397648,
+        "sync_status": "Pending",
+        "sync_timestamp": NaN
+      },
+      {
+        "inspection_id": "INS-OD-001-0001",
+        "mine_id": "OD-001",
+        "inspection_date": "2023-01-22",
+        "inspection_time": "23:55:00",
+        "inspector_id": "INS-002",
+        "inspector_name": "Sita Devi",
+        "inspector_role": "Environmental Officer",
+        "requirement_id": "REQ-079",
+        "checklist_item": "Fire equipment",
+        "response": "Non-Compliant",
+        "observations": "Fire equipment is not adequate",
+        "observations_hindi": "Fire equipment \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0928\u0939\u0940\u0902 \u0939\u0948",
+        "severity": "Low",
+        "photo_reference": NaN,
+        "latitude": 23.8042125,
+        "longitude": 85.8133111,
+        "sync_status": "Failed",
+        "sync_timestamp": NaN
+      },
+      {
+        "inspection_id": "INS-CG-001-0002",
+        "mine_id": "CG-001",
+        "inspection_date": "2023-03-23",
+        "inspection_time": "00:09:00",
+        "inspector_id": "INS-003",
+        "inspector_name": "Amit Patel",
+        "inspector_role": "Labour Inspector",
+        "requirement_id": "REQ-087",
+        "checklist_item": "Fire equipment",
+        "response": "Compliant",
+        "observations": "Fire equipment is functional",
+        "observations_hindi": "Fire equipment \u0920\u0940\u0915 \u0938\u0947 \u0915\u093e\u092e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948",
+        "severity": "Medium",
+        "photo_reference": NaN,
+        "latitude": 23.9452154,
+        "longitude": 85.8163285,
+        "sync_status": "Pending",
+        "sync_timestamp": NaN
+      }
+    ]
+  },
+  "05_incidents.csv": {
+    "row_count": 300,
+    "columns": [
+      "incident_id",
+      "mine_id",
+      "incident_date",
+      "incident_time",
+      "incident_type",
+      "location",
+      "equipment_involved",
+      "cause_category",
+      "cause_description",
+      "injury_severity",
+      "persons_affected",
+      "root_cause",
+      "risk_level",
+      "reported_by",
+      "reported_date",
+      "status"
+    ],
+    "dtypes": {
+      "incident_id": "object",
+      "mine_id": "object",
+      "incident_date": "object",
+      "incident_time": "object",
+      "incident_type": "object",
+      "location": "object",
+      "equipment_involved": "object",
+      "cause_category": "object",
+      "cause_description": "object",
+      "injury_severity": "object",
+      "persons_affected": "int64",
+      "root_cause": "object",
+      "risk_level": "object",
+      "reported_by": "object",
+      "reported_date": "object",
+      "status": "object"
+    },
+    "null_counts": {
+      "incident_id": 0,
+      "mine_id": 0,
+      "incident_date": 0,
+      "incident_time": 0,
+      "incident_type": 0,
+      "location": 0,
+      "equipment_involved": 0,
+      "cause_category": 0,
+      "cause_description": 0,
+      "injury_severity": 73,
+      "persons_affected": 0,
+      "root_cause": 0,
+      "risk_level": 0,
+      "reported_by": 0,
+      "reported_date": 0,
+      "status": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "incident_id"
+    ],
+    "date_fields": [
+      "incident_date",
+      "incident_time",
+      "location",
+      "cause_category",
+      "reported_date",
+      "status"
+    ],
+    "coordinate_fields": [
+      "location"
+    ],
+    "categorical_samples": {
+      "mine_id": [
+        "JH-002",
+        "JH-001",
+        "CG-001",
+        "OD-002",
+        "CG-002",
+        "OD-001",
+        "JH-003"
+      ],
+      "incident_type": [
+        "Near Miss",
+        "Accident"
+      ],
+      "location": [
+        "Crusher Area",
+        "Pit Bottom",
+        "Loading Point",
+        "Drill Site",
+        "Main Haulage Road"
+      ],
+      "cause_category": [
+        "Human Error",
+        "Electrical",
+        "Mechanical",
+        "Environmental"
+      ],
+      "cause_description": [
+        "Worker slipped",
+        "Short circuit",
+        "Conveyor belt jam",
+        "Crusher blade failure",
+        "Roof fall"
+      ],
+      "injury_severity": [
+        "Minor",
+        "Serious",
+        "Fatal"
+      ],
+      "persons_affected": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "root_cause": [
+        "Human error",
+        "Poor ventilation",
+        "Equipment failure",
+        "Inadequate maintenance"
+      ],
+      "risk_level": [
+        "Critical",
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "reported_by": [
+        "Sita Devi",
+        "Rajesh Kumar",
+        "Amit Patel"
+      ],
+      "status": [
+        "Open",
+        "Investigating",
+        "Escalated",
+        "Closed"
+      ]
+    },
+    "fk_candidates": [
+      "incident_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "incident_id": "INC-JH-002-000",
+        "mine_id": "JH-002",
+        "incident_date": "2023-09-16",
+        "incident_time": "03:57:00",
+        "incident_type": "Near Miss",
+        "location": "Crusher Area",
+        "equipment_involved": "EQ-447",
+        "cause_category": "Human Error",
+        "cause_description": "Worker slipped",
+        "injury_severity": "Minor",
+        "persons_affected": 0,
+        "root_cause": "Human error",
+        "risk_level": "Critical",
+        "reported_by": "Sita Devi",
+        "reported_date": "2023-09-16 01:00:00",
+        "status": "Open"
+      },
+      {
+        "incident_id": "INC-JH-001-001",
+        "mine_id": "JH-001",
+        "incident_date": "2023-06-01",
+        "incident_time": "08:24:00",
+        "incident_type": "Accident",
+        "location": "Pit Bottom",
+        "equipment_involved": "EQ-279",
+        "cause_category": "Human Error",
+        "cause_description": "Short circuit",
+        "injury_severity": "Minor",
+        "persons_affected": 2,
+        "root_cause": "Human error",
+        "risk_level": "Low",
+        "reported_by": "Rajesh Kumar",
+        "reported_date": "2023-06-01 01:00:00",
+        "status": "Investigating"
+      },
+      {
+        "incident_id": "INC-JH-002-002",
+        "mine_id": "JH-002",
+        "incident_date": "2023-02-07",
+        "incident_time": "19:43:00",
+        "incident_type": "Near Miss",
+        "location": "Loading Point",
+        "equipment_involved": "EQ-052",
+        "cause_category": "Electrical",
+        "cause_description": "Conveyor belt jam",
+        "injury_severity": "Serious",
+        "persons_affected": 0,
+        "root_cause": "Human error",
+        "risk_level": "Medium",
+        "reported_by": "Rajesh Kumar",
+        "reported_date": "2023-02-07 04:00:00",
+        "status": "Investigating"
+      }
+    ]
+  },
+  "06_corrective_actions.csv": {
+    "row_count": 1500,
+    "columns": [
+      "action_id",
+      "inspection_id",
+      "incident_id",
+      "action_description",
+      "action_description_hindi",
+      "assigned_to",
+      "assigned_date",
+      "due_date",
+      "completion_date",
+      "status",
+      "priority",
+      "verification_required",
+      "verified_by",
+      "verification_date",
+      "delay_reason"
+    ],
+    "dtypes": {
+      "action_id": "object",
+      "inspection_id": "object",
+      "incident_id": "object",
+      "action_description": "object",
+      "action_description_hindi": "object",
+      "assigned_to": "object",
+      "assigned_date": "object",
+      "due_date": "object",
+      "completion_date": "object",
+      "status": "object",
+      "priority": "object",
+      "verification_required": "bool",
+      "verified_by": "object",
+      "verification_date": "object",
+      "delay_reason": "object"
+    },
+    "null_counts": {
+      "action_id": 0,
+      "inspection_id": 0,
+      "incident_id": 1027,
+      "action_description": 0,
+      "action_description_hindi": 0,
+      "assigned_to": 0,
+      "assigned_date": 0,
+      "due_date": 0,
+      "completion_date": 455,
+      "status": 0,
+      "priority": 0,
+      "verification_required": 0,
+      "verified_by": 770,
+      "verification_date": 770,
+      "delay_reason": 1266
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "action_id"
+    ],
+    "date_fields": [
+      "assigned_date",
+      "due_date",
+      "completion_date",
+      "status",
+      "verification_required",
+      "verification_date"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "action_description": [
+        "Verify compliance",
+        "Conduct training",
+        "Repair roof supports",
+        "Install dust suppression"
+      ],
+      "action_description_hindi": [
+        "Verify compliance \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "Conduct training \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "Repair roof supports \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "Install dust suppression \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f"
+      ],
+      "assigned_to": [
+        "Environmental Team",
+        "Maintenance Team",
+        "Safety Team"
+      ],
+      "status": [
+        "Open",
+        "Escalated",
+        "In Progress",
+        "Overdue",
+        "Rejected",
+        "Completed"
+      ],
+      "priority": [
+        "High",
+        "Medium",
+        "Low",
+        "Critical"
+      ],
+      "verification_required": [
+        false,
+        true
+      ],
+      "verified_by": [
+        "Sita Devi",
+        "Rajesh Kumar"
+      ],
+      "delay_reason": [
+        "Parts not available",
+        "Waiting for approval",
+        "Equipment unavailability"
+      ]
+    },
+    "fk_candidates": [
+      "action_id",
+      "inspection_id",
+      "incident_id"
+    ],
+    "sample": [
+      {
+        "action_id": "CA-00000",
+        "inspection_id": "INS-JH-002-0044",
+        "incident_id": "INC-JH-001-265",
+        "action_description": "Verify compliance",
+        "action_description_hindi": "Verify compliance \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "assigned_to": "Environmental Team",
+        "assigned_date": "2023-11-11",
+        "due_date": "2023-12-29",
+        "completion_date": NaN,
+        "status": "Open",
+        "priority": "High",
+        "verification_required": false,
+        "verified_by": NaN,
+        "verification_date": NaN,
+        "delay_reason": NaN
+      },
+      {
+        "action_id": "CA-00001",
+        "inspection_id": "INS-JH-001-3669",
+        "incident_id": NaN,
+        "action_description": "Conduct training",
+        "action_description_hindi": "Conduct training \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "assigned_to": "Maintenance Team",
+        "assigned_date": "2023-07-07",
+        "due_date": "2023-08-29",
+        "completion_date": "2023-09-04",
+        "status": "Escalated",
+        "priority": "Medium",
+        "verification_required": true,
+        "verified_by": "Sita Devi",
+        "verification_date": "2023-09-05",
+        "delay_reason": NaN
+      },
+      {
+        "action_id": "CA-00002",
+        "inspection_id": "INS-OD-001-4776",
+        "incident_id": NaN,
+        "action_description": "Conduct training",
+        "action_description_hindi": "Conduct training \u0915\u094b \u0932\u093e\u0917\u0942 \u0915\u093f\u092f\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f",
+        "assigned_to": "Maintenance Team",
+        "assigned_date": "2023-11-18",
+        "due_date": "2024-01-12",
+        "completion_date": "2024-01-09",
+        "status": "In Progress",
+        "priority": "High",
+        "verification_required": true,
+        "verified_by": "Rajesh Kumar",
+        "verification_date": "2024-01-10",
+        "delay_reason": NaN
+      }
+    ]
+  },
+  "07_contractors.csv": {
+    "row_count": 150,
+    "columns": [
+      "contractor_id",
+      "contractor_name",
+      "registration_number",
+      "contract_start_date",
+      "contract_end_date",
+      "contract_value",
+      "work_scope",
+      "worker_count",
+      "training_percentage",
+      "licence_number",
+      "licence_expiry",
+      "insurance_number",
+      "insurance_expiry",
+      "violations_count",
+      "risk_rating",
+      "address",
+      "phone",
+      "email"
+    ],
+    "dtypes": {
+      "contractor_id": "object",
+      "contractor_name": "object",
+      "registration_number": "object",
+      "contract_start_date": "object",
+      "contract_end_date": "object",
+      "contract_value": "float64",
+      "work_scope": "object",
+      "worker_count": "int64",
+      "training_percentage": "float64",
+      "licence_number": "object",
+      "licence_expiry": "object",
+      "insurance_number": "object",
+      "insurance_expiry": "object",
+      "violations_count": "int64",
+      "risk_rating": "object",
+      "address": "object",
+      "phone": "int64",
+      "email": "object"
+    },
+    "null_counts": {
+      "contractor_id": 0,
+      "contractor_name": 0,
+      "registration_number": 0,
+      "contract_start_date": 0,
+      "contract_end_date": 0,
+      "contract_value": 0,
+      "work_scope": 0,
+      "worker_count": 0,
+      "training_percentage": 0,
+      "licence_number": 0,
+      "licence_expiry": 0,
+      "insurance_number": 0,
+      "insurance_expiry": 0,
+      "violations_count": 0,
+      "risk_rating": 0,
+      "address": 0,
+      "phone": 0,
+      "email": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "contractor_id",
+      "registration_number",
+      "contract_value",
+      "licence_number",
+      "insurance_number",
+      "address",
+      "phone"
+    ],
+    "date_fields": [
+      "registration_number",
+      "contract_start_date",
+      "contract_end_date",
+      "violations_count",
+      "risk_rating"
+    ],
+    "coordinate_fields": [
+      "violations_count"
+    ],
+    "categorical_samples": {
+      "contractor_name": [
+        "XYZ Mining Corp",
+        "PQR Mining Services",
+        "LMN Mining Corp",
+        "DEF Mining Services",
+        "ABC Mining Corp",
+        "XYZ Mining Services",
+        "PQR Mining Corp",
+        "LMN Mining Services",
+        "DEF Mining Corp",
+        "ABC Mining Services"
+      ],
+      "work_scope": [
+        "Transport Services",
+        "Maintenance Services",
+        "Safety Services",
+        "Drilling Services",
+        "Excavation Services"
+      ],
+      "violations_count": [
+        5,
+        11,
+        9,
+        3,
+        7,
+        10,
+        4,
+        8,
+        2,
+        0
+      ],
+      "risk_rating": [
+        "Medium",
+        "Critical",
+        "High",
+        "Low"
+      ],
+      "email": [
+        "contact@xyzminingcorp.com",
+        "contact@pqrminingservices.com",
+        "contact@lmnminingcorp.com",
+        "contact@defminingservices.com",
+        "contact@abcminingcorp.com",
+        "contact@xyzminingservices.com",
+        "contact@pqrminingcorp.com",
+        "contact@lmnminingservices.com",
+        "contact@defminingcorp.com",
+        "contact@abcminingservices.com"
+      ]
+    },
+    "fk_candidates": [
+      "contractor_id"
+    ],
+    "sample": [
+      {
+        "contractor_id": "CON-001",
+        "contractor_name": "XYZ Mining Corp",
+        "registration_number": "REG-001-2020",
+        "contract_start_date": "2020-08-10",
+        "contract_end_date": "2022-08-10",
+        "contract_value": 18549891.68,
+        "work_scope": "Transport Services",
+        "worker_count": 216,
+        "training_percentage": 85.16,
+        "licence_number": "LIC-001",
+        "licence_expiry": "2022-10-03",
+        "insurance_number": "INS-001",
+        "insurance_expiry": "2022-10-31",
+        "violations_count": 5,
+        "risk_rating": "Medium",
+        "address": "709 Mining Colony, Korba, Odisha - 240879",
+        "phone": 91987657519194,
+        "email": "contact@xyzminingcorp.com"
+      },
+      {
+        "contractor_id": "CON-002",
+        "contractor_name": "PQR Mining Services",
+        "registration_number": "REG-002-2020",
+        "contract_start_date": "2021-02-19",
+        "contract_end_date": "2024-02-19",
+        "contract_value": 2846989.05,
+        "work_scope": "Maintenance Services",
+        "worker_count": 37,
+        "training_percentage": 77.39,
+        "licence_number": "LIC-002",
+        "licence_expiry": "2024-11-07",
+        "insurance_number": "INS-002",
+        "insurance_expiry": "2024-09-21",
+        "violations_count": 11,
+        "risk_rating": "Critical",
+        "address": "514 Mining Colony, Bokaro, Chhattisgarh - 459704",
+        "phone": 91987656853325,
+        "email": "contact@pqrminingservices.com"
+      },
+      {
+        "contractor_id": "CON-003",
+        "contractor_name": "LMN Mining Corp",
+        "registration_number": "REG-003-2020",
+        "contract_start_date": "2021-09-14",
+        "contract_end_date": "2023-09-14",
+        "contract_value": 41635352.11,
+        "work_scope": "Safety Services",
+        "worker_count": 232,
+        "training_percentage": 97.01,
+        "licence_number": "LIC-003",
+        "licence_expiry": "2023-12-20",
+        "insurance_number": "INS-003",
+        "insurance_expiry": "2024-01-10",
+        "violations_count": 9,
+        "risk_rating": "Critical",
+        "address": "640 Mining Colony, Korba, Jharkhand - 228720",
+        "phone": 91987654356696,
+        "email": "contact@lmnminingcorp.com"
+      }
+    ]
+  },
+  "08_worker_attendance.csv": {
+    "row_count": 10000,
+    "columns": [
+      "attendance_id",
+      "worker_id",
+      "mine_id",
+      "shift_date",
+      "shift_type",
+      "attendance_status",
+      "check_in_time",
+      "check_out_time",
+      "training_status",
+      "training_expiry",
+      "medical_fitness",
+      "medical_expiry",
+      "ppe_status",
+      "ppe_issues"
+    ],
+    "dtypes": {
+      "attendance_id": "object",
+      "worker_id": "object",
+      "mine_id": "object",
+      "shift_date": "object",
+      "shift_type": "object",
+      "attendance_status": "object",
+      "check_in_time": "object",
+      "check_out_time": "object",
+      "training_status": "object",
+      "training_expiry": "object",
+      "medical_fitness": "object",
+      "medical_expiry": "object",
+      "ppe_status": "object",
+      "ppe_issues": "object"
+    },
+    "null_counts": {
+      "attendance_id": 0,
+      "worker_id": 0,
+      "mine_id": 0,
+      "shift_date": 0,
+      "shift_type": 0,
+      "attendance_status": 0,
+      "check_in_time": 1478,
+      "check_out_time": 1478,
+      "training_status": 0,
+      "training_expiry": 0,
+      "medical_fitness": 0,
+      "medical_expiry": 0,
+      "ppe_status": 0,
+      "ppe_issues": 8005
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "attendance_id"
+    ],
+    "date_fields": [
+      "attendance_id",
+      "shift_date",
+      "attendance_status",
+      "check_in_time",
+      "check_out_time",
+      "training_status",
+      "ppe_status"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-001",
+        "JH-002",
+        "JH-003",
+        "CG-002",
+        "JH-001",
+        "OD-002",
+        "CG-001"
+      ],
+      "shift_type": [
+        "Morning",
+        "Night",
+        "Afternoon"
+      ],
+      "attendance_status": [
+        "Present",
+        "Absent",
+        "On Leave",
+        "Late"
+      ],
+      "training_status": [
+        "Certified",
+        "Pending",
+        "Expired"
+      ],
+      "medical_fitness": [
+        "Fit",
+        "Unfit",
+        "Pending"
+      ],
+      "ppe_status": [
+        "Partial",
+        "Compliant",
+        "Non-Compliant"
+      ],
+      "ppe_issues": [
+        "Boots missing",
+        "Helmet missing"
+      ]
+    },
+    "fk_candidates": [
+      "attendance_id",
+      "worker_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "attendance_id": "ATT-00000",
+        "worker_id": "WRK-5438",
+        "mine_id": "OD-001",
+        "shift_date": "2023-02-18",
+        "shift_type": "Morning",
+        "attendance_status": "Present",
+        "check_in_time": "06:24:00",
+        "check_out_time": "14:15:00",
+        "training_status": "Certified",
+        "training_expiry": "2023-12-14",
+        "medical_fitness": "Fit",
+        "medical_expiry": "2023-09-23",
+        "ppe_status": "Partial",
+        "ppe_issues": "Boots missing"
+      },
+      {
+        "attendance_id": "ATT-00001",
+        "worker_id": "WRK-0033",
+        "mine_id": "JH-002",
+        "shift_date": "2023-02-09",
+        "shift_type": "Night",
+        "attendance_status": "Absent",
+        "check_in_time": NaN,
+        "check_out_time": NaN,
+        "training_status": "Pending",
+        "training_expiry": "2023-01-10",
+        "medical_fitness": "Unfit",
+        "medical_expiry": "2023-01-12",
+        "ppe_status": "Partial",
+        "ppe_issues": "Helmet missing"
+      },
+      {
+        "attendance_id": "ATT-00002",
+        "worker_id": "WRK-5516",
+        "mine_id": "OD-001",
+        "shift_date": "2023-03-07",
+        "shift_type": "Afternoon",
+        "attendance_status": "On Leave",
+        "check_in_time": NaN,
+        "check_out_time": NaN,
+        "training_status": "Pending",
+        "training_expiry": "2023-03-05",
+        "medical_fitness": "Fit",
+        "medical_expiry": "2023-06-25",
+        "ppe_status": "Compliant",
+        "ppe_issues": NaN
+      }
+    ]
+  },
+  "09_environmental_readings.csv": {
+    "row_count": 50000,
+    "columns": [
+      "reading_id",
+      "mine_id",
+      "reading_date",
+      "reading_time",
+      "parameter",
+      "sub_parameter",
+      "value",
+      "unit",
+      "permissible_limit",
+      "exceedance",
+      "location",
+      "latitude",
+      "longitude",
+      "equipment_id",
+      "recorded_by"
+    ],
+    "dtypes": {
+      "reading_id": "object",
+      "mine_id": "object",
+      "reading_date": "object",
+      "reading_time": "object",
+      "parameter": "object",
+      "sub_parameter": "object",
+      "value": "float64",
+      "unit": "object",
+      "permissible_limit": "int64",
+      "exceedance": "bool",
+      "location": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "equipment_id": "object",
+      "recorded_by": "object"
+    },
+    "null_counts": {
+      "reading_id": 0,
+      "mine_id": 0,
+      "reading_date": 0,
+      "reading_time": 0,
+      "parameter": 0,
+      "sub_parameter": 0,
+      "value": 0,
+      "unit": 4201,
+      "permissible_limit": 0,
+      "exceedance": 0,
+      "location": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "equipment_id": 0,
+      "recorded_by": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "reading_id"
+    ],
+    "date_fields": [
+      "reading_date",
+      "reading_time",
+      "location",
+      "latitude"
+    ],
+    "coordinate_fields": [
+      "location",
+      "latitude",
+      "longitude"
+    ],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-001",
+        "JH-001",
+        "JH-002",
+        "JH-003",
+        "CG-002",
+        "CG-001",
+        "OD-002"
+      ],
+      "parameter": [
+        "Dust",
+        "Water",
+        "Groundwater",
+        "Noise",
+        "Air Quality",
+        "Vibration"
+      ],
+      "sub_parameter": [
+        "PM2.5",
+        "TSS",
+        "Level",
+        "SPL",
+        "NOx",
+        "pH",
+        "SO2",
+        "Whole Body",
+        "PM10"
+      ],
+      "unit": [
+        "mg/m\u00b3",
+        "m",
+        "dB",
+        "m/s\u00b2"
+      ],
+      "permissible_limit": [
+        60,
+        100,
+        85,
+        80,
+        9,
+        5
+      ],
+      "exceedance": [
+        false,
+        true
+      ],
+      "location": [
+        "Crusher Area",
+        "Effluent Treatment",
+        "Drill Site",
+        "Pit Area"
+      ],
+      "recorded_by": [
+        "Rajesh Kumar",
+        "Amit Patel",
+        "Sita Devi"
+      ]
+    },
+    "fk_candidates": [
+      "reading_id",
+      "mine_id",
+      "equipment_id"
+    ],
+    "sample": [
+      {
+        "reading_id": "ER-000000",
+        "mine_id": "OD-001",
+        "reading_date": "2023-06-24",
+        "reading_time": "20:26:00",
+        "parameter": "Dust",
+        "sub_parameter": "PM2.5",
+        "value": 59.2,
+        "unit": "mg/m\u00b3",
+        "permissible_limit": 60,
+        "exceedance": false,
+        "location": "Crusher Area",
+        "latitude": 23.2309839,
+        "longitude": 85.7272286,
+        "equipment_id": "SENS-PM2-094",
+        "recorded_by": "Rajesh Kumar"
+      },
+      {
+        "reading_id": "ER-000001",
+        "mine_id": "JH-001",
+        "reading_date": "2023-06-06",
+        "reading_time": "09:30:00",
+        "parameter": "Water",
+        "sub_parameter": "TSS",
+        "value": 85.8,
+        "unit": "mg/m\u00b3",
+        "permissible_limit": 100,
+        "exceedance": false,
+        "location": "Crusher Area",
+        "latitude": 23.8158104,
+        "longitude": 85.6022027,
+        "equipment_id": "SENS-TSS-058",
+        "recorded_by": "Rajesh Kumar"
+      },
+      {
+        "reading_id": "ER-000002",
+        "mine_id": "OD-001",
+        "reading_date": "2023-10-16",
+        "reading_time": "10:07:00",
+        "parameter": "Groundwater",
+        "sub_parameter": "Level",
+        "value": 89.9,
+        "unit": "m",
+        "permissible_limit": 100,
+        "exceedance": false,
+        "location": "Effluent Treatment",
+        "latitude": 23.4638738,
+        "longitude": 86.1296671,
+        "equipment_id": "SENS-Lev-095",
+        "recorded_by": "Rajesh Kumar"
+      }
+    ]
+  },
+  "10_equipment.csv": {
+    "row_count": 500,
+    "columns": [
+      "equipment_id",
+      "mine_id",
+      "equipment_name",
+      "equipment_type",
+      "manufacturer",
+      "model",
+      "year_manufactured",
+      "operating_hours",
+      "last_maintenance_date",
+      "next_maintenance_date",
+      "fuel_type",
+      "fuel_consumption",
+      "breakdown_count",
+      "last_breakdown_date",
+      "breakdown_reason",
+      "sensor_anomalies",
+      "status"
+    ],
+    "dtypes": {
+      "equipment_id": "object",
+      "mine_id": "object",
+      "equipment_name": "object",
+      "equipment_type": "object",
+      "manufacturer": "object",
+      "model": "object",
+      "year_manufactured": "int64",
+      "operating_hours": "int64",
+      "last_maintenance_date": "object",
+      "next_maintenance_date": "object",
+      "fuel_type": "object",
+      "fuel_consumption": "float64",
+      "breakdown_count": "int64",
+      "last_breakdown_date": "object",
+      "breakdown_reason": "object",
+      "sensor_anomalies": "int64",
+      "status": "object"
+    },
+    "null_counts": {
+      "equipment_id": 0,
+      "mine_id": 0,
+      "equipment_name": 0,
+      "equipment_type": 0,
+      "manufacturer": 0,
+      "model": 0,
+      "year_manufactured": 0,
+      "operating_hours": 0,
+      "last_maintenance_date": 0,
+      "next_maintenance_date": 0,
+      "fuel_type": 0,
+      "fuel_consumption": 0,
+      "breakdown_count": 0,
+      "last_breakdown_date": 42,
+      "breakdown_reason": 42,
+      "sensor_anomalies": 0,
+      "status": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "equipment_id",
+      "equipment_name"
+    ],
+    "date_fields": [
+      "year_manufactured",
+      "operating_hours",
+      "last_maintenance_date",
+      "next_maintenance_date",
+      "last_breakdown_date",
+      "status"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "JH-002",
+        "JH-001",
+        "CG-001",
+        "JH-003",
+        "OD-001",
+        "OD-002",
+        "CG-002"
+      ],
+      "equipment_type": [
+        "Drill Rig",
+        "Roof Bolter",
+        "Excavator",
+        "Loader",
+        "Conveyor Belt",
+        "Compressor",
+        "Dumper",
+        "Crusher"
+      ],
+      "manufacturer": [
+        "Atlas Copco",
+        "Sandvik",
+        "Ashok Leyland",
+        "Tata",
+        "Caterpillar",
+        "Komatsu",
+        "Volvo",
+        "Metso"
+      ],
+      "year_manufactured": [
+        2014,
+        2012,
+        2010,
+        2017,
+        2018,
+        2019,
+        2011,
+        2020,
+        2022,
+        2016
+      ],
+      "fuel_type": [
+        "Diesel",
+        "Electric"
+      ],
+      "breakdown_count": [
+        0,
+        9,
+        5,
+        7,
+        1,
+        4,
+        8,
+        2,
+        10,
+        6
+      ],
+      "breakdown_reason": [
+        "Hydraulic leak",
+        "Jam",
+        "Electrical fault",
+        "Engine issue"
+      ],
+      "status": [
+        "Operational",
+        "Broken",
+        "Maintenance",
+        "Retired"
+      ]
+    },
+    "fk_candidates": [
+      "equipment_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "equipment_id": "EQ-000",
+        "mine_id": "JH-002",
+        "equipment_name": "Drill Rig 0",
+        "equipment_type": "Drill Rig",
+        "manufacturer": "Atlas Copco",
+        "model": "Atl-1047",
+        "year_manufactured": 2014,
+        "operating_hours": 17246,
+        "last_maintenance_date": "2023-05-19",
+        "next_maintenance_date": "2023-10-24",
+        "fuel_type": "Diesel",
+        "fuel_consumption": 59.11,
+        "breakdown_count": 0,
+        "last_breakdown_date": NaN,
+        "breakdown_reason": NaN,
+        "sensor_anomalies": 0,
+        "status": "Operational"
+      },
+      {
+        "equipment_id": "EQ-001",
+        "mine_id": "JH-001",
+        "equipment_name": "Roof Bolter 1",
+        "equipment_type": "Roof Bolter",
+        "manufacturer": "Sandvik",
+        "model": "San-2889",
+        "year_manufactured": 2012,
+        "operating_hours": 7010,
+        "last_maintenance_date": "2023-02-01",
+        "next_maintenance_date": "2023-05-15",
+        "fuel_type": "Electric",
+        "fuel_consumption": 0.0,
+        "breakdown_count": 9,
+        "last_breakdown_date": "2023-01-23",
+        "breakdown_reason": "Hydraulic leak",
+        "sensor_anomalies": 6,
+        "status": "Operational"
+      },
+      {
+        "equipment_id": "EQ-002",
+        "mine_id": "JH-001",
+        "equipment_name": "Excavator 2",
+        "equipment_type": "Excavator",
+        "manufacturer": "Sandvik",
+        "model": "San-5254",
+        "year_manufactured": 2010,
+        "operating_hours": 29652,
+        "last_maintenance_date": "2023-12-07",
+        "next_maintenance_date": "2024-01-30",
+        "fuel_type": "Diesel",
+        "fuel_consumption": 38.52,
+        "breakdown_count": 5,
+        "last_breakdown_date": "2023-11-13",
+        "breakdown_reason": "Jam",
+        "sensor_anomalies": 4,
+        "status": "Operational"
+      }
+    ]
+  },
+  "11_documents.csv": {
+    "row_count": 2000,
+    "columns": [
+      "document_id",
+      "mine_id",
+      "document_type",
+      "document_number",
+      "issue_date",
+      "expiry_date",
+      "issuing_authority",
+      "ocr_text_status",
+      "verification_status",
+      "file_path",
+      "file_size_kb",
+      "uploaded_by",
+      "uploaded_date"
+    ],
+    "dtypes": {
+      "document_id": "object",
+      "mine_id": "object",
+      "document_type": "object",
+      "document_number": "object",
+      "issue_date": "object",
+      "expiry_date": "object",
+      "issuing_authority": "object",
+      "ocr_text_status": "object",
+      "verification_status": "object",
+      "file_path": "object",
+      "file_size_kb": "int64",
+      "uploaded_by": "object",
+      "uploaded_date": "object"
+    },
+    "null_counts": {
+      "document_id": 0,
+      "mine_id": 95,
+      "document_type": 0,
+      "document_number": 0,
+      "issue_date": 0,
+      "expiry_date": 0,
+      "issuing_authority": 0,
+      "ocr_text_status": 0,
+      "verification_status": 0,
+      "file_path": 0,
+      "file_size_kb": 0,
+      "uploaded_by": 0,
+      "uploaded_date": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "document_id",
+      "document_number",
+      "file_path"
+    ],
+    "date_fields": [
+      "issue_date",
+      "expiry_date",
+      "ocr_text_status",
+      "verification_status",
+      "file_path",
+      "uploaded_date"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-002",
+        "CG-001",
+        "JH-002",
+        "CG-002",
+        "JH-003",
+        "OD-001",
+        "JH-001"
+      ],
+      "document_type": [
+        "Insurance Certificate",
+        "Mining Lease",
+        "Audit Report",
+        "Safety Certificate",
+        "Fire Safety Certificate",
+        "First Aid Certificate",
+        "Environmental Clearance",
+        "Explosives Licence",
+        "Training Certificate"
+      ],
+      "issuing_authority": [
+        "State PCB",
+        "CPCB",
+        "Insurance Company",
+        "DGMS",
+        "State Government"
+      ],
+      "ocr_text_status": [
+        "Extracted",
+        "Pending",
+        "Failed"
+      ],
+      "verification_status": [
+        "Expired",
+        "Verified",
+        "Pending",
+        "Rejected"
+      ],
+      "uploaded_by": [
+        "Sita Devi",
+        "Rajesh Kumar",
+        "Amit Patel"
+      ]
+    },
+    "fk_candidates": [
+      "document_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "document_id": "DOC-00000",
+        "mine_id": "OD-002",
+        "document_type": "Insurance Certificate",
+        "document_number": "Ins-0000-2023",
+        "issue_date": "2022-01-11",
+        "expiry_date": "2026-01-10",
+        "issuing_authority": "State PCB",
+        "ocr_text_status": "Extracted",
+        "verification_status": "Expired",
+        "file_path": "/documents/insurance_certificate/OD-002/0000.pdf",
+        "file_size_kb": 2823,
+        "uploaded_by": "Sita Devi",
+        "uploaded_date": "2022-02-10 00:00:00"
+      },
+      {
+        "document_id": "DOC-00001",
+        "mine_id": NaN,
+        "document_type": "Mining Lease",
+        "document_number": "Min-0001-2023",
+        "issue_date": "2023-10-31",
+        "expiry_date": "2027-10-30",
+        "issuing_authority": "CPCB",
+        "ocr_text_status": "Extracted",
+        "verification_status": "Verified",
+        "file_path": "/documents/mining_lease/global/0001.pdf",
+        "file_size_kb": 4330,
+        "uploaded_by": "Rajesh Kumar",
+        "uploaded_date": "2023-11-23 00:00:00"
+      },
+      {
+        "document_id": "DOC-00002",
+        "mine_id": "OD-002",
+        "document_type": "Audit Report",
+        "document_number": "Aud-0002-2023",
+        "issue_date": "2023-06-27",
+        "expiry_date": "2025-06-26",
+        "issuing_authority": "Insurance Company",
+        "ocr_text_status": "Extracted",
+        "verification_status": "Expired",
+        "file_path": "/documents/audit_report/OD-002/0002.pdf",
+        "file_size_kb": 4927,
+        "uploaded_by": "Sita Devi",
+        "uploaded_date": "2023-07-13 00:00:00"
+      }
+    ]
+  },
+  "12_grievances.csv": {
+    "row_count": 500,
+    "columns": [
+      "grievance_id",
+      "mine_id",
+      "grievance_date",
+      "category",
+      "priority",
+      "raised_by",
+      "raised_by_type",
+      "description",
+      "description_hindi",
+      "assigned_officer",
+      "assigned_date",
+      "sla_days",
+      "resolution_status",
+      "resolution_date",
+      "resolution_notes"
+    ],
+    "dtypes": {
+      "grievance_id": "object",
+      "mine_id": "object",
+      "grievance_date": "object",
+      "category": "object",
+      "priority": "object",
+      "raised_by": "object",
+      "raised_by_type": "object",
+      "description": "object",
+      "description_hindi": "object",
+      "assigned_officer": "object",
+      "assigned_date": "object",
+      "sla_days": "int64",
+      "resolution_status": "object",
+      "resolution_date": "object",
+      "resolution_notes": "object"
+    },
+    "null_counts": {
+      "grievance_id": 0,
+      "mine_id": 0,
+      "grievance_date": 0,
+      "category": 0,
+      "priority": 0,
+      "raised_by": 0,
+      "raised_by_type": 0,
+      "description": 0,
+      "description_hindi": 0,
+      "assigned_officer": 0,
+      "assigned_date": 0,
+      "sla_days": 0,
+      "resolution_status": 0,
+      "resolution_date": 293,
+      "resolution_notes": 293
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "grievance_id"
+    ],
+    "date_fields": [
+      "grievance_date",
+      "category",
+      "assigned_date",
+      "resolution_status",
+      "resolution_date"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-002",
+        "JH-001",
+        "OD-001",
+        "CG-001",
+        "JH-002",
+        "CG-002",
+        "JH-003"
+      ],
+      "category": [
+        "Working Conditions",
+        "Wages",
+        "Community",
+        "Environment",
+        "Safety"
+      ],
+      "priority": [
+        "Critical",
+        "Medium",
+        "Low",
+        "High"
+      ],
+      "raised_by_type": [
+        "Worker",
+        "Community Member"
+      ],
+      "description": [
+        "Delayed wage payment",
+        "Poor ventilation",
+        "Noise pollution",
+        "Excessive dust",
+        "Unsafe working conditions"
+      ],
+      "description_hindi": [
+        "\u0935\u093f\u0932\u0902\u092c\u093f\u0924 \u0935\u0947\u0924\u0928 \u092d\u0941\u0917\u0924\u093e\u0928",
+        "\u0916\u0930\u093e\u092c \u0939\u0935\u093e\u0926\u093e\u0930\u0940",
+        "\u0936\u094b\u0930 \u092a\u094d\u0930\u0926\u0942\u0937\u0923",
+        "\u0905\u0924\u094d\u092f\u0927\u093f\u0915 \u0927\u0942\u0932",
+        "\u0905\u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u093e\u0930\u094d\u092f \u0938\u094d\u0925\u093f\u0924\u093f\u092f\u093e\u0902"
+      ],
+      "assigned_officer": [
+        "Rajesh Kumar",
+        "Sita Devi",
+        "Amit Patel"
+      ],
+      "sla_days": [
+        2,
+        7,
+        14,
+        3
+      ],
+      "resolution_status": [
+        "In Progress",
+        "Escalated",
+        "Open",
+        "Resolved",
+        "Rejected"
+      ],
+      "resolution_notes": [
+        "Resolved: Poor ventilation",
+        "Resolved: Delayed wage payment",
+        "Resolved: Unsafe working conditions",
+        "Resolved: Excessive dust",
+        "Resolved: Noise pollution"
+      ]
+    },
+    "fk_candidates": [
+      "grievance_id",
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "grievance_id": "GRV-0000",
+        "mine_id": "OD-002",
+        "grievance_date": "2023-08-14",
+        "category": "Working Conditions",
+        "priority": "Critical",
+        "raised_by": "Worker-0202",
+        "raised_by_type": "Worker",
+        "description": "Delayed wage payment",
+        "description_hindi": "\u0935\u093f\u0932\u0902\u092c\u093f\u0924 \u0935\u0947\u0924\u0928 \u092d\u0941\u0917\u0924\u093e\u0928",
+        "assigned_officer": "Rajesh Kumar",
+        "assigned_date": "2023-08-14",
+        "sla_days": 2,
+        "resolution_status": "In Progress",
+        "resolution_date": NaN,
+        "resolution_notes": NaN
+      },
+      {
+        "grievance_id": "GRV-0001",
+        "mine_id": "JH-001",
+        "grievance_date": "2023-10-03",
+        "category": "Wages",
+        "priority": "Medium",
+        "raised_by": "Community Member-0249",
+        "raised_by_type": "Community Member",
+        "description": "Poor ventilation",
+        "description_hindi": "\u0916\u0930\u093e\u092c \u0939\u0935\u093e\u0926\u093e\u0930\u0940",
+        "assigned_officer": "Rajesh Kumar",
+        "assigned_date": "2023-10-06",
+        "sla_days": 7,
+        "resolution_status": "In Progress",
+        "resolution_date": NaN,
+        "resolution_notes": NaN
+      },
+      {
+        "grievance_id": "GRV-0002",
+        "mine_id": "OD-001",
+        "grievance_date": "2023-07-20",
+        "category": "Wages",
+        "priority": "Medium",
+        "raised_by": "Worker-0497",
+        "raised_by_type": "Worker",
+        "description": "Noise pollution",
+        "description_hindi": "\u0936\u094b\u0930 \u092a\u094d\u0930\u0926\u0942\u0937\u0923",
+        "assigned_officer": "Sita Devi",
+        "assigned_date": "2023-07-21",
+        "sla_days": 7,
+        "resolution_status": "Escalated",
+        "resolution_date": NaN,
+        "resolution_notes": NaN
+      }
+    ]
+  },
+  "13_audit_logs.csv": {
+    "row_count": 15000,
+    "columns": [
+      "log_id",
+      "timestamp",
+      "user_id",
+      "user_name",
+      "user_role",
+      "action",
+      "table_affected",
+      "record_id",
+      "old_value",
+      "new_value",
+      "ip_address",
+      "device_info",
+      "status",
+      "error_message"
+    ],
+    "dtypes": {
+      "log_id": "object",
+      "timestamp": "object",
+      "user_id": "object",
+      "user_name": "object",
+      "user_role": "object",
+      "action": "object",
+      "table_affected": "object",
+      "record_id": "object",
+      "old_value": "object",
+      "new_value": "object",
+      "ip_address": "object",
+      "device_info": "object",
+      "status": "object",
+      "error_message": "object"
+    },
+    "null_counts": {
+      "log_id": 0,
+      "timestamp": 0,
+      "user_id": 0,
+      "user_name": 0,
+      "user_role": 0,
+      "action": 0,
+      "table_affected": 3850,
+      "record_id": 3850,
+      "old_value": 0,
+      "new_value": 0,
+      "ip_address": 0,
+      "device_info": 0,
+      "status": 0,
+      "error_message": 14247
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [
+      "log_id"
+    ],
+    "date_fields": [
+      "timestamp",
+      "status"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "user_id": [
+        "USER-001",
+        "USER-002",
+        "USER-003"
+      ],
+      "user_name": [
+        "Rajesh Kumar",
+        "Sita Devi",
+        "Amit Patel"
+      ],
+      "user_role": [
+        "Safety Officer",
+        "Environmental Officer",
+        "Labour Inspector"
+      ],
+      "action": [
+        "Reject",
+        "Login",
+        "Create",
+        "Delete",
+        "Sync",
+        "Update",
+        "Logout",
+        "Approve"
+      ],
+      "table_affected": [
+        "inspections",
+        "grievances",
+        "production_monthly",
+        "environmental_readings",
+        "equipment",
+        "worker_attendance",
+        "corrective_actions",
+        "mine_master",
+        "contractors",
+        "documents"
+      ],
+      "device_info": [
+        "Windows 10",
+        "Mac OS",
+        "Linux"
+      ],
+      "status": [
+        "Success",
+        "Failed"
+      ],
+      "error_message": [
+        "Database timeout",
+        "Invalid ID",
+        "Permission denied"
+      ]
+    },
+    "fk_candidates": [
+      "log_id",
+      "user_id",
+      "record_id"
+    ],
+    "sample": [
+      {
+        "log_id": "AL-000000",
+        "timestamp": "2023-07-20 10:27:00",
+        "user_id": "USER-001",
+        "user_name": "Rajesh Kumar",
+        "user_role": "Safety Officer",
+        "action": "Reject",
+        "table_affected": "inspections",
+        "record_id": "REC-06492",
+        "old_value": "old_38",
+        "new_value": "new_87",
+        "ip_address": "192.168.248.204",
+        "device_info": "Windows 10",
+        "status": "Success",
+        "error_message": NaN
+      },
+      {
+        "log_id": "AL-000001",
+        "timestamp": "2023-04-04 05:43:00",
+        "user_id": "USER-001",
+        "user_name": "Rajesh Kumar",
+        "user_role": "Safety Officer",
+        "action": "Login",
+        "table_affected": NaN,
+        "record_id": NaN,
+        "old_value": "old_7",
+        "new_value": "new_70",
+        "ip_address": "192.168.88.251",
+        "device_info": "Mac OS",
+        "status": "Success",
+        "error_message": NaN
+      },
+      {
+        "log_id": "AL-000002",
+        "timestamp": "2023-04-19 08:35:00",
+        "user_id": "USER-002",
+        "user_name": "Sita Devi",
+        "user_role": "Environmental Officer",
+        "action": "Create",
+        "table_affected": "grievances",
+        "record_id": "REC-02308",
+        "old_value": "old_73",
+        "new_value": "new_34",
+        "ip_address": "192.168.38.60",
+        "device_info": "Windows 10",
+        "status": "Success",
+        "error_message": NaN
+      }
+    ]
+  },
+  "complex_mine_sensor_data.csv": {
+    "row_count": 25000,
+    "columns": [
+      "mine_id",
+      "equipment_type",
+      "shift",
+      "operating_hours",
+      "temperature_C",
+      "vibration",
+      "pressure_bar",
+      "dust_level_ug",
+      "rpm",
+      "oil_temp_C",
+      "load_percentage",
+      "machine_failure"
+    ],
+    "dtypes": {
+      "mine_id": "object",
+      "equipment_type": "object",
+      "shift": "object",
+      "operating_hours": "float64",
+      "temperature_C": "float64",
+      "vibration": "float64",
+      "pressure_bar": "float64",
+      "dust_level_ug": "float64",
+      "rpm": "float64",
+      "oil_temp_C": "float64",
+      "load_percentage": "float64",
+      "machine_failure": "int64"
+    },
+    "null_counts": {
+      "mine_id": 0,
+      "equipment_type": 0,
+      "shift": 0,
+      "operating_hours": 0,
+      "temperature_C": 0,
+      "vibration": 0,
+      "pressure_bar": 0,
+      "dust_level_ug": 0,
+      "rpm": 0,
+      "oil_temp_C": 0,
+      "load_percentage": 0,
+      "machine_failure": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [],
+    "date_fields": [
+      "operating_hours",
+      "temperature_C",
+      "vibration"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "JH-001",
+        "OD-002",
+        "CG-001",
+        "JH-002",
+        "OD-001",
+        "CG-002"
+      ],
+      "equipment_type": [
+        "Excavator",
+        "Drill Rig",
+        "Crusher",
+        "Loader",
+        "Dumper"
+      ],
+      "shift": [
+        "Night",
+        "Afternoon",
+        "Morning"
+      ],
+      "machine_failure": [
+        0,
+        1
+      ]
+    },
+    "fk_candidates": [
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "mine_id": "JH-001",
+        "equipment_type": "Excavator",
+        "shift": "Night",
+        "operating_hours": 3807.95,
+        "temperature_C": 66.27,
+        "vibration": 3.0704,
+        "pressure_bar": 80.22,
+        "dust_level_ug": 114.91,
+        "rpm": 1548.5,
+        "oil_temp_C": 79.14,
+        "load_percentage": 84.92,
+        "machine_failure": 0
+      },
+      {
+        "mine_id": "OD-002",
+        "equipment_type": "Drill Rig",
+        "shift": "Afternoon",
+        "operating_hours": 9512.07,
+        "temperature_C": 61.4,
+        "vibration": 2.5968,
+        "pressure_bar": 66.43,
+        "dust_level_ug": 274.43,
+        "rpm": 1355.45,
+        "oil_temp_C": 82.9,
+        "load_percentage": 50.17,
+        "machine_failure": 0
+      },
+      {
+        "mine_id": "CG-001",
+        "equipment_type": "Crusher",
+        "shift": "Afternoon",
+        "operating_hours": 7346.74,
+        "temperature_C": 50.11,
+        "vibration": 2.0455,
+        "pressure_bar": 123.79,
+        "dust_level_ug": 194.79,
+        "rpm": 2146.31,
+        "oil_temp_C": 70.24,
+        "load_percentage": 94.99,
+        "machine_failure": 0
+      }
+    ]
+  },
+  "messy_complex_mine_sensor_data.csv": {
+    "row_count": 30000,
+    "columns": [
+      "mine_id",
+      "equipment_type",
+      "shift",
+      "maintenance_status",
+      "operating_hours",
+      "temperature_C",
+      "vibration",
+      "pressure_bar",
+      "dust_level_ug",
+      "rpm",
+      "oil_temp_C",
+      "load_percentage",
+      "humidity_pct",
+      "bearing_temp_C",
+      "machine_failure"
+    ],
+    "dtypes": {
+      "mine_id": "object",
+      "equipment_type": "object",
+      "shift": "object",
+      "maintenance_status": "object",
+      "operating_hours": "float64",
+      "temperature_C": "float64",
+      "vibration": "float64",
+      "pressure_bar": "float64",
+      "dust_level_ug": "float64",
+      "rpm": "float64",
+      "oil_temp_C": "float64",
+      "load_percentage": "float64",
+      "humidity_pct": "float64",
+      "bearing_temp_C": "float64",
+      "machine_failure": "int64"
+    },
+    "null_counts": {
+      "mine_id": 0,
+      "equipment_type": 0,
+      "shift": 0,
+      "maintenance_status": 0,
+      "operating_hours": 0,
+      "temperature_C": 2375,
+      "vibration": 2335,
+      "pressure_bar": 2319,
+      "dust_level_ug": 0,
+      "rpm": 2524,
+      "oil_temp_C": 2338,
+      "load_percentage": 0,
+      "humidity_pct": 0,
+      "bearing_temp_C": 2371,
+      "machine_failure": 0
+    },
+    "duplicate_rows": 0,
+    "unique_identifiers": [],
+    "date_fields": [
+      "maintenance_status",
+      "operating_hours",
+      "temperature_C",
+      "vibration"
+    ],
+    "coordinate_fields": [],
+    "categorical_samples": {
+      "mine_id": [
+        "OD-002",
+        "JH-001",
+        "JH-002",
+        "OD-001",
+        "CG-002",
+        "CG-001"
+      ],
+      "equipment_type": [
+        "Drill Rig",
+        "Loader",
+        "Crusher",
+        "Dumper",
+        "Excavator",
+        "Conveyor"
+      ],
+      "shift": [
+        "Night",
+        "Afternoon",
+        "Morning"
+      ],
+      "maintenance_status": [
+        "On Schedule",
+        "Recent",
+        "Overdue"
+      ],
+      "machine_failure": [
+        1,
+        0
+      ]
+    },
+    "fk_candidates": [
+      "mine_id"
+    ],
+    "sample": [
+      {
+        "mine_id": "OD-002",
+        "equipment_type": "Drill Rig",
+        "shift": "Night",
+        "maintenance_status": "On Schedule",
+        "operating_hours": 8388.0,
+        "temperature_C": 61.46,
+        "vibration": 1.944,
+        "pressure_bar": 78.37,
+        "dust_level_ug": 116.84,
+        "rpm": 1281.9,
+        "oil_temp_C": 64.77,
+        "load_percentage": 88.33,
+        "humidity_pct": 51.41,
+        "bearing_temp_C": 74.82,
+        "machine_failure": 1
+      },
+      {
+        "mine_id": "JH-001",
+        "equipment_type": "Loader",
+        "shift": "Afternoon",
+        "maintenance_status": "Recent",
+        "operating_hours": 3505.1,
+        "temperature_C": 79.55,
+        "vibration": 3.2551,
+        "pressure_bar": 91.95,
+        "dust_level_ug": 183.57,
+        "rpm": 1783.7,
+        "oil_temp_C": 88.91,
+        "load_percentage": 58.32,
+        "humidity_pct": 75.29,
+        "bearing_temp_C": 81.81,
+        "machine_failure": 0
+      },
+      {
+        "mine_id": "JH-002",
+        "equipment_type": "Crusher",
+        "shift": "Morning",
+        "maintenance_status": "On Schedule",
+        "operating_hours": 2799.5,
+        "temperature_C": 99.62,
+        "vibration": 2.1432,
+        "pressure_bar": 102.24,
+        "dust_level_ug": 240.1,
+        "rpm": 1484.9,
+        "oil_temp_C": 63.97,
+        "load_percentage": 44.61,
+        "humidity_pct": 81.09,
+        "bearing_temp_C": 115.56,
+        "machine_failure": 0
+      }
+    ]
+  }
+}

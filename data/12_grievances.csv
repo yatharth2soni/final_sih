@@ -1,0 +1,501 @@
+grievance_id,mine_id,grievance_date,category,priority,raised_by,raised_by_type,description,description_hindi,assigned_officer,assigned_date,sla_days,resolution_status,resolution_date,resolution_notes
+GRV-0000,OD-002,2023-08-14,Working Conditions,Critical,Worker-0202,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-08-14,2,In Progress,,
+GRV-0001,JH-001,2023-10-03,Wages,Medium,Community Member-0249,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-10-06,7,In Progress,,
+GRV-0002,OD-001,2023-07-20,Wages,Medium,Worker-0497,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-07-21,7,Escalated,,
+GRV-0003,CG-001,2023-09-17,Community,Critical,Community Member-0270,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-09-19,2,Open,,
+GRV-0004,JH-002,2023-06-24,Environment,Low,Worker-0084,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-06-24,14,Open,,
+GRV-0005,CG-002,2023-07-12,Environment,Low,Community Member-0914,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-13,14,Resolved,2023-07-22,Resolved: Poor ventilation
+GRV-0006,OD-002,2023-07-04,Safety,Medium,Worker-0025,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-07-06,7,Open,,
+GRV-0007,CG-001,2023-11-27,Community,Medium,Worker-0663,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-11-27,7,Rejected,,
+GRV-0008,JH-001,2023-10-06,Working Conditions,Critical,Worker-0353,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-10-06,2,In Progress,,
+GRV-0009,JH-003,2023-06-20,Environment,Low,Worker-0499,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-22,14,Open,,
+GRV-0010,JH-002,2023-08-16,Working Conditions,Medium,Community Member-0236,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-08-19,7,Open,,
+GRV-0011,JH-003,2023-05-06,Environment,Medium,Worker-0765,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-05-08,7,In Progress,,
+GRV-0012,JH-001,2023-03-06,Working Conditions,Critical,Worker-0529,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-03-08,2,Resolved,2023-03-07,Resolved: Delayed wage payment
+GRV-0013,OD-002,2023-11-02,Wages,High,Worker-0216,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-11-02,3,Resolved,2023-11-04,Resolved: Unsafe working conditions
+GRV-0014,OD-002,2023-03-28,Environment,Critical,Community Member-0062,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-03-29,2,In Progress,,
+GRV-0015,JH-001,2023-09-10,Safety,Medium,Worker-0575,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-11,7,Open,,
+GRV-0016,JH-003,2023-10-16,Environment,High,Worker-0716,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-10-17,3,Rejected,,
+GRV-0017,JH-002,2023-12-30,Community,Low,Community Member-0162,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-12-31,14,In Progress,,
+GRV-0018,OD-002,2023-07-03,Environment,Low,Community Member-0047,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-06,14,In Progress,,
+GRV-0019,JH-003,2023-03-02,Environment,Low,Community Member-0465,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-03-03,14,In Progress,,
+GRV-0020,JH-003,2023-02-14,Working Conditions,Low,Worker-0468,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-02-14,14,Resolved,2023-02-22,Resolved: Unsafe working conditions
+GRV-0021,OD-002,2023-06-06,Safety,Low,Worker-0139,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-09,14,Resolved,2023-06-07,Resolved: Delayed wage payment
+GRV-0022,OD-002,2023-04-11,Safety,Medium,Community Member-0666,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-04-12,7,Resolved,2023-04-15,Resolved: Delayed wage payment
+GRV-0023,OD-002,2023-11-23,Working Conditions,Low,Community Member-0902,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-11-25,14,Resolved,2023-12-07,Resolved: Delayed wage payment
+GRV-0024,OD-001,2023-01-29,Environment,Low,Worker-0829,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-30,14,Resolved,2023-02-07,Resolved: Delayed wage payment
+GRV-0025,OD-001,2023-01-21,Safety,Critical,Worker-0567,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-01-21,2,Resolved,2023-01-22,Resolved: Delayed wage payment
+GRV-0026,OD-002,2023-02-27,Wages,Medium,Community Member-0437,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-02-27,7,In Progress,,
+GRV-0027,JH-002,2023-02-26,Environment,High,Community Member-0071,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-02-27,3,Open,,
+GRV-0028,JH-003,2023-07-01,Wages,Critical,Community Member-0949,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-07-02,2,Resolved,2023-07-03,Resolved: Excessive dust
+GRV-0029,OD-001,2023-08-26,Environment,Medium,Community Member-0635,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-08-26,7,Open,,
+GRV-0030,JH-001,2023-10-23,Community,Critical,Community Member-0852,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-10-26,2,Resolved,2023-10-24,Resolved: Noise pollution
+GRV-0031,JH-002,2023-08-28,Environment,Low,Community Member-0527,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-08-28,14,In Progress,,
+GRV-0032,OD-002,2023-03-05,Safety,High,Community Member-0487,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-03-06,3,In Progress,,
+GRV-0033,OD-002,2023-03-27,Safety,Critical,Community Member-0375,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-03-30,2,Resolved,2023-03-28,Resolved: Poor ventilation
+GRV-0034,OD-002,2023-02-26,Wages,Critical,Community Member-0467,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-02-27,2,Resolved,2023-02-27,Resolved: Noise pollution
+GRV-0035,JH-001,2023-12-08,Wages,Critical,Worker-0022,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-12-11,2,In Progress,,
+GRV-0036,CG-002,2023-01-24,Safety,Low,Community Member-0876,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-27,14,Open,,
+GRV-0037,OD-002,2023-06-07,Working Conditions,Medium,Community Member-0048,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-10,7,Open,,
+GRV-0038,OD-002,2023-07-22,Working Conditions,Medium,Worker-0863,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-22,7,Resolved,2023-07-27,Resolved: Poor ventilation
+GRV-0039,CG-002,2023-10-31,Environment,Medium,Community Member-0517,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-11-03,7,In Progress,,
+GRV-0040,OD-002,2023-04-27,Safety,Critical,Community Member-0582,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-04-29,2,Resolved,2023-04-28,Resolved: Unsafe working conditions
+GRV-0041,CG-002,2023-05-16,Working Conditions,Low,Worker-0458,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-05-18,14,Resolved,2023-05-24,Resolved: Poor ventilation
+GRV-0042,OD-001,2023-07-25,Environment,Medium,Worker-0617,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-07-27,7,In Progress,,
+GRV-0043,JH-001,2023-04-10,Safety,Critical,Community Member-0794,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-13,2,In Progress,,
+GRV-0044,OD-002,2023-06-28,Community,Medium,Community Member-0623,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-06-30,7,Resolved,2023-06-30,Resolved: Unsafe working conditions
+GRV-0045,CG-001,2023-04-12,Working Conditions,High,Worker-0076,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-04-15,3,Rejected,,
+GRV-0046,JH-002,2023-07-04,Wages,High,Worker-0328,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-07-05,3,In Progress,,
+GRV-0047,CG-002,2023-06-11,Community,Medium,Community Member-0625,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-13,7,In Progress,,
+GRV-0048,JH-003,2023-05-14,Safety,Low,Worker-0811,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-05-14,14,In Progress,,
+GRV-0049,JH-001,2023-10-17,Community,High,Community Member-0877,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-10-20,3,In Progress,,
+GRV-0050,JH-001,2023-12-19,Wages,Low,Community Member-0568,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-12-19,14,Resolved,2023-12-21,Resolved: Delayed wage payment
+GRV-0051,JH-002,2023-06-04,Environment,Medium,Community Member-0517,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-06-06,7,In Progress,,
+GRV-0052,JH-001,2023-03-11,Safety,Low,Worker-0819,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-03-11,14,Escalated,,
+GRV-0053,CG-001,2023-08-01,Safety,Critical,Worker-0907,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-08-02,2,Resolved,2023-08-02,Resolved: Poor ventilation
+GRV-0054,OD-002,2023-09-03,Wages,Medium,Worker-0637,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-09-03,7,Resolved,2023-09-07,Resolved: Noise pollution
+GRV-0055,JH-002,2023-06-29,Community,Critical,Worker-0318,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-30,2,Resolved,2023-07-01,Resolved: Delayed wage payment
+GRV-0056,CG-001,2023-05-25,Environment,Low,Community Member-0714,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-05-25,14,Escalated,,
+GRV-0057,CG-002,2023-02-20,Environment,High,Worker-0709,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-02-21,3,Resolved,2023-02-21,Resolved: Delayed wage payment
+GRV-0058,JH-003,2023-12-12,Wages,Low,Community Member-0629,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-14,14,Resolved,2023-12-19,Resolved: Excessive dust
+GRV-0059,CG-001,2023-05-06,Wages,Critical,Worker-0770,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-05-08,2,In Progress,,
+GRV-0060,JH-002,2023-10-12,Wages,High,Worker-0459,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-10-14,3,Resolved,2023-10-15,Resolved: Delayed wage payment
+GRV-0061,CG-002,2023-10-04,Working Conditions,High,Worker-0080,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-10-07,3,Resolved,2023-10-07,Resolved: Noise pollution
+GRV-0062,JH-002,2023-08-25,Working Conditions,Medium,Worker-0711,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-08-27,7,In Progress,,
+GRV-0063,CG-001,2023-01-08,Environment,Critical,Community Member-0295,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-09,2,Rejected,,
+GRV-0064,OD-002,2023-08-11,Community,Medium,Community Member-0988,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-08-11,7,In Progress,,
+GRV-0065,CG-001,2023-08-29,Community,Critical,Community Member-0545,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-08-29,2,In Progress,,
+GRV-0066,JH-002,2023-09-05,Safety,Medium,Community Member-0461,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-09-06,7,Resolved,2023-09-12,Resolved: Noise pollution
+GRV-0067,JH-003,2023-07-30,Wages,High,Community Member-0749,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-08-02,3,Open,,
+GRV-0068,JH-001,2023-01-09,Environment,Medium,Worker-0045,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-12,7,Resolved,2023-01-16,Resolved: Poor ventilation
+GRV-0069,CG-001,2023-04-23,Safety,High,Community Member-0513,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-04-25,3,Escalated,,
+GRV-0070,OD-001,2023-08-10,Community,Low,Worker-0493,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-08-12,14,In Progress,,
+GRV-0071,JH-001,2023-01-12,Working Conditions,Medium,Community Member-0463,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-13,7,In Progress,,
+GRV-0072,JH-002,2023-01-09,Community,High,Worker-0881,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-01-12,3,In Progress,,
+GRV-0073,CG-002,2023-03-03,Wages,Medium,Community Member-0259,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-03-06,7,Escalated,,
+GRV-0074,JH-003,2023-08-25,Wages,Medium,Worker-0315,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-08-26,7,Escalated,,
+GRV-0075,OD-001,2023-01-28,Community,High,Worker-0031,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-30,3,Resolved,2023-01-30,Resolved: Poor ventilation
+GRV-0076,JH-003,2023-09-24,Safety,High,Worker-0740,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-09-26,3,Open,,
+GRV-0077,JH-001,2023-12-18,Working Conditions,High,Worker-0360,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-12-19,3,Open,,
+GRV-0078,OD-001,2023-07-28,Wages,High,Worker-0421,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-07-31,3,Resolved,2023-07-29,Resolved: Unsafe working conditions
+GRV-0079,OD-002,2023-08-16,Safety,Medium,Community Member-0512,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-08-18,7,Resolved,2023-08-17,Resolved: Unsafe working conditions
+GRV-0080,CG-001,2023-09-02,Environment,Medium,Worker-0506,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-04,7,Resolved,2023-09-04,Resolved: Unsafe working conditions
+GRV-0081,CG-002,2023-05-04,Working Conditions,High,Worker-0256,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-05-06,3,In Progress,,
+GRV-0082,OD-001,2023-09-15,Working Conditions,Low,Worker-0355,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-15,14,In Progress,,
+GRV-0083,CG-001,2023-11-19,Working Conditions,Critical,Community Member-0647,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-11-19,2,In Progress,,
+GRV-0084,JH-001,2023-08-21,Environment,Medium,Community Member-0319,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-08-24,7,Rejected,,
+GRV-0085,CG-002,2023-04-14,Wages,Critical,Community Member-0950,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-04-17,2,In Progress,,
+GRV-0086,JH-001,2023-07-02,Working Conditions,High,Worker-0819,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-03,3,Resolved,2023-07-05,Resolved: Poor ventilation
+GRV-0087,OD-002,2023-04-16,Environment,High,Community Member-0187,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-16,3,Rejected,,
+GRV-0088,CG-001,2023-11-29,Working Conditions,High,Worker-0918,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-11-30,3,Open,,
+GRV-0089,OD-001,2023-03-05,Working Conditions,Low,Worker-0579,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-03-05,14,Rejected,,
+GRV-0090,JH-003,2023-02-15,Working Conditions,Medium,Community Member-0981,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-02-15,7,Open,,
+GRV-0091,OD-001,2023-01-10,Community,Low,Worker-0969,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-01-10,14,Resolved,2023-01-15,Resolved: Unsafe working conditions
+GRV-0092,JH-003,2023-12-13,Community,Low,Community Member-0801,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-13,14,In Progress,,
+GRV-0093,OD-002,2023-10-11,Wages,Low,Worker-0346,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-10-12,14,Resolved,2023-10-18,Resolved: Excessive dust
+GRV-0094,CG-002,2024-01-01,Working Conditions,Critical,Worker-0397,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2024-01-04,2,In Progress,,
+GRV-0095,OD-001,2023-03-22,Working Conditions,Medium,Community Member-0228,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-03-22,7,In Progress,,
+GRV-0096,CG-002,2023-09-02,Wages,Medium,Worker-0918,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-09-03,7,Resolved,2023-09-07,Resolved: Delayed wage payment
+GRV-0097,OD-002,2023-01-29,Environment,Low,Worker-0745,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-01-31,14,Resolved,2023-02-03,Resolved: Noise pollution
+GRV-0098,JH-003,2023-01-31,Safety,Low,Worker-0534,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-31,14,Resolved,2023-02-09,Resolved: Delayed wage payment
+GRV-0099,OD-001,2023-12-03,Community,Low,Worker-0073,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-12-06,14,Resolved,2023-12-17,Resolved: Delayed wage payment
+GRV-0100,CG-002,2023-03-26,Community,Critical,Community Member-0785,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-03-28,2,In Progress,,
+GRV-0101,JH-002,2023-01-29,Working Conditions,Medium,Worker-0870,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-01-29,7,Open,,
+GRV-0102,OD-001,2023-06-01,Environment,Medium,Worker-0658,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-06-04,7,Resolved,2023-06-03,Resolved: Excessive dust
+GRV-0103,JH-003,2023-07-06,Safety,Low,Community Member-0533,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-09,14,Resolved,2023-07-11,Resolved: Poor ventilation
+GRV-0104,JH-001,2023-03-02,Environment,High,Worker-0299,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-03-04,3,Open,,
+GRV-0105,CG-001,2023-09-03,Community,Low,Community Member-0526,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-09-03,14,In Progress,,
+GRV-0106,OD-002,2023-04-01,Wages,Critical,Community Member-0121,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-04-03,2,Open,,
+GRV-0107,JH-001,2023-12-31,Community,High,Community Member-0804,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-12-31,3,Resolved,2024-01-03,Resolved: Delayed wage payment
+GRV-0108,JH-003,2023-01-26,Environment,Critical,Worker-0021,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-01-28,2,Resolved,2023-01-28,Resolved: Excessive dust
+GRV-0109,OD-001,2023-09-18,Safety,Medium,Worker-0627,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-09-21,7,In Progress,,
+GRV-0110,OD-001,2023-05-15,Community,Low,Community Member-0900,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-05-16,14,Escalated,,
+GRV-0111,CG-002,2023-07-19,Working Conditions,Critical,Community Member-0413,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-19,2,In Progress,,
+GRV-0112,JH-002,2023-07-18,Community,Low,Worker-0607,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-07-19,14,In Progress,,
+GRV-0113,OD-001,2023-12-09,Working Conditions,Low,Community Member-0494,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-12-11,14,Resolved,2023-12-10,Resolved: Noise pollution
+GRV-0114,JH-001,2023-03-08,Community,High,Community Member-0867,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-03-08,3,Resolved,2023-03-10,Resolved: Unsafe working conditions
+GRV-0115,JH-003,2023-11-15,Safety,Critical,Worker-0976,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-11-16,2,Open,,
+GRV-0116,CG-002,2023-04-20,Working Conditions,High,Community Member-0255,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-04-22,3,Resolved,2023-04-23,Resolved: Poor ventilation
+GRV-0117,OD-002,2023-09-10,Working Conditions,Critical,Community Member-0149,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-09-10,2,Open,,
+GRV-0118,OD-001,2023-10-11,Wages,Medium,Worker-0959,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-10-14,7,Rejected,,
+GRV-0119,JH-001,2023-06-30,Wages,Critical,Community Member-0735,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-06-30,2,Resolved,2023-07-02,Resolved: Poor ventilation
+GRV-0120,CG-002,2023-01-11,Safety,Low,Worker-0780,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-13,14,Resolved,2023-01-22,Resolved: Delayed wage payment
+GRV-0121,OD-002,2023-03-22,Safety,Critical,Community Member-0892,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-03-23,2,Resolved,2023-03-24,Resolved: Noise pollution
+GRV-0122,JH-003,2023-11-16,Safety,High,Community Member-0659,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-11-18,3,Resolved,2023-11-18,Resolved: Poor ventilation
+GRV-0123,JH-003,2023-07-06,Working Conditions,Medium,Community Member-0414,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-07-09,7,Resolved,2023-07-13,Resolved: Unsafe working conditions
+GRV-0124,JH-001,2023-12-11,Wages,Critical,Community Member-0548,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-12-14,2,Resolved,2023-12-13,Resolved: Delayed wage payment
+GRV-0125,OD-001,2023-06-17,Safety,High,Worker-0831,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-06-20,3,Resolved,2023-06-20,Resolved: Unsafe working conditions
+GRV-0126,CG-002,2023-06-23,Community,Low,Community Member-0775,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-06-23,14,Resolved,2023-07-06,Resolved: Excessive dust
+GRV-0127,OD-001,2023-08-01,Environment,Critical,Community Member-0692,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-08-03,2,Resolved,2023-08-03,Resolved: Delayed wage payment
+GRV-0128,JH-002,2023-11-26,Wages,Medium,Worker-0825,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-11-29,7,Resolved,2023-11-30,Resolved: Unsafe working conditions
+GRV-0129,CG-001,2023-12-17,Environment,Critical,Community Member-0004,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-12-20,2,Resolved,2023-12-18,Resolved: Poor ventilation
+GRV-0130,OD-002,2023-11-05,Environment,Medium,Community Member-0505,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-11-07,7,In Progress,,
+GRV-0131,JH-003,2023-01-19,Community,Low,Community Member-0845,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-01-19,14,Open,,
+GRV-0132,OD-001,2023-04-07,Working Conditions,Medium,Community Member-0432,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-04-09,7,Resolved,2023-04-12,Resolved: Poor ventilation
+GRV-0133,OD-001,2023-06-03,Working Conditions,Medium,Community Member-0155,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-06-05,7,Resolved,2023-06-06,Resolved: Noise pollution
+GRV-0134,JH-001,2023-10-07,Safety,Medium,Worker-0524,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-10-09,7,Open,,
+GRV-0135,JH-003,2023-11-13,Environment,Critical,Community Member-0007,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-11-13,2,Resolved,2023-11-15,Resolved: Excessive dust
+GRV-0136,OD-001,2023-02-13,Working Conditions,Medium,Community Member-0850,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-02-13,7,In Progress,,
+GRV-0137,OD-002,2023-04-20,Wages,High,Worker-0856,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-04-23,3,In Progress,,
+GRV-0138,JH-003,2023-02-12,Environment,Critical,Worker-0502,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-02-14,2,In Progress,,
+GRV-0139,OD-001,2023-04-22,Safety,Low,Worker-0577,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-23,14,Resolved,2023-05-01,Resolved: Excessive dust
+GRV-0140,CG-002,2023-05-07,Wages,Low,Worker-0338,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-05-08,14,Resolved,2023-05-17,Resolved: Poor ventilation
+GRV-0141,CG-002,2023-11-02,Working Conditions,Low,Worker-0004,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-11-02,14,Open,,
+GRV-0142,JH-001,2023-05-07,Environment,Critical,Worker-0093,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-05-10,2,In Progress,,
+GRV-0143,OD-002,2023-02-20,Community,High,Worker-0902,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-02-21,3,In Progress,,
+GRV-0144,OD-001,2023-04-16,Wages,Critical,Community Member-0514,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-04-17,2,In Progress,,
+GRV-0145,CG-002,2023-12-02,Safety,Critical,Community Member-0500,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-03,2,Resolved,2023-12-03,Resolved: Excessive dust
+GRV-0146,CG-002,2023-07-03,Environment,Medium,Community Member-0277,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-07-04,7,In Progress,,
+GRV-0147,CG-002,2023-03-04,Wages,Low,Worker-0435,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-03-05,14,Resolved,2023-03-08,Resolved: Poor ventilation
+GRV-0148,CG-002,2023-05-08,Safety,Medium,Worker-0257,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-05-08,7,Open,,
+GRV-0149,OD-002,2023-11-25,Environment,Critical,Community Member-0205,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-11-28,2,Open,,
+GRV-0150,OD-001,2023-10-30,Wages,Low,Worker-0453,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-10-30,14,Resolved,2023-11-03,Resolved: Noise pollution
+GRV-0151,JH-002,2023-02-25,Wages,Critical,Worker-0074,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-02-27,2,Resolved,2023-02-26,Resolved: Delayed wage payment
+GRV-0152,JH-002,2023-07-31,Working Conditions,Low,Worker-0499,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-08-01,14,Resolved,2023-08-02,Resolved: Excessive dust
+GRV-0153,OD-002,2023-09-11,Working Conditions,Critical,Worker-0168,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-09-14,2,Resolved,2023-09-13,Resolved: Unsafe working conditions
+GRV-0154,JH-002,2023-02-03,Wages,High,Worker-0424,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-02-06,3,Open,,
+GRV-0155,OD-002,2023-09-13,Working Conditions,High,Worker-0249,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-09-16,3,Rejected,,
+GRV-0156,JH-003,2023-09-07,Working Conditions,Low,Community Member-0723,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-09-09,14,Resolved,2023-09-12,Resolved: Excessive dust
+GRV-0157,JH-002,2023-03-01,Working Conditions,Low,Community Member-0622,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-03-04,14,Resolved,2023-03-15,Resolved: Poor ventilation
+GRV-0158,CG-002,2023-05-14,Environment,Medium,Worker-0568,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-05-17,7,Resolved,2023-05-15,Resolved: Delayed wage payment
+GRV-0159,CG-001,2023-01-05,Environment,Medium,Worker-0314,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-05,7,Resolved,2023-01-10,Resolved: Delayed wage payment
+GRV-0160,CG-002,2023-05-31,Wages,Critical,Worker-0611,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-06-02,2,Open,,
+GRV-0161,CG-001,2023-11-02,Environment,Medium,Worker-0947,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-11-02,7,Resolved,2023-11-08,Resolved: Unsafe working conditions
+GRV-0162,JH-001,2023-12-09,Working Conditions,Low,Worker-0862,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-09,14,Resolved,2023-12-20,Resolved: Poor ventilation
+GRV-0163,CG-001,2023-07-03,Safety,Low,Community Member-0401,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-06,14,Open,,
+GRV-0164,CG-002,2023-06-27,Working Conditions,Low,Worker-0988,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-06-27,14,Open,,
+GRV-0165,JH-002,2023-10-05,Safety,Medium,Community Member-0361,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-10-08,7,In Progress,,
+GRV-0166,JH-003,2023-04-03,Safety,Critical,Worker-0766,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-04,2,Resolved,2023-04-04,Resolved: Excessive dust
+GRV-0167,JH-002,2023-06-04,Environment,High,Worker-0485,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-06-06,3,Open,,
+GRV-0168,CG-001,2023-12-05,Community,High,Community Member-0012,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-06,3,Open,,
+GRV-0169,CG-002,2023-12-05,Wages,Medium,Community Member-0559,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-12-08,7,Resolved,2023-12-06,Resolved: Excessive dust
+GRV-0170,OD-001,2023-12-10,Working Conditions,Low,Worker-0734,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-12-11,14,In Progress,,
+GRV-0171,JH-001,2023-03-21,Safety,Critical,Worker-0302,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-03-23,2,Resolved,2023-03-22,Resolved: Delayed wage payment
+GRV-0172,CG-002,2023-08-30,Community,Medium,Worker-0850,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-08-30,7,Resolved,2023-08-31,Resolved: Noise pollution
+GRV-0173,OD-002,2023-11-30,Community,Low,Community Member-0225,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-11-30,14,Rejected,,
+GRV-0174,JH-003,2023-10-31,Wages,High,Worker-0004,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-11-02,3,In Progress,,
+GRV-0175,JH-001,2023-04-02,Community,High,Worker-0479,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-03,3,Resolved,2023-04-05,Resolved: Excessive dust
+GRV-0176,JH-001,2023-09-22,Community,Critical,Worker-0751,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-09-22,2,Escalated,,
+GRV-0177,OD-001,2023-10-02,Wages,Low,Community Member-0996,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-10-05,14,Resolved,2023-10-07,Resolved: Excessive dust
+GRV-0178,OD-001,2023-05-04,Wages,Medium,Worker-0172,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-05-04,7,Resolved,2023-05-10,Resolved: Excessive dust
+GRV-0179,CG-002,2023-04-11,Community,Critical,Worker-0195,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-04-12,2,Escalated,,
+GRV-0180,JH-002,2023-04-26,Community,Critical,Community Member-0223,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-28,2,In Progress,,
+GRV-0181,OD-002,2023-09-29,Community,Critical,Worker-0776,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-09-30,2,Resolved,2023-10-01,Resolved: Poor ventilation
+GRV-0182,OD-001,2023-02-16,Working Conditions,Medium,Worker-0756,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-02-18,7,Open,,
+GRV-0183,JH-003,2023-11-05,Working Conditions,Critical,Worker-0602,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-11-07,2,Open,,
+GRV-0184,JH-002,2023-11-18,Safety,Medium,Worker-0959,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-11-18,7,In Progress,,
+GRV-0185,CG-001,2023-08-15,Community,Low,Worker-0969,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-08-17,14,Open,,
+GRV-0186,OD-001,2023-08-08,Community,Medium,Community Member-0205,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-08-10,7,Resolved,2023-08-10,Resolved: Poor ventilation
+GRV-0187,OD-002,2023-03-07,Working Conditions,Medium,Community Member-0525,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-03-08,7,Escalated,,
+GRV-0188,JH-001,2023-05-20,Safety,Critical,Community Member-0998,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-05-23,2,Resolved,2023-05-22,Resolved: Unsafe working conditions
+GRV-0189,JH-002,2023-03-04,Environment,Medium,Worker-0672,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-03-05,7,Escalated,,
+GRV-0190,JH-003,2023-09-18,Community,Medium,Community Member-0752,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-09-19,7,Resolved,2023-09-20,Resolved: Excessive dust
+GRV-0191,OD-002,2023-05-22,Environment,Critical,Worker-0735,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-05-22,2,Resolved,2023-05-24,Resolved: Unsafe working conditions
+GRV-0192,CG-002,2023-03-05,Wages,Medium,Community Member-0585,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-03-06,7,Resolved,2023-03-12,Resolved: Noise pollution
+GRV-0193,OD-002,2023-07-19,Environment,Critical,Community Member-0320,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-07-19,2,Resolved,2023-07-20,Resolved: Excessive dust
+GRV-0194,JH-002,2023-06-16,Environment,Medium,Worker-0466,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-17,7,Resolved,2023-06-22,Resolved: Excessive dust
+GRV-0195,CG-001,2023-06-15,Community,High,Community Member-0204,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-06-17,3,Open,,
+GRV-0196,CG-002,2023-12-01,Safety,High,Worker-0340,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-12-03,3,Open,,
+GRV-0197,CG-002,2023-12-05,Community,High,Worker-0193,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-12-08,3,Resolved,2023-12-07,Resolved: Poor ventilation
+GRV-0198,OD-001,2023-04-02,Community,Critical,Worker-0628,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-04-05,2,In Progress,,
+GRV-0199,OD-002,2023-07-19,Environment,Low,Worker-0629,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-07-19,14,Resolved,2023-07-28,Resolved: Unsafe working conditions
+GRV-0200,OD-002,2023-12-28,Working Conditions,High,Worker-0845,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-31,3,Open,,
+GRV-0201,JH-002,2023-07-29,Community,Critical,Community Member-0950,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-07-30,2,Resolved,2023-07-31,Resolved: Delayed wage payment
+GRV-0202,OD-002,2023-01-10,Community,High,Worker-0627,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-01-12,3,Open,,
+GRV-0203,CG-002,2023-06-28,Working Conditions,High,Worker-0701,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-29,3,Resolved,2023-06-30,Resolved: Excessive dust
+GRV-0204,CG-002,2023-09-17,Environment,Medium,Worker-0764,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-19,7,In Progress,,
+GRV-0205,JH-003,2023-01-25,Working Conditions,Critical,Worker-0383,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-01-26,2,Resolved,2023-01-26,Resolved: Excessive dust
+GRV-0206,JH-002,2023-02-28,Environment,Low,Worker-0777,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-03-03,14,Open,,
+GRV-0207,JH-003,2023-03-29,Safety,High,Worker-0450,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-03-31,3,Resolved,2023-04-01,Resolved: Poor ventilation
+GRV-0208,JH-001,2023-10-24,Wages,Critical,Community Member-0083,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-10-26,2,Open,,
+GRV-0209,JH-001,2023-12-11,Environment,Low,Community Member-0208,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-12-14,14,Resolved,2023-12-22,Resolved: Noise pollution
+GRV-0210,OD-002,2023-01-11,Working Conditions,Low,Worker-0041,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-01-13,14,In Progress,,
+GRV-0211,JH-001,2023-10-15,Community,Medium,Worker-0826,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-10-15,7,In Progress,,
+GRV-0212,OD-002,2023-10-04,Safety,High,Worker-0693,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-10-06,3,In Progress,,
+GRV-0213,JH-003,2023-01-02,Safety,High,Worker-0461,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-01-04,3,In Progress,,
+GRV-0214,JH-002,2023-09-22,Environment,Low,Worker-0396,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-09-24,14,In Progress,,
+GRV-0215,OD-002,2023-01-15,Working Conditions,Medium,Community Member-0404,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-17,7,Escalated,,
+GRV-0216,OD-001,2023-01-17,Working Conditions,Medium,Worker-0641,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-01-19,7,Resolved,2023-01-22,Resolved: Excessive dust
+GRV-0217,JH-001,2023-07-05,Environment,High,Community Member-0405,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-07-08,3,Open,,
+GRV-0218,JH-003,2023-06-18,Working Conditions,High,Community Member-0497,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-06-19,3,Resolved,2023-06-20,Resolved: Delayed wage payment
+GRV-0219,CG-001,2023-01-23,Working Conditions,Medium,Community Member-0459,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-01-25,7,In Progress,,
+GRV-0220,JH-001,2023-09-23,Wages,Medium,Community Member-0900,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-09-24,7,Resolved,2023-09-29,Resolved: Delayed wage payment
+GRV-0221,OD-002,2023-05-12,Working Conditions,Low,Worker-0566,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-05-14,14,Open,,
+GRV-0222,JH-002,2023-04-01,Community,Low,Community Member-0288,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-04-01,14,Open,,
+GRV-0223,JH-003,2023-01-06,Safety,Medium,Community Member-0541,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-01-08,7,Open,,
+GRV-0224,OD-002,2023-09-03,Working Conditions,Medium,Community Member-0981,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-09-06,7,Open,,
+GRV-0225,CG-002,2023-06-06,Safety,High,Community Member-0395,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-06-08,3,In Progress,,
+GRV-0226,OD-002,2023-03-06,Community,Low,Worker-0710,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-06,14,Open,,
+GRV-0227,JH-001,2023-06-24,Safety,High,Worker-0915,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-25,3,In Progress,,
+GRV-0228,JH-001,2023-11-07,Community,Low,Community Member-0791,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-11-09,14,Escalated,,
+GRV-0229,JH-002,2023-06-16,Environment,Low,Worker-0817,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-06-19,14,Open,,
+GRV-0230,OD-001,2023-07-25,Environment,High,Community Member-0180,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-27,3,Open,,
+GRV-0231,JH-003,2023-03-25,Safety,Low,Worker-0749,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-03-28,14,In Progress,,
+GRV-0232,CG-001,2023-11-21,Safety,Low,Community Member-0876,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-11-22,14,Resolved,2023-11-27,Resolved: Delayed wage payment
+GRV-0233,JH-002,2023-05-29,Wages,Medium,Worker-0048,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-05-30,7,Open,,
+GRV-0234,CG-002,2023-02-15,Environment,Critical,Worker-0343,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-02-16,2,Rejected,,
+GRV-0235,JH-003,2023-02-11,Wages,High,Worker-0385,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-02-14,3,Resolved,2023-02-14,Resolved: Delayed wage payment
+GRV-0236,OD-002,2023-02-05,Community,Critical,Community Member-0636,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-02-06,2,Resolved,2023-02-06,Resolved: Excessive dust
+GRV-0237,JH-003,2023-12-18,Working Conditions,Low,Community Member-0595,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-12-20,14,Open,,
+GRV-0238,OD-001,2023-03-30,Environment,Critical,Worker-0325,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-04-01,2,Open,,
+GRV-0239,OD-001,2023-03-28,Wages,Low,Community Member-0727,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-03-28,14,Resolved,2023-04-07,Resolved: Delayed wage payment
+GRV-0240,CG-001,2023-07-22,Safety,Critical,Community Member-0603,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-07-24,2,Open,,
+GRV-0241,OD-002,2023-12-25,Wages,Critical,Community Member-0110,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-12-27,2,In Progress,,
+GRV-0242,CG-002,2023-03-22,Community,High,Community Member-0250,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-03-25,3,Open,,
+GRV-0243,CG-002,2023-09-03,Community,Low,Worker-0692,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-09-06,14,Resolved,2023-09-12,Resolved: Poor ventilation
+GRV-0244,JH-003,2023-08-26,Environment,Medium,Community Member-0857,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-08-26,7,In Progress,,
+GRV-0245,JH-001,2023-03-26,Safety,Critical,Community Member-0555,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-03-27,2,Escalated,,
+GRV-0246,CG-002,2023-03-24,Safety,Medium,Worker-0887,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-03-24,7,Resolved,2023-03-27,Resolved: Noise pollution
+GRV-0247,JH-002,2023-02-26,Environment,Critical,Community Member-0561,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-03-01,2,Open,,
+GRV-0248,CG-001,2023-07-24,Environment,High,Worker-0145,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-27,3,Resolved,2023-07-25,Resolved: Poor ventilation
+GRV-0249,JH-002,2023-05-02,Safety,Low,Community Member-0984,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-05-04,14,Resolved,2023-05-09,Resolved: Poor ventilation
+GRV-0250,CG-001,2023-07-18,Wages,Low,Worker-0405,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-07-18,14,Resolved,2023-08-01,Resolved: Noise pollution
+GRV-0251,JH-002,2023-04-21,Environment,High,Community Member-0466,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-04-21,3,In Progress,,
+GRV-0252,JH-003,2023-12-22,Working Conditions,Medium,Worker-0236,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-12-24,7,Resolved,2023-12-26,Resolved: Noise pollution
+GRV-0253,JH-002,2023-09-10,Wages,Low,Worker-0616,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-09-10,14,In Progress,,
+GRV-0254,JH-001,2023-12-29,Working Conditions,Low,Worker-0487,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-12-29,14,Resolved,2024-01-08,Resolved: Noise pollution
+GRV-0255,CG-001,2023-09-15,Wages,High,Worker-0086,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-09-18,3,Open,,
+GRV-0256,CG-002,2023-03-03,Environment,Low,Worker-0605,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-03-06,14,Open,,
+GRV-0257,CG-002,2023-07-18,Environment,High,Community Member-0562,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-07-20,3,In Progress,,
+GRV-0258,CG-001,2023-11-15,Wages,Critical,Community Member-0196,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-11-16,2,In Progress,,
+GRV-0259,OD-001,2023-06-30,Community,Critical,Worker-0848,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-06-30,2,Resolved,2023-07-01,Resolved: Delayed wage payment
+GRV-0260,JH-001,2023-09-26,Working Conditions,Medium,Worker-0206,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-09-29,7,Resolved,2023-10-01,Resolved: Noise pollution
+GRV-0261,CG-002,2023-12-08,Safety,High,Community Member-0337,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-12-09,3,Resolved,2023-12-09,Resolved: Excessive dust
+GRV-0262,JH-003,2023-04-21,Environment,Low,Worker-0239,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-23,14,Open,,
+GRV-0263,CG-002,2023-11-29,Safety,Low,Community Member-0587,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-11-29,14,In Progress,,
+GRV-0264,OD-002,2023-07-19,Environment,High,Worker-0717,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-07-21,3,Resolved,2023-07-21,Resolved: Delayed wage payment
+GRV-0265,CG-002,2023-04-27,Environment,Low,Community Member-0480,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-04-29,14,Rejected,,
+GRV-0266,OD-002,2023-12-20,Working Conditions,Medium,Community Member-0027,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-23,7,Resolved,2023-12-25,Resolved: Poor ventilation
+GRV-0267,JH-003,2023-01-03,Safety,High,Worker-0947,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-04,3,Resolved,2023-01-05,Resolved: Delayed wage payment
+GRV-0268,JH-001,2023-11-09,Community,Low,Worker-0045,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-11-11,14,Resolved,2023-11-12,Resolved: Poor ventilation
+GRV-0269,JH-001,2023-12-19,Safety,High,Worker-0154,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-12-21,3,In Progress,,
+GRV-0270,OD-002,2023-01-20,Wages,Low,Worker-0020,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-01-22,14,Open,,
+GRV-0271,JH-002,2023-06-11,Community,Medium,Community Member-0448,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-06-13,7,Resolved,2023-06-12,Resolved: Excessive dust
+GRV-0272,JH-003,2023-08-28,Working Conditions,Low,Worker-0572,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-08-29,14,Resolved,2023-09-03,Resolved: Noise pollution
+GRV-0273,OD-001,2023-08-27,Safety,High,Worker-0190,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-08-28,3,In Progress,,
+GRV-0274,OD-001,2023-05-23,Working Conditions,Low,Community Member-0242,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-05-25,14,Open,,
+GRV-0275,JH-002,2023-09-15,Safety,Critical,Community Member-0773,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-09-18,2,In Progress,,
+GRV-0276,JH-003,2023-04-29,Wages,High,Community Member-0263,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-04-30,3,Resolved,2023-05-02,Resolved: Noise pollution
+GRV-0277,CG-002,2023-11-16,Working Conditions,Medium,Worker-0719,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-11-17,7,Resolved,2023-11-23,Resolved: Unsafe working conditions
+GRV-0278,CG-001,2023-08-19,Safety,Medium,Community Member-0267,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-08-19,7,Resolved,2023-08-25,Resolved: Poor ventilation
+GRV-0279,JH-002,2023-12-08,Wages,Critical,Worker-0942,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-12-11,2,Resolved,2023-12-10,Resolved: Unsafe working conditions
+GRV-0280,CG-001,2023-07-30,Environment,High,Worker-0628,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-07-31,3,Resolved,2023-08-01,Resolved: Poor ventilation
+GRV-0281,JH-001,2023-06-07,Wages,Critical,Worker-0278,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-07,2,Rejected,,
+GRV-0282,JH-002,2023-09-19,Community,Low,Community Member-0846,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-09-21,14,In Progress,,
+GRV-0283,CG-001,2023-12-22,Working Conditions,Critical,Community Member-0569,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-12-22,2,Resolved,2023-12-23,Resolved: Unsafe working conditions
+GRV-0284,JH-002,2023-10-04,Working Conditions,Low,Worker-0588,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-10-04,14,Resolved,2023-10-05,Resolved: Unsafe working conditions
+GRV-0285,CG-001,2023-12-10,Wages,Medium,Worker-0149,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-12-12,7,Resolved,2023-12-14,Resolved: Unsafe working conditions
+GRV-0286,JH-002,2023-04-29,Safety,Low,Worker-0592,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-05-02,14,In Progress,,
+GRV-0287,JH-001,2023-04-23,Community,Medium,Worker-0851,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-25,7,Resolved,2023-04-25,Resolved: Unsafe working conditions
+GRV-0288,OD-001,2023-04-13,Working Conditions,High,Worker-0485,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-04-13,3,Open,,
+GRV-0289,JH-002,2023-02-18,Community,Critical,Community Member-0790,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-02-19,2,In Progress,,
+GRV-0290,CG-001,2023-06-21,Wages,Critical,Worker-0692,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-06-24,2,In Progress,,
+GRV-0291,CG-001,2023-09-14,Community,Low,Worker-0072,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-09-15,14,Resolved,2023-09-28,Resolved: Poor ventilation
+GRV-0292,JH-002,2023-04-13,Safety,High,Community Member-0188,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-14,3,In Progress,,
+GRV-0293,CG-002,2023-08-13,Wages,Critical,Community Member-0577,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-08-14,2,In Progress,,
+GRV-0294,CG-002,2023-05-11,Working Conditions,High,Community Member-0664,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-05-13,3,In Progress,,
+GRV-0295,JH-003,2023-12-25,Community,Low,Worker-0841,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-12-27,14,In Progress,,
+GRV-0296,JH-002,2023-05-31,Wages,High,Community Member-0369,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-06-03,3,Resolved,2023-06-03,Resolved: Noise pollution
+GRV-0297,JH-002,2023-11-07,Environment,Low,Worker-0460,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-11-07,14,Escalated,,
+GRV-0298,JH-003,2023-12-19,Working Conditions,Critical,Worker-0248,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-12-19,2,In Progress,,
+GRV-0299,JH-001,2023-12-24,Working Conditions,High,Worker-0698,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-12-25,3,Resolved,2023-12-27,Resolved: Delayed wage payment
+GRV-0300,CG-002,2023-06-03,Working Conditions,Low,Worker-0186,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-06-04,14,Escalated,,
+GRV-0301,CG-002,2023-03-15,Environment,High,Worker-0580,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-16,3,Open,,
+GRV-0302,CG-001,2023-07-07,Safety,Critical,Worker-0296,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-07-10,2,In Progress,,
+GRV-0303,JH-003,2023-09-23,Working Conditions,Medium,Worker-0638,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-09-23,7,Resolved,2023-09-26,Resolved: Noise pollution
+GRV-0304,JH-002,2023-04-21,Working Conditions,Low,Worker-0924,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-04-24,14,Resolved,2023-04-29,Resolved: Excessive dust
+GRV-0305,CG-001,2023-01-13,Community,High,Community Member-0712,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-01-13,3,In Progress,,
+GRV-0306,CG-001,2023-12-20,Wages,Medium,Community Member-0978,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-12-21,7,Open,,
+GRV-0307,OD-002,2023-09-07,Safety,Critical,Worker-0352,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-09,2,Resolved,2023-09-09,Resolved: Unsafe working conditions
+GRV-0308,CG-002,2023-03-14,Environment,Medium,Worker-0004,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-03-17,7,Resolved,2023-03-15,Resolved: Unsafe working conditions
+GRV-0309,CG-002,2023-04-15,Community,Low,Community Member-0623,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-15,14,Open,,
+GRV-0310,JH-003,2023-01-30,Working Conditions,Medium,Community Member-0211,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-30,7,Open,,
+GRV-0311,JH-001,2023-12-24,Wages,Critical,Community Member-0415,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-12-26,2,In Progress,,
+GRV-0312,CG-001,2023-03-19,Safety,Critical,Worker-0160,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-03-20,2,Escalated,,
+GRV-0313,JH-002,2023-10-10,Safety,High,Community Member-0007,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-10-13,3,Resolved,2023-10-13,Resolved: Poor ventilation
+GRV-0314,OD-001,2023-06-15,Community,Low,Worker-0097,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-06-15,14,Resolved,2023-06-19,Resolved: Unsafe working conditions
+GRV-0315,CG-002,2023-02-02,Community,Medium,Worker-0967,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-02-03,7,Open,,
+GRV-0316,JH-002,2023-05-23,Wages,Low,Worker-0891,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-05-25,14,In Progress,,
+GRV-0317,JH-001,2023-03-05,Working Conditions,High,Community Member-0800,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-03-08,3,In Progress,,
+GRV-0318,JH-003,2023-12-13,Working Conditions,Critical,Worker-0257,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-12-15,2,Resolved,2023-12-15,Resolved: Poor ventilation
+GRV-0319,JH-001,2023-03-27,Safety,Critical,Worker-0551,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-03-28,2,In Progress,,
+GRV-0320,CG-002,2023-12-17,Working Conditions,Low,Community Member-0177,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-12-18,14,Open,,
+GRV-0321,OD-002,2023-11-08,Environment,Low,Community Member-0427,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-11-10,14,Escalated,,
+GRV-0322,CG-001,2023-08-30,Community,Medium,Worker-0705,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-08-30,7,Resolved,2023-09-04,Resolved: Noise pollution
+GRV-0323,JH-001,2023-04-01,Community,Low,Worker-0446,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-04-01,14,In Progress,,
+GRV-0324,CG-001,2023-05-10,Working Conditions,Critical,Community Member-0837,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-05-13,2,In Progress,,
+GRV-0325,JH-003,2023-07-21,Safety,High,Worker-0844,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-07-21,3,Rejected,,
+GRV-0326,OD-002,2023-01-18,Safety,High,Community Member-0166,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-01-18,3,Resolved,2023-01-19,Resolved: Noise pollution
+GRV-0327,JH-003,2023-02-11,Community,High,Community Member-0737,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-02-11,3,In Progress,,
+GRV-0328,OD-001,2023-12-10,Working Conditions,High,Worker-0156,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-12-10,3,Resolved,2023-12-12,Resolved: Unsafe working conditions
+GRV-0329,CG-002,2023-05-27,Working Conditions,Medium,Community Member-0448,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-05-30,7,In Progress,,
+GRV-0330,JH-002,2023-01-22,Working Conditions,Medium,Community Member-0579,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-23,7,In Progress,,
+GRV-0331,JH-002,2023-11-18,Environment,Medium,Worker-0587,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-11-20,7,Resolved,2023-11-23,Resolved: Delayed wage payment
+GRV-0332,JH-001,2023-12-04,Safety,Critical,Worker-0476,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-12-06,2,In Progress,,
+GRV-0333,OD-001,2023-02-21,Working Conditions,Low,Worker-0976,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-02-21,14,In Progress,,
+GRV-0334,JH-003,2023-06-27,Wages,Low,Worker-0534,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-06-28,14,In Progress,,
+GRV-0335,OD-002,2023-12-14,Safety,Low,Worker-0717,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-15,14,Resolved,2023-12-15,Resolved: Excessive dust
+GRV-0336,CG-002,2023-01-18,Community,Medium,Community Member-0834,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-01-20,7,Resolved,2023-01-20,Resolved: Poor ventilation
+GRV-0337,JH-003,2023-12-25,Environment,High,Community Member-0492,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-25,3,Escalated,,
+GRV-0338,OD-002,2023-08-11,Wages,Medium,Community Member-0150,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-08-13,7,Resolved,2023-08-13,Resolved: Excessive dust
+GRV-0339,CG-002,2023-07-30,Community,Critical,Community Member-0355,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-07-31,2,In Progress,,
+GRV-0340,CG-001,2023-07-22,Safety,Critical,Community Member-0517,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-25,2,Escalated,,
+GRV-0341,OD-002,2023-11-25,Working Conditions,Low,Community Member-0004,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-11-27,14,Resolved,2023-12-02,Resolved: Excessive dust
+GRV-0342,OD-002,2023-10-20,Wages,High,Community Member-0786,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-10-22,3,Open,,
+GRV-0343,JH-001,2023-04-17,Environment,Critical,Worker-0297,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-18,2,Resolved,2023-04-19,Resolved: Unsafe working conditions
+GRV-0344,JH-002,2023-03-21,Wages,Medium,Community Member-0714,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-03-21,7,Escalated,,
+GRV-0345,JH-003,2023-03-24,Safety,Medium,Worker-0691,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-03-26,7,In Progress,,
+GRV-0346,JH-002,2023-04-07,Community,Critical,Community Member-0844,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-04-09,2,Open,,
+GRV-0347,JH-003,2023-08-25,Community,High,Community Member-0008,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-08-28,3,Resolved,2023-08-28,Resolved: Noise pollution
+GRV-0348,CG-001,2023-12-29,Working Conditions,Low,Community Member-0810,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-29,14,Resolved,2024-01-08,Resolved: Poor ventilation
+GRV-0349,CG-001,2023-03-15,Wages,Low,Worker-0359,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-03-18,14,Resolved,2023-03-23,Resolved: Poor ventilation
+GRV-0350,CG-001,2023-07-25,Working Conditions,Critical,Worker-0597,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-07-26,2,Resolved,2023-07-26,Resolved: Excessive dust
+GRV-0351,OD-002,2023-03-06,Wages,Critical,Worker-0545,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-03-08,2,Open,,
+GRV-0352,JH-001,2023-09-08,Wages,Medium,Worker-0628,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-09-10,7,In Progress,,
+GRV-0353,CG-001,2023-08-24,Environment,Low,Community Member-0406,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-08-25,14,In Progress,,
+GRV-0354,OD-002,2023-12-22,Community,Critical,Community Member-0061,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-12-23,2,In Progress,,
+GRV-0355,JH-001,2023-05-02,Safety,High,Worker-0377,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-05-04,3,Resolved,2023-05-03,Resolved: Excessive dust
+GRV-0356,JH-003,2023-03-22,Working Conditions,Medium,Community Member-0633,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-03-22,7,Resolved,2023-03-25,Resolved: Unsafe working conditions
+GRV-0357,JH-002,2023-09-16,Working Conditions,Low,Community Member-0130,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-09-16,14,Open,,
+GRV-0358,JH-001,2023-10-25,Safety,High,Worker-0913,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-10-28,3,In Progress,,
+GRV-0359,CG-001,2023-12-11,Working Conditions,Low,Community Member-0646,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-12-14,14,Resolved,2023-12-24,Resolved: Unsafe working conditions
+GRV-0360,CG-001,2023-12-07,Safety,Medium,Community Member-0977,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-12-10,7,Resolved,2023-12-10,Resolved: Delayed wage payment
+GRV-0361,CG-002,2023-12-24,Safety,Medium,Community Member-0323,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-12-27,7,Open,,
+GRV-0362,CG-001,2023-12-06,Wages,Critical,Community Member-0963,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-12-09,2,In Progress,,
+GRV-0363,CG-001,2023-08-12,Environment,Critical,Worker-0638,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-08-13,2,Resolved,2023-08-13,Resolved: Unsafe working conditions
+GRV-0364,JH-003,2023-04-16,Wages,High,Worker-0197,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-04-18,3,In Progress,,
+GRV-0365,OD-001,2023-10-04,Safety,Low,Community Member-0600,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-10-05,14,Resolved,2023-10-05,Resolved: Poor ventilation
+GRV-0366,CG-002,2023-04-25,Environment,High,Worker-0928,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-04-25,3,In Progress,,
+GRV-0367,OD-001,2023-05-03,Environment,High,Worker-0521,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-05-04,3,Resolved,2023-05-04,Resolved: Poor ventilation
+GRV-0368,JH-003,2023-04-11,Community,Low,Community Member-0131,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-11,14,In Progress,,
+GRV-0369,OD-002,2023-06-23,Wages,Critical,Worker-0147,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-25,2,Open,,
+GRV-0370,CG-001,2023-09-28,Community,Critical,Community Member-0237,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-09-29,2,Rejected,,
+GRV-0371,JH-002,2023-03-13,Environment,High,Worker-0796,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-16,3,Open,,
+GRV-0372,CG-002,2023-01-13,Environment,Medium,Community Member-0973,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-01-13,7,Resolved,2023-01-18,Resolved: Noise pollution
+GRV-0373,OD-002,2023-08-23,Community,Critical,Worker-0547,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-08-23,2,Resolved,2023-08-25,Resolved: Excessive dust
+GRV-0374,JH-002,2023-01-22,Wages,Critical,Worker-0993,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-01-24,2,Resolved,2023-01-23,Resolved: Unsafe working conditions
+GRV-0375,JH-001,2023-10-07,Community,Critical,Worker-0435,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-10-07,2,Resolved,2023-10-09,Resolved: Unsafe working conditions
+GRV-0376,OD-002,2023-11-22,Community,Medium,Community Member-0991,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-11-23,7,Resolved,2023-11-29,Resolved: Excessive dust
+GRV-0377,JH-003,2023-05-14,Wages,High,Community Member-0332,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-05-16,3,Resolved,2023-05-15,Resolved: Delayed wage payment
+GRV-0378,JH-003,2023-12-09,Environment,Low,Worker-0348,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-12-12,14,In Progress,,
+GRV-0379,JH-001,2023-08-25,Working Conditions,Low,Community Member-0936,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-08-26,14,In Progress,,
+GRV-0380,OD-002,2023-11-25,Working Conditions,Medium,Worker-0001,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-11-26,7,In Progress,,
+GRV-0381,OD-001,2023-05-25,Safety,High,Worker-0694,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-05-26,3,Resolved,2023-05-26,Resolved: Noise pollution
+GRV-0382,JH-002,2023-12-19,Environment,Critical,Worker-0915,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-19,2,Resolved,2023-12-21,Resolved: Poor ventilation
+GRV-0383,OD-001,2023-10-26,Safety,Critical,Community Member-0896,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-10-29,2,Resolved,2023-10-27,Resolved: Noise pollution
+GRV-0384,JH-002,2023-11-26,Safety,High,Worker-0742,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-11-29,3,Rejected,,
+GRV-0385,CG-001,2023-03-12,Wages,Critical,Worker-0002,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-03-12,2,Open,,
+GRV-0386,JH-001,2023-08-25,Environment,Critical,Worker-0081,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-08-27,2,Resolved,2023-08-27,Resolved: Unsafe working conditions
+GRV-0387,OD-002,2023-10-01,Environment,High,Community Member-0093,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-10-04,3,Resolved,2023-10-02,Resolved: Noise pollution
+GRV-0388,JH-003,2023-04-23,Environment,Low,Community Member-0454,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-04-23,14,Open,,
+GRV-0389,OD-002,2023-05-24,Safety,Low,Worker-0918,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-05-26,14,Resolved,2023-05-27,Resolved: Excessive dust
+GRV-0390,CG-002,2023-11-07,Wages,Low,Community Member-0477,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-11-07,14,Resolved,2023-11-11,Resolved: Poor ventilation
+GRV-0391,JH-002,2023-01-04,Safety,High,Community Member-0608,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-01-04,3,Escalated,,
+GRV-0392,OD-001,2023-12-12,Safety,Medium,Community Member-0425,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-12-13,7,Resolved,2023-12-19,Resolved: Poor ventilation
+GRV-0393,JH-003,2023-08-27,Wages,Critical,Community Member-0159,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-08-28,2,In Progress,,
+GRV-0394,OD-001,2023-05-16,Environment,High,Community Member-0231,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-05-19,3,Escalated,,
+GRV-0395,JH-003,2023-11-19,Safety,Critical,Community Member-0596,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-11-21,2,In Progress,,
+GRV-0396,CG-001,2023-01-13,Community,Low,Community Member-0156,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-01-14,14,Escalated,,
+GRV-0397,OD-001,2023-10-13,Community,Medium,Community Member-0669,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-10-13,7,Open,,
+GRV-0398,OD-002,2023-09-15,Environment,High,Worker-0577,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-09-17,3,In Progress,,
+GRV-0399,OD-002,2023-07-28,Community,High,Community Member-0527,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-07-29,3,Open,,
+GRV-0400,CG-002,2023-12-21,Community,High,Worker-0930,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-12-21,3,In Progress,,
+GRV-0401,CG-002,2023-04-22,Environment,Medium,Worker-0580,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-04-22,7,Rejected,,
+GRV-0402,OD-001,2023-11-19,Working Conditions,Medium,Community Member-0488,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-11-22,7,Open,,
+GRV-0403,CG-001,2023-04-14,Environment,Medium,Community Member-0305,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-04-16,7,Resolved,2023-04-21,Resolved: Unsafe working conditions
+GRV-0404,JH-001,2023-04-21,Community,Critical,Community Member-0580,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-04-24,2,Resolved,2023-04-22,Resolved: Excessive dust
+GRV-0405,JH-002,2023-07-16,Wages,Critical,Worker-0032,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-07-17,2,Open,,
+GRV-0406,OD-002,2023-12-06,Wages,Critical,Worker-0072,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-12-07,2,In Progress,,
+GRV-0407,OD-002,2023-03-11,Community,High,Worker-0810,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-11,3,Resolved,2023-03-12,Resolved: Poor ventilation
+GRV-0408,JH-001,2023-04-10,Wages,High,Worker-0434,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-04-10,3,In Progress,,
+GRV-0409,CG-002,2023-12-31,Wages,Low,Community Member-0973,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2024-01-02,14,In Progress,,
+GRV-0410,JH-001,2023-06-09,Environment,High,Worker-0729,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-06-11,3,Resolved,2023-06-10,Resolved: Noise pollution
+GRV-0411,JH-001,2023-12-11,Environment,Medium,Community Member-0333,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-12-13,7,In Progress,,
+GRV-0412,CG-001,2023-02-16,Wages,Critical,Worker-0469,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-02-19,2,Resolved,2023-02-18,Resolved: Unsafe working conditions
+GRV-0413,OD-001,2023-12-23,Community,Medium,Worker-0275,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-12-23,7,In Progress,,
+GRV-0414,CG-001,2023-02-11,Environment,Critical,Community Member-0596,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-02-13,2,Open,,
+GRV-0415,CG-002,2023-12-29,Community,High,Worker-0882,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-12-31,3,Resolved,2023-12-30,Resolved: Noise pollution
+GRV-0416,OD-002,2023-02-13,Wages,Low,Community Member-0263,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-02-15,14,Resolved,2023-02-22,Resolved: Poor ventilation
+GRV-0417,JH-001,2023-05-28,Safety,High,Worker-0313,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-05-31,3,Resolved,2023-05-29,Resolved: Delayed wage payment
+GRV-0418,OD-002,2023-07-03,Environment,High,Worker-0015,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-07-06,3,Open,,
+GRV-0419,OD-001,2023-12-01,Safety,Critical,Worker-0128,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-12-01,2,In Progress,,
+GRV-0420,OD-001,2023-11-08,Wages,Medium,Community Member-0874,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-11-09,7,Open,,
+GRV-0421,CG-001,2023-07-24,Community,Medium,Community Member-0203,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-07-25,7,In Progress,,
+GRV-0422,JH-002,2023-07-05,Wages,Low,Community Member-0198,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-07-05,14,Resolved,2023-07-11,Resolved: Excessive dust
+GRV-0423,JH-001,2023-06-23,Community,High,Community Member-0497,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-06-24,3,Resolved,2023-06-25,Resolved: Poor ventilation
+GRV-0424,JH-002,2023-04-23,Working Conditions,Medium,Worker-0495,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-04-25,7,Escalated,,
+GRV-0425,JH-001,2023-03-13,Wages,Low,Community Member-0967,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-03-13,14,Resolved,2023-03-23,Resolved: Excessive dust
+GRV-0426,JH-001,2023-08-16,Wages,Critical,Community Member-0908,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-08-16,2,In Progress,,
+GRV-0427,OD-002,2023-12-14,Wages,High,Community Member-0871,Community Member,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-12-14,3,In Progress,,
+GRV-0428,CG-001,2023-05-25,Safety,Low,Community Member-0125,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-05-27,14,Resolved,2023-06-08,Resolved: Excessive dust
+GRV-0429,JH-003,2023-08-17,Safety,Low,Worker-0446,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-08-17,14,Resolved,2023-08-24,Resolved: Poor ventilation
+GRV-0430,CG-001,2023-12-08,Community,Low,Worker-0237,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-12-09,14,Open,,
+GRV-0431,CG-002,2023-12-06,Wages,Critical,Community Member-0017,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-12-08,2,Resolved,2023-12-08,Resolved: Noise pollution
+GRV-0432,CG-001,2023-05-18,Working Conditions,Low,Community Member-0284,Community Member,Noise pollution,शोर प्रदूषण,Sita Devi,2023-05-20,14,Open,,
+GRV-0433,CG-001,2023-05-28,Working Conditions,Critical,Worker-0860,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-05-30,2,Resolved,2023-05-30,Resolved: Poor ventilation
+GRV-0434,OD-001,2023-10-15,Community,Medium,Community Member-0448,Community Member,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-10-17,7,Resolved,2023-10-19,Resolved: Poor ventilation
+GRV-0435,OD-001,2023-11-13,Wages,Medium,Community Member-0423,Community Member,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-11-15,7,In Progress,,
+GRV-0436,OD-001,2023-05-09,Working Conditions,High,Community Member-0736,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-05-11,3,Resolved,2023-05-10,Resolved: Unsafe working conditions
+GRV-0437,OD-002,2023-09-04,Environment,Low,Community Member-0166,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-09-06,14,Resolved,2023-09-15,Resolved: Unsafe working conditions
+GRV-0438,JH-002,2023-02-26,Safety,Low,Worker-0282,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-02-28,14,Rejected,,
+GRV-0439,JH-001,2023-06-30,Environment,High,Worker-0053,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-07-02,3,Resolved,2023-07-02,Resolved: Delayed wage payment
+GRV-0440,OD-001,2023-02-16,Safety,Critical,Community Member-0817,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-02-17,2,In Progress,,
+GRV-0441,OD-002,2023-06-22,Community,High,Worker-0026,Worker,Excessive dust,अत्यधिक धूल,Sita Devi,2023-06-22,3,Rejected,,
+GRV-0442,CG-002,2023-01-08,Community,High,Community Member-0208,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-01-08,3,Escalated,,
+GRV-0443,OD-001,2023-01-23,Environment,Low,Community Member-0267,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-01-25,14,Resolved,2023-01-27,Resolved: Excessive dust
+GRV-0444,JH-001,2023-05-08,Working Conditions,Critical,Community Member-0493,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-05-08,2,In Progress,,
+GRV-0445,JH-001,2023-10-25,Working Conditions,High,Community Member-0806,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-10-27,3,Open,,
+GRV-0446,OD-001,2023-03-29,Wages,Critical,Community Member-0815,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-03-29,2,Resolved,2023-03-30,Resolved: Unsafe working conditions
+GRV-0447,CG-002,2023-06-15,Wages,Medium,Worker-0647,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-06-17,7,In Progress,,
+GRV-0448,JH-002,2023-10-21,Wages,Medium,Worker-0102,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-10-22,7,Open,,
+GRV-0449,CG-001,2023-06-06,Wages,Medium,Community Member-0165,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-06-07,7,In Progress,,
+GRV-0450,JH-001,2023-04-11,Safety,Critical,Worker-0596,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-04-12,2,Resolved,2023-04-13,Resolved: Unsafe working conditions
+GRV-0451,CG-001,2023-02-27,Community,High,Worker-0951,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-02-27,3,Resolved,2023-03-01,Resolved: Noise pollution
+GRV-0452,JH-003,2023-06-04,Safety,High,Community Member-0698,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-06-05,3,Resolved,2023-06-05,Resolved: Delayed wage payment
+GRV-0453,JH-003,2023-06-21,Working Conditions,Low,Worker-0573,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-06-22,14,In Progress,,
+GRV-0454,OD-002,2023-01-13,Community,High,Community Member-0514,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-01-15,3,In Progress,,
+GRV-0455,JH-001,2023-04-11,Safety,Medium,Worker-0722,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-04-11,7,In Progress,,
+GRV-0456,JH-003,2023-07-19,Safety,Low,Community Member-0202,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-07-21,14,Open,,
+GRV-0457,OD-002,2023-05-05,Safety,High,Worker-0327,Worker,Noise pollution,शोर प्रदूषण,Amit Patel,2023-05-07,3,In Progress,,
+GRV-0458,CG-002,2023-01-30,Community,High,Worker-0098,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-01-31,3,Escalated,,
+GRV-0459,CG-002,2023-07-08,Working Conditions,Low,Worker-0571,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-07-08,14,In Progress,,
+GRV-0460,CG-001,2023-08-02,Wages,Low,Community Member-0476,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-08-04,14,Resolved,2023-08-06,Resolved: Delayed wage payment
+GRV-0461,OD-001,2023-12-11,Community,Critical,Worker-0953,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-12-14,2,Resolved,2023-12-13,Resolved: Excessive dust
+GRV-0462,OD-002,2023-01-17,Wages,Critical,Community Member-0816,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-01-18,2,In Progress,,
+GRV-0463,JH-002,2023-07-13,Community,Critical,Worker-0822,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-07-14,2,Resolved,2023-07-15,Resolved: Delayed wage payment
+GRV-0464,JH-001,2023-06-16,Working Conditions,Critical,Community Member-0115,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-06-16,2,In Progress,,
+GRV-0465,JH-002,2023-02-24,Environment,Low,Community Member-0143,Community Member,Noise pollution,शोर प्रदूषण,Amit Patel,2023-02-24,14,Resolved,2023-03-01,Resolved: Noise pollution
+GRV-0466,OD-002,2023-04-04,Wages,Low,Worker-0054,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-04-07,14,Resolved,2023-04-13,Resolved: Unsafe working conditions
+GRV-0467,CG-001,2023-12-27,Environment,High,Community Member-0934,Community Member,Excessive dust,अत्यधिक धूल,Amit Patel,2023-12-28,3,In Progress,,
+GRV-0468,JH-003,2023-12-15,Community,Low,Community Member-0352,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-12-15,14,Resolved,2023-12-23,Resolved: Excessive dust
+GRV-0469,OD-001,2023-07-21,Community,Low,Community Member-0788,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-07-23,14,Resolved,2023-07-25,Resolved: Delayed wage payment
+GRV-0470,OD-002,2023-08-29,Safety,Critical,Worker-0701,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-08-31,2,Resolved,2023-08-30,Resolved: Unsafe working conditions
+GRV-0471,JH-003,2023-06-24,Wages,Medium,Worker-0779,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-06-26,7,Rejected,,
+GRV-0472,JH-003,2023-04-17,Working Conditions,Critical,Community Member-0476,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-04-17,2,Resolved,2023-04-18,Resolved: Unsafe working conditions
+GRV-0473,CG-001,2023-05-05,Safety,Low,Community Member-0161,Community Member,Excessive dust,अत्यधिक धूल,Sita Devi,2023-05-05,14,Rejected,,
+GRV-0474,JH-003,2023-08-16,Working Conditions,Critical,Community Member-0218,Community Member,Poor ventilation,खराब हवादारी,Amit Patel,2023-08-18,2,In Progress,,
+GRV-0475,OD-002,2023-02-06,Wages,Critical,Community Member-0463,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-02-09,2,In Progress,,
+GRV-0476,JH-003,2023-11-01,Wages,High,Worker-0062,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-11-04,3,In Progress,,
+GRV-0477,JH-002,2023-11-24,Wages,Critical,Worker-0071,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-11-24,2,Open,,
+GRV-0478,JH-001,2023-09-23,Safety,Medium,Worker-0962,Worker,Excessive dust,अत्यधिक धूल,Rajesh Kumar,2023-09-24,7,In Progress,,
+GRV-0479,JH-002,2023-08-04,Working Conditions,Low,Worker-0184,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-08-04,14,Resolved,2023-08-11,Resolved: Delayed wage payment
+GRV-0480,OD-001,2023-07-01,Community,Medium,Worker-0815,Worker,Poor ventilation,खराब हवादारी,Rajesh Kumar,2023-07-04,7,In Progress,,
+GRV-0481,JH-001,2023-08-23,Community,Critical,Worker-0929,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Amit Patel,2023-08-26,2,Open,,
+GRV-0482,JH-002,2023-05-31,Environment,High,Worker-0030,Worker,Excessive dust,अत्यधिक धूल,Amit Patel,2023-05-31,3,Open,,
+GRV-0483,JH-002,2023-12-20,Environment,Critical,Worker-0663,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-12-20,2,In Progress,,
+GRV-0484,JH-003,2023-02-10,Safety,Low,Community Member-0279,Community Member,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-02-13,14,Escalated,,
+GRV-0485,JH-002,2023-10-05,Wages,High,Worker-0937,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Sita Devi,2023-10-05,3,In Progress,,
+GRV-0486,CG-001,2023-09-06,Working Conditions,Low,Worker-0584,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-09-09,14,Resolved,2023-09-10,Resolved: Unsafe working conditions
+GRV-0487,OD-002,2023-08-12,Wages,Critical,Worker-0319,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-08-15,2,In Progress,,
+GRV-0488,JH-001,2023-03-24,Safety,Medium,Worker-0183,Worker,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-24,7,Open,,
+GRV-0489,CG-002,2023-11-13,Safety,Low,Worker-0149,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-11-15,14,Rejected,,
+GRV-0490,JH-001,2023-12-05,Environment,Critical,Community Member-0730,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Sita Devi,2023-12-05,2,In Progress,,
+GRV-0491,JH-001,2023-11-15,Working Conditions,Medium,Worker-0972,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-11-15,7,In Progress,,
+GRV-0492,OD-002,2023-04-08,Environment,High,Worker-0900,Worker,Noise pollution,शोर प्रदूषण,Rajesh Kumar,2023-04-10,3,In Progress,,
+GRV-0493,JH-003,2023-06-01,Community,Critical,Worker-0455,Worker,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Amit Patel,2023-06-02,2,In Progress,,
+GRV-0494,JH-002,2023-05-08,Wages,High,Worker-0554,Worker,Delayed wage payment,विलंबित वेतन भुगतान,Rajesh Kumar,2023-05-08,3,Resolved,2023-05-10,Resolved: Delayed wage payment
+GRV-0495,CG-002,2023-08-21,Environment,Critical,Community Member-0623,Community Member,Unsafe working conditions,असुरक्षित कार्य स्थितियां,Rajesh Kumar,2023-08-22,2,In Progress,,
+GRV-0496,JH-002,2023-01-17,Working Conditions,Low,Worker-0252,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-01-17,14,In Progress,,
+GRV-0497,JH-001,2023-03-02,Working Conditions,Medium,Community Member-0278,Community Member,Poor ventilation,खराब हवादारी,Sita Devi,2023-03-04,7,In Progress,,
+GRV-0498,CG-002,2023-03-08,Environment,Low,Worker-0831,Worker,Poor ventilation,खराब हवादारी,Amit Patel,2023-03-08,14,In Progress,,
+GRV-0499,CG-001,2023-01-30,Environment,Medium,Worker-0872,Worker,Noise pollution,शोर प्रदूषण,Sita Devi,2023-01-30,7,In Progress,,

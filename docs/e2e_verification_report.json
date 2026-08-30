@@ -1,0 +1,346 @@
+{
+  "timestamp": "2026-08-26T19:28:04.910196",
+  "totalTests": 55,
+  "executedTests": 55,
+  "passedTests": 55,
+  "failedTests": 0,
+  "partialTests": 0,
+  "overallSuccessPct": 100.0,
+  "overallFailurePct": 0.0,
+  "overallPartialPct": 0.0,
+  "coreWorkflowSuccessPct": 100.0,
+  "coreWorkflowFailurePct": 0.0,
+  "readyForSihDemo": true,
+  "testDetails": [
+    {
+      "category": "Database",
+      "name": "Table Count: Company",
+      "status": "PASS",
+      "details": "Actual: 12 >= Expected: 10"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Mine",
+      "status": "PASS",
+      "details": "Actual: 15 >= Expected: 10"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: ProductionRecord",
+      "status": "PASS",
+      "details": "Actual: 240 >= Expected: 240"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: ComplianceRequirement",
+      "status": "PASS",
+      "details": "Actual: 105 >= Expected: 100"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: ComplianceRecord",
+      "status": "PASS",
+      "details": "Actual: 1,000 >= Expected: 1,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Inspection",
+      "status": "PASS",
+      "details": "Actual: 5,000 >= Expected: 5,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Observation",
+      "status": "PASS",
+      "details": "Actual: 5,000 >= Expected: 5,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Incident",
+      "status": "PASS",
+      "details": "Actual: 300 >= Expected: 300"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Violation",
+      "status": "PASS",
+      "details": "Actual: 1,500 >= Expected: 1,500"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: CorrectiveAction",
+      "status": "PASS",
+      "details": "Actual: 1,500 >= Expected: 1,500"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Contractor",
+      "status": "PASS",
+      "details": "Actual: 150 >= Expected: 150"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Worker",
+      "status": "PASS",
+      "details": "Actual: 6,310 >= Expected: 6,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: AttendanceRecord",
+      "status": "PASS",
+      "details": "Actual: 10,000 >= Expected: 10,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: EnvironmentalReading",
+      "status": "PASS",
+      "details": "Actual: 50,000 >= Expected: 50,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Equipment",
+      "status": "PASS",
+      "details": "Actual: 500 >= Expected: 500"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Attachment",
+      "status": "PASS",
+      "details": "Actual: 2,000 >= Expected: 2,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: Grievance",
+      "status": "PASS",
+      "details": "Actual: 500 >= Expected: 500"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: AuditLog",
+      "status": "PASS",
+      "details": "Actual: 15,003 >= Expected: 15,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: SensorReading",
+      "status": "PASS",
+      "details": "Actual: 10,000 >= Expected: 10,000"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: DataQualityAssessment",
+      "status": "PASS",
+      "details": "Actual: 2 >= Expected: 2"
+    },
+    {
+      "category": "Database",
+      "name": "Table Count: RiskScore",
+      "status": "PASS",
+      "details": "Actual: 38 >= Expected: 10"
+    },
+    {
+      "category": "Auth",
+      "name": "Admin Login (/auth/login)",
+      "status": "PASS",
+      "details": "JWT access token obtained"
+    },
+    {
+      "category": "Governance Control",
+      "name": "GET /governance-control/overview",
+      "status": "PASS",
+      "details": "Mines: 14, Risk Score: 42/100, Comp Rate: 100%"
+    },
+    {
+      "category": "Mines",
+      "name": "GET /mines",
+      "status": "PASS",
+      "details": "Retrieved 15 statutory mines with GPS coordinates"
+    },
+    {
+      "category": "GIS",
+      "name": "GET /mines/nearby",
+      "status": "PASS",
+      "details": "GIS Haversine calculation found 5 statutory mines within 100km radius"
+    },
+    {
+      "category": "Compliance",
+      "name": "GET /compliance/requirements",
+      "status": "PASS",
+      "details": "Retrieved 20 statutory compliance mandates"
+    },
+    {
+      "category": "Inspections",
+      "name": "GET /inspections",
+      "status": "PASS",
+      "details": "Retrieved 20 field inspections with checklists & photos"
+    },
+    {
+      "category": "Violations",
+      "name": "GET /violations",
+      "status": "PASS",
+      "details": "Retrieved 20 statutory violations"
+    },
+    {
+      "category": "Corrective Actions",
+      "name": "GET /corrective-actions",
+      "status": "PASS",
+      "details": "Retrieved 20 CAPA tasks with overdue tracking"
+    },
+    {
+      "category": "Contractors",
+      "name": "GET /contractors",
+      "status": "PASS",
+      "details": "Retrieved 20 contractors with risk ratings & licence expiries"
+    },
+    {
+      "category": "Attendance",
+      "name": "GET /attendance",
+      "status": "PASS",
+      "details": "Retrieved 20 attendance logs with PPE & training statuses"
+    },
+    {
+      "category": "Environment",
+      "name": "GET /environment/summary",
+      "status": "PASS",
+      "details": "Live telemetry (PM10, PM2.5, CH4, Water) for 15 mines"
+    },
+    {
+      "category": "Production",
+      "name": "GET /production/summary",
+      "status": "PASS",
+      "details": "Monthly coal targets & dispatches for 15 mines"
+    },
+    {
+      "category": "Grievances",
+      "name": "GET /grievances",
+      "status": "PASS",
+      "details": "Retrieved 20 grievances with SLA tracking & Hindi descriptions"
+    },
+    {
+      "category": "Audit Logs",
+      "name": "GET /audit-logs",
+      "status": "PASS",
+      "details": "Retrieved 20 audit logs with HMAC tamper-evident hashes"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "Which mines have the highest compliance ",
+      "status": "PASS",
+      "details": "**Mine Safety Risk Summary across your authorized scope (14 mines):**\n1. **Angul"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "Why is JH-001 high risk?",
+      "status": "PASS",
+      "details": "**Bharat Coal Fields - Bokaro** currently has a safety Risk Score of **100 / 100"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "Which corrective actions are overdue?",
+      "status": "PASS",
+      "details": "There are currently **5 overdue Corrective Action(s) (CAPA)** requiring closure:"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "Which environmental parameters are excee",
+      "status": "PASS",
+      "details": "Risk assessment for Gevra Open Cast Mine: Risk Score 15/100 [LOW Risk]. Contribu"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "Which contractors are high risk?",
+      "status": "PASS",
+      "details": "**Gevra Open Cast Mine** currently has a safety Risk Score of **15 / 100** (LOW)"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "What are the recurring incident causes?",
+      "status": "PASS",
+      "details": "This AI assistant is designed specifically for Khanan Suraksha and coal-mine gov"
+    },
+    {
+      "category": "AI Assistant (English)",
+      "name": "What inspections require urgent attentio",
+      "status": "PASS",
+      "details": "Risk assessment for Gevra Open Cast Mine: Risk Score 15/100 [LOW Risk]. Contribu"
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "किन खदानों में सबसे अधिक अनुपालन जोखिम ह",
+      "status": "PASS",
+      "details": "**Gevra Open Cast Mine** का वर्तमान सुरक्षा जोखिम स्कोर **15 / 100** (LOW) है। व"
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "JH-001 उच्च जोखिम क्यों है?",
+      "status": "PASS",
+      "details": "**Bharat Coal Fields - Bokaro** का वर्तमान सुरक्षा जोखिम स्कोर **100 / 100** (CR"
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "कौन से सुधारात्मक कार्य (CAPA) बकाया हैं",
+      "status": "PASS",
+      "details": "वर्तमान में **5 समय-सीमा पार सुधारात्मक कार्रवाई (CAPA)** दर्ज हैं जिन पर तत्काल"
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "कौन से पर्यावरणीय पैरामीटर सीमा से अधिक ",
+      "status": "PASS",
+      "details": "Gevra Open Cast Mine का जोखिम स्कोर: 15/100 [LOW जोखिम]। मुख्य कारक: Gevra Open "
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "कौन से ठेकेदार उच्च जोखिम वाले हैं?",
+      "status": "PASS",
+      "details": "**Gevra Open Cast Mine** का वर्तमान सुरक्षा जोखिम स्कोर **15 / 100** (LOW) है। व"
+    },
+    {
+      "category": "AI Assistant (Hindi)",
+      "name": "दुर्घटनाओं के मुख्य आवर्ती कारण क्या हैं",
+      "status": "PASS",
+      "details": "यह एआई सहायक विशेष रूप से खनन सुरक्षा और कोयला खदान शासन, सुरक्षा, वैधानिक अनुपा"
+    },
+    {
+      "category": "AI Guardrails",
+      "name": "Out-of-scope query rejection",
+      "status": "PASS",
+      "details": "Politely handled statutory topic boundary"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "1. Create Statutory Inspection",
+      "status": "PASS",
+      "details": "Inspection created via lifecycle"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "2. Record Observation with Finding",
+      "status": "PASS",
+      "details": "Observation ID: Recorded"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "3. Violation Traceability",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "4. Deterministic Risk Score",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "5. Cryptographic Audit Trail",
+      "status": "PASS",
+      "details": "HTTP 200"
+    },
+    {
+      "category": "Core Workflow",
+      "name": "6. Statutory Compliance Report Export",
+      "status": "PASS",
+      "details": "HTTP 200"
+    }
+  ]
+}

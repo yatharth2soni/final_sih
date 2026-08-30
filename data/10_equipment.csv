@@ -1,0 +1,501 @@
+equipment_id,mine_id,equipment_name,equipment_type,manufacturer,model,year_manufactured,operating_hours,last_maintenance_date,next_maintenance_date,fuel_type,fuel_consumption,breakdown_count,last_breakdown_date,breakdown_reason,sensor_anomalies,status
+EQ-000,JH-002,Drill Rig 0,Drill Rig,Atlas Copco,Atl-1047,2014,17246,2023-05-19,2023-10-24,Diesel,59.11,0,,,0,Operational
+EQ-001,JH-001,Roof Bolter 1,Roof Bolter,Sandvik,San-2889,2012,7010,2023-02-01,2023-05-15,Electric,0,9,2023-01-23,Hydraulic leak,6,Operational
+EQ-002,JH-001,Excavator 2,Excavator,Sandvik,San-5254,2010,29652,2023-12-07,2024-01-30,Diesel,38.52,5,2023-11-13,Jam,4,Operational
+EQ-003,CG-001,Excavator 3,Excavator,Ashok Leyland,Ash-4350,2017,28848,2023-02-02,2023-06-28,Diesel,36.04,7,2023-01-08,Jam,8,Operational
+EQ-004,CG-001,Excavator 4,Excavator,Sandvik,San-5729,2010,17262,2023-08-31,2024-02-14,Diesel,27.29,0,,,2,Operational
+EQ-005,JH-001,Loader 5,Loader,Tata,Tat-2892,2018,14835,2023-04-14,2023-09-01,Diesel,40.23,7,2023-04-03,Jam,7,Broken
+EQ-006,JH-003,Conveyor Belt 6,Conveyor Belt,Caterpillar,Cat-7198,2012,34525,2023-06-06,2023-07-07,Electric,0,1,2023-05-14,Jam,2,Operational
+EQ-007,JH-003,Roof Bolter 7,Roof Bolter,Komatsu,Kom-4002,2012,22554,2023-11-28,2024-02-29,Electric,0,4,2023-11-13,Jam,2,Operational
+EQ-008,OD-001,Drill Rig 8,Drill Rig,Komatsu,Kom-6546,2019,32083,2023-09-21,2023-12-19,Electric,0,8,2023-09-11,Electrical fault,5,Operational
+EQ-009,OD-002,Compressor 9,Compressor,Volvo,Vol-7347,2011,13531,2023-05-06,2023-08-22,Diesel,26.46,4,2023-04-06,Jam,2,Operational
+EQ-010,JH-003,Conveyor Belt 10,Conveyor Belt,Tata,Tat-9913,2014,23484,2023-03-26,2023-08-13,Electric,0,7,2023-03-03,Electrical fault,14,Operational
+EQ-011,JH-002,Drill Rig 11,Drill Rig,Volvo,Vol-9633,2012,31764,2023-04-23,2023-09-30,Electric,0,2,2023-03-27,Jam,7,Operational
+EQ-012,OD-001,Compressor 12,Compressor,Sandvik,San-6741,2020,14936,2023-05-26,2023-10-08,Diesel,48.57,9,2023-05-04,Electrical fault,15,Operational
+EQ-013,JH-002,Conveyor Belt 13,Conveyor Belt,Sandvik,San-2579,2018,18595,2023-02-07,2023-05-06,Diesel,44.35,7,2023-02-02,Engine issue,5,Operational
+EQ-014,OD-001,Compressor 14,Compressor,Tata,Tat-7032,2022,10566,2023-02-25,2023-06-13,Diesel,27.58,9,2023-02-23,Hydraulic leak,5,Operational
+EQ-015,JH-001,Compressor 15,Compressor,Komatsu,Kom-3875,2022,7060,2023-03-15,2023-08-06,Diesel,41.68,10,2023-03-04,Engine issue,6,Operational
+EQ-016,CG-002,Excavator 16,Excavator,Ashok Leyland,Ash-9288,2010,15331,2023-12-29,2024-05-09,Electric,0,6,2023-12-08,Electrical fault,3,Operational
+EQ-017,OD-002,Compressor 17,Compressor,Metso,Met-5157,2016,28200,2023-03-07,2023-06-08,Electric,0,7,2023-02-18,Electrical fault,4,Operational
+EQ-018,JH-002,Loader 18,Loader,Tata,Tat-8084,2022,27529,2023-04-03,2023-07-27,Electric,0,7,2023-03-17,Hydraulic leak,12,Operational
+EQ-019,CG-001,Roof Bolter 19,Roof Bolter,Caterpillar,Cat-3312,2014,23724,2023-08-05,2023-11-17,Electric,0,4,2023-07-24,Electrical fault,9,Operational
+EQ-020,JH-002,Compressor 20,Compressor,Ashok Leyland,Ash-4065,2023,12372,2023-07-11,2023-10-19,Diesel,39.05,7,2023-06-20,Jam,7,Operational
+EQ-021,OD-001,Excavator 21,Excavator,Caterpillar,Cat-2840,2018,32657,2023-02-24,2023-08-04,Electric,0,0,,,9,Operational
+EQ-022,OD-001,Roof Bolter 22,Roof Bolter,Atlas Copco,Atl-7354,2019,28416,2023-06-12,2023-09-26,Diesel,30.48,5,2023-06-11,Electrical fault,11,Maintenance
+EQ-023,JH-002,Loader 23,Loader,Sandvik,San-9960,2012,21241,2023-05-13,2023-08-11,Electric,0,6,2023-05-03,Engine issue,10,Operational
+EQ-024,CG-001,Roof Bolter 24,Roof Bolter,Atlas Copco,Atl-3590,2014,19133,2023-11-17,2023-12-24,Electric,0,6,2023-10-25,Jam,4,Operational
+EQ-025,JH-002,Excavator 25,Excavator,Caterpillar,Cat-9105,2015,5529,2023-10-22,2023-12-19,Electric,0,3,2023-10-01,Electrical fault,3,Operational
+EQ-026,OD-001,Dumper 26,Dumper,Metso,Met-5018,2016,17719,2023-07-02,2023-09-08,Electric,0,7,2023-06-27,Engine issue,8,Operational
+EQ-027,JH-002,Crusher 27,Crusher,Metso,Met-2030,2016,9039,2023-10-07,2024-02-27,Electric,0,4,2023-09-10,Engine issue,6,Operational
+EQ-028,JH-002,Loader 28,Loader,Komatsu,Kom-1464,2014,21100,2023-03-30,2023-08-10,Diesel,55.03,10,2023-03-27,Engine issue,2,Operational
+EQ-029,JH-002,Compressor 29,Compressor,Volvo,Vol-6677,2014,19594,2023-05-26,2023-11-02,Electric,0,10,2023-05-23,Electrical fault,7,Operational
+EQ-030,CG-001,Loader 30,Loader,Sandvik,San-4033,2020,24017,2023-05-20,2023-08-23,Diesel,55.64,1,2023-04-27,Hydraulic leak,13,Operational
+EQ-031,JH-001,Loader 31,Loader,Volvo,Vol-8632,2018,24767,2023-07-07,2023-09-10,Electric,0,3,2023-06-25,Engine issue,12,Operational
+EQ-032,JH-003,Crusher 32,Crusher,Sandvik,San-8114,2010,17199,2023-07-20,2023-10-26,Electric,0,4,2023-07-12,Engine issue,3,Operational
+EQ-033,OD-001,Conveyor Belt 33,Conveyor Belt,Sandvik,San-3494,2021,5330,2023-10-10,2024-03-27,Electric,0,9,2023-10-01,Engine issue,3,Operational
+EQ-034,JH-002,Drill Rig 34,Drill Rig,Metso,Met-5844,2019,34048,2023-12-02,2024-01-04,Electric,0,8,2023-11-27,Engine issue,4,Operational
+EQ-035,OD-001,Compressor 35,Compressor,Volvo,Vol-4314,2023,5475,2023-03-02,2023-05-20,Diesel,52.26,7,2023-02-06,Electrical fault,4,Broken
+EQ-036,CG-002,Dumper 36,Dumper,Ashok Leyland,Ash-1572,2023,8854,2023-03-10,2023-08-21,Electric,0,2,2023-03-04,Electrical fault,0,Operational
+EQ-037,JH-003,Roof Bolter 37,Roof Bolter,Sandvik,San-7154,2018,23263,2023-08-19,2023-09-30,Diesel,28.25,4,2023-07-25,Engine issue,2,Operational
+EQ-038,JH-003,Roof Bolter 38,Roof Bolter,Atlas Copco,Atl-9309,2015,23982,2023-08-30,2023-12-27,Diesel,59.91,4,2023-08-15,Hydraulic leak,6,Operational
+EQ-039,CG-002,Excavator 39,Excavator,Caterpillar,Cat-4272,2014,15153,2023-11-12,2024-01-07,Electric,0,5,2023-11-02,Engine issue,10,Operational
+EQ-040,CG-001,Drill Rig 40,Drill Rig,Komatsu,Kom-1909,2014,25072,2023-04-05,2023-06-06,Diesel,47.47,2,2023-03-23,Electrical fault,10,Broken
+EQ-041,JH-003,Roof Bolter 41,Roof Bolter,Ashok Leyland,Ash-6466,2015,5283,2023-03-17,2023-08-18,Electric,0,7,2023-03-14,Jam,1,Operational
+EQ-042,JH-002,Crusher 42,Crusher,Atlas Copco,Atl-1355,2017,12914,2023-02-24,2023-07-07,Diesel,41.14,4,2023-02-23,Engine issue,13,Operational
+EQ-043,CG-001,Excavator 43,Excavator,Tata,Tat-8008,2013,7520,2023-11-29,2024-02-11,Electric,0,4,2023-10-31,Engine issue,11,Maintenance
+EQ-044,OD-001,Dumper 44,Dumper,Tata,Tat-9993,2023,29707,2023-09-02,2023-11-13,Electric,0,6,2023-08-12,Jam,6,Operational
+EQ-045,JH-001,Excavator 45,Excavator,Komatsu,Kom-6207,2014,31063,2023-06-03,2023-07-29,Electric,0,0,,,4,Operational
+EQ-046,JH-003,Roof Bolter 46,Roof Bolter,Caterpillar,Cat-5586,2015,8079,2023-03-24,2023-09-18,Electric,0,7,2023-03-22,Engine issue,0,Operational
+EQ-047,JH-003,Dumper 47,Dumper,Ashok Leyland,Ash-4128,2016,19907,2023-02-21,2023-03-29,Diesel,51.66,5,2023-02-18,Jam,7,Operational
+EQ-048,CG-002,Drill Rig 48,Drill Rig,Ashok Leyland,Ash-2722,2016,31981,2023-08-12,2024-01-31,Electric,0,8,2023-07-15,Hydraulic leak,12,Operational
+EQ-049,JH-002,Roof Bolter 49,Roof Bolter,Sandvik,San-6126,2016,10902,2023-09-07,2024-02-27,Diesel,43.55,2,2023-08-31,Hydraulic leak,7,Operational
+EQ-050,JH-002,Loader 50,Loader,Caterpillar,Cat-2167,2014,24588,2023-08-30,2023-12-20,Diesel,56.73,6,2023-08-06,Hydraulic leak,12,Operational
+EQ-051,CG-002,Dumper 51,Dumper,Sandvik,San-1371,2017,13879,2023-09-19,2024-03-10,Diesel,27.69,9,2023-09-05,Hydraulic leak,6,Operational
+EQ-052,CG-001,Roof Bolter 52,Roof Bolter,Komatsu,Kom-5441,2011,9260,2023-04-23,2023-08-02,Electric,0,5,2023-04-07,Jam,1,Operational
+EQ-053,OD-001,Conveyor Belt 53,Conveyor Belt,Metso,Met-2807,2013,10043,2023-06-16,2023-08-31,Diesel,43.91,1,2023-06-13,Engine issue,9,Operational
+EQ-054,JH-001,Conveyor Belt 54,Conveyor Belt,Volvo,Vol-7182,2020,16859,2023-04-02,2023-09-22,Electric,0,7,2023-03-21,Electrical fault,4,Operational
+EQ-055,JH-003,Dumper 55,Dumper,Metso,Met-1538,2012,13928,2023-02-14,2023-08-09,Diesel,57.36,4,2023-01-28,Engine issue,2,Operational
+EQ-056,CG-002,Crusher 56,Crusher,Komatsu,Kom-4710,2010,17001,2023-12-19,2024-03-25,Diesel,37.64,0,,,12,Operational
+EQ-057,CG-002,Drill Rig 57,Drill Rig,Sandvik,San-2311,2022,12264,2023-09-02,2023-10-24,Diesel,36.35,2,2023-08-19,Hydraulic leak,8,Operational
+EQ-058,CG-002,Crusher 58,Crusher,Caterpillar,Cat-3157,2020,30238,2023-03-01,2023-08-22,Diesel,38.82,8,2023-02-08,Hydraulic leak,1,Retired
+EQ-059,JH-003,Loader 59,Loader,Sandvik,San-4103,2020,14212,2023-08-20,2023-12-28,Electric,0,5,2023-07-31,Jam,15,Operational
+EQ-060,OD-002,Conveyor Belt 60,Conveyor Belt,Caterpillar,Cat-5892,2020,17162,2023-10-14,2024-04-04,Diesel,41.09,6,2023-10-05,Jam,10,Operational
+EQ-061,CG-002,Dumper 61,Dumper,Ashok Leyland,Ash-7347,2010,8596,2023-12-13,2024-03-24,Electric,0,4,2023-11-27,Hydraulic leak,10,Operational
+EQ-062,JH-003,Roof Bolter 62,Roof Bolter,Komatsu,Kom-5809,2014,14250,2023-05-05,2023-09-19,Electric,0,7,2023-04-07,Engine issue,4,Operational
+EQ-063,JH-002,Loader 63,Loader,Sandvik,San-5519,2023,14458,2023-08-05,2023-09-20,Electric,0,0,,,13,Retired
+EQ-064,OD-002,Compressor 64,Compressor,Sandvik,San-6527,2016,20298,2023-07-18,2023-09-15,Diesel,22.75,8,2023-07-12,Electrical fault,3,Operational
+EQ-065,JH-002,Compressor 65,Compressor,Volvo,Vol-6054,2019,29298,2023-04-11,2023-08-25,Electric,0,9,2023-03-23,Hydraulic leak,11,Operational
+EQ-066,CG-002,Dumper 66,Dumper,Ashok Leyland,Ash-9316,2017,5081,2023-10-22,2024-04-15,Diesel,43.87,3,2023-09-22,Hydraulic leak,4,Operational
+EQ-067,CG-001,Drill Rig 67,Drill Rig,Tata,Tat-4333,2020,34998,2023-07-20,2023-08-24,Diesel,47.45,4,2023-06-22,Electrical fault,5,Maintenance
+EQ-068,OD-001,Excavator 68,Excavator,Volvo,Vol-6193,2010,14863,2023-10-07,2024-01-05,Diesel,36.51,4,2023-10-01,Engine issue,4,Operational
+EQ-069,CG-001,Conveyor Belt 69,Conveyor Belt,Tata,Tat-3871,2014,22532,2023-05-03,2023-08-21,Electric,0,9,2023-05-02,Engine issue,15,Operational
+EQ-070,JH-003,Compressor 70,Compressor,Komatsu,Kom-5914,2012,19686,2023-11-04,2024-02-10,Diesel,36.69,4,2023-10-08,Hydraulic leak,3,Operational
+EQ-071,OD-002,Loader 71,Loader,Volvo,Vol-4196,2023,26319,2023-04-18,2023-05-23,Diesel,59.65,1,2023-04-15,Jam,14,Operational
+EQ-072,JH-002,Loader 72,Loader,Komatsu,Kom-2923,2023,12099,2023-09-09,2024-02-15,Electric,0,7,2023-08-15,Electrical fault,0,Operational
+EQ-073,OD-002,Excavator 73,Excavator,Volvo,Vol-8788,2017,27851,2023-01-06,2023-02-28,Electric,0,3,2022-12-09,Engine issue,6,Operational
+EQ-074,JH-002,Compressor 74,Compressor,Caterpillar,Cat-6838,2021,9100,2024-01-01,2024-02-22,Electric,0,10,2023-12-08,Engine issue,0,Operational
+EQ-075,OD-002,Roof Bolter 75,Roof Bolter,Metso,Met-5666,2010,26749,2023-04-28,2023-08-09,Electric,0,5,2023-04-12,Hydraulic leak,4,Operational
+EQ-076,JH-002,Dumper 76,Dumper,Volvo,Vol-5993,2020,32517,2023-03-24,2023-05-31,Electric,0,8,2023-02-24,Hydraulic leak,9,Operational
+EQ-077,JH-001,Conveyor Belt 77,Conveyor Belt,Caterpillar,Cat-1432,2015,27711,2023-03-27,2023-07-04,Electric,0,3,2023-03-22,Electrical fault,15,Operational
+EQ-078,JH-001,Conveyor Belt 78,Conveyor Belt,Sandvik,San-9150,2023,17659,2023-01-07,2023-06-01,Diesel,36.89,9,2022-12-27,Jam,9,Operational
+EQ-079,JH-002,Excavator 79,Excavator,Caterpillar,Cat-2341,2022,7889,2023-03-05,2023-04-27,Electric,0,3,2023-02-05,Hydraulic leak,3,Maintenance
+EQ-080,JH-001,Drill Rig 80,Drill Rig,Caterpillar,Cat-2457,2020,13922,2023-05-19,2023-10-20,Electric,0,1,2023-05-13,Hydraulic leak,10,Operational
+EQ-081,JH-003,Conveyor Belt 81,Conveyor Belt,Volvo,Vol-6572,2013,22991,2023-06-05,2023-08-25,Electric,0,3,2023-05-20,Engine issue,4,Operational
+EQ-082,JH-001,Drill Rig 82,Drill Rig,Tata,Tat-8180,2021,31861,2023-08-08,2023-09-07,Diesel,41.77,1,2023-08-04,Hydraulic leak,12,Operational
+EQ-083,CG-002,Drill Rig 83,Drill Rig,Atlas Copco,Atl-9735,2022,28194,2023-01-20,2023-04-07,Electric,0,10,2023-01-06,Electrical fault,0,Operational
+EQ-084,JH-003,Conveyor Belt 84,Conveyor Belt,Tata,Tat-4596,2014,9191,2023-09-28,2023-11-30,Electric,0,7,2023-09-04,Electrical fault,9,Operational
+EQ-085,CG-002,Roof Bolter 85,Roof Bolter,Volvo,Vol-4171,2019,8781,2023-06-14,2023-10-08,Electric,0,9,2023-05-30,Engine issue,11,Operational
+EQ-086,OD-001,Conveyor Belt 86,Conveyor Belt,Caterpillar,Cat-9347,2023,22018,2023-10-02,2024-03-12,Diesel,53.69,8,2023-09-02,Hydraulic leak,6,Operational
+EQ-087,OD-002,Excavator 87,Excavator,Komatsu,Kom-9049,2015,23639,2023-01-11,2023-04-08,Diesel,22.99,2,2022-12-14,Engine issue,7,Operational
+EQ-088,JH-003,Dumper 88,Dumper,Metso,Met-6515,2020,34826,2023-05-07,2023-06-24,Electric,0,0,,,5,Operational
+EQ-089,OD-002,Crusher 89,Crusher,Sandvik,San-4063,2016,11494,2023-06-30,2023-08-10,Electric,0,4,2023-06-21,Jam,12,Operational
+EQ-090,OD-002,Crusher 90,Crusher,Komatsu,Kom-3274,2018,27407,2023-06-27,2023-11-26,Electric,0,10,2023-06-19,Electrical fault,2,Operational
+EQ-091,OD-001,Drill Rig 91,Drill Rig,Komatsu,Kom-8606,2016,15399,2023-01-14,2023-05-06,Diesel,21.19,2,2022-12-31,Jam,6,Broken
+EQ-092,CG-002,Excavator 92,Excavator,Atlas Copco,Atl-9453,2017,32063,2023-11-15,2023-12-19,Diesel,45.33,8,2023-11-09,Electrical fault,11,Operational
+EQ-093,OD-001,Dumper 93,Dumper,Metso,Met-1466,2018,34170,2023-01-29,2023-03-30,Diesel,48.11,7,2023-01-02,Engine issue,14,Operational
+EQ-094,OD-001,Drill Rig 94,Drill Rig,Metso,Met-1501,2010,13130,2023-09-06,2023-10-12,Electric,0,9,2023-08-27,Hydraulic leak,1,Maintenance
+EQ-095,CG-001,Dumper 95,Dumper,Tata,Tat-2408,2016,17839,2023-01-13,2023-03-03,Diesel,59.93,0,,,4,Operational
+EQ-096,OD-002,Conveyor Belt 96,Conveyor Belt,Tata,Tat-1433,2011,12064,2023-01-29,2023-04-28,Diesel,59.42,2,2023-01-03,Electrical fault,9,Operational
+EQ-097,JH-003,Excavator 97,Excavator,Volvo,Vol-2550,2013,20057,2023-09-19,2023-12-25,Electric,0,8,2023-09-01,Engine issue,12,Operational
+EQ-098,JH-002,Dumper 98,Dumper,Sandvik,San-9014,2013,27747,2023-05-09,2023-07-24,Diesel,46.81,5,2023-05-01,Jam,14,Retired
+EQ-099,OD-001,Drill Rig 99,Drill Rig,Komatsu,Kom-7188,2012,9884,2023-09-24,2023-10-30,Diesel,41.88,5,2023-09-18,Jam,8,Broken
+EQ-100,OD-001,Excavator 100,Excavator,Metso,Met-2249,2021,5078,2023-02-26,2023-06-07,Diesel,41.88,4,2023-02-10,Engine issue,7,Broken
+EQ-101,OD-001,Loader 101,Loader,Atlas Copco,Atl-6130,2019,18076,2023-11-14,2024-01-18,Diesel,39.66,2,2023-10-19,Hydraulic leak,8,Operational
+EQ-102,JH-002,Drill Rig 102,Drill Rig,Tata,Tat-4987,2020,24430,2023-02-02,2023-04-19,Diesel,55.87,8,2023-01-21,Engine issue,14,Operational
+EQ-103,OD-001,Loader 103,Loader,Komatsu,Kom-7934,2023,17442,2023-03-10,2023-05-21,Diesel,23.44,7,2023-03-09,Jam,5,Maintenance
+EQ-104,JH-003,Conveyor Belt 104,Conveyor Belt,Tata,Tat-4386,2015,20642,2023-03-08,2023-04-10,Diesel,48.24,9,2023-02-15,Jam,2,Maintenance
+EQ-105,CG-001,Roof Bolter 105,Roof Bolter,Tata,Tat-6300,2014,27418,2023-12-30,2024-04-14,Electric,0,9,2023-12-06,Hydraulic leak,14,Operational
+EQ-106,JH-001,Excavator 106,Excavator,Komatsu,Kom-8315,2023,7457,2023-11-05,2024-03-20,Electric,0,2,2023-10-17,Jam,12,Maintenance
+EQ-107,CG-001,Conveyor Belt 107,Conveyor Belt,Ashok Leyland,Ash-1783,2014,30628,2023-11-22,2024-02-23,Electric,0,0,,,11,Operational
+EQ-108,JH-001,Dumper 108,Dumper,Sandvik,San-9212,2010,28654,2023-07-31,2023-12-21,Electric,0,0,,,13,Maintenance
+EQ-109,CG-001,Dumper 109,Dumper,Metso,Met-7065,2022,27410,2023-08-29,2024-01-21,Electric,0,8,2023-07-30,Engine issue,14,Operational
+EQ-110,JH-002,Loader 110,Loader,Volvo,Vol-8870,2013,24035,2023-03-08,2023-07-19,Diesel,49.97,9,2023-03-03,Engine issue,9,Operational
+EQ-111,OD-001,Excavator 111,Excavator,Caterpillar,Cat-7728,2021,20740,2023-02-28,2023-04-10,Diesel,31.83,9,2023-02-25,Engine issue,13,Operational
+EQ-112,CG-001,Excavator 112,Excavator,Sandvik,San-5342,2011,28444,2023-07-16,2023-12-06,Electric,0,3,2023-06-16,Jam,3,Operational
+EQ-113,OD-002,Drill Rig 113,Drill Rig,Tata,Tat-3173,2013,30127,2023-01-07,2023-06-23,Diesel,53.59,4,2022-12-17,Jam,13,Operational
+EQ-114,CG-001,Compressor 114,Compressor,Volvo,Vol-2229,2021,27288,2023-02-03,2023-04-10,Electric,0,2,2023-02-02,Electrical fault,13,Retired
+EQ-115,CG-002,Drill Rig 115,Drill Rig,Komatsu,Kom-6994,2010,9450,2023-03-03,2023-06-18,Electric,0,5,2023-02-21,Jam,5,Operational
+EQ-116,CG-002,Excavator 116,Excavator,Volvo,Vol-1715,2015,12841,2023-04-10,2023-07-01,Electric,0,3,2023-03-29,Hydraulic leak,7,Operational
+EQ-117,JH-002,Dumper 117,Dumper,Tata,Tat-4634,2014,7579,2023-06-19,2023-10-25,Electric,0,4,2023-06-08,Hydraulic leak,3,Operational
+EQ-118,CG-001,Compressor 118,Compressor,Atlas Copco,Atl-9323,2013,13872,2023-03-30,2023-08-05,Electric,0,8,2023-03-12,Engine issue,1,Operational
+EQ-119,CG-001,Drill Rig 119,Drill Rig,Ashok Leyland,Ash-6752,2019,8043,2023-03-02,2023-08-22,Diesel,31.74,0,,,9,Maintenance
+EQ-120,CG-002,Dumper 120,Dumper,Metso,Met-1176,2018,21909,2023-12-23,2024-05-25,Electric,0,3,2023-11-24,Electrical fault,14,Operational
+EQ-121,CG-002,Crusher 121,Crusher,Caterpillar,Cat-2837,2015,18539,2023-06-24,2023-11-07,Electric,0,8,2023-05-28,Electrical fault,2,Maintenance
+EQ-122,OD-001,Loader 122,Loader,Komatsu,Kom-4394,2022,22007,2023-12-05,2024-01-24,Diesel,52.06,5,2023-11-06,Jam,3,Operational
+EQ-123,JH-001,Dumper 123,Dumper,Caterpillar,Cat-7001,2021,30488,2023-10-30,2024-04-02,Diesel,44.5,7,2023-10-28,Jam,9,Operational
+EQ-124,CG-002,Conveyor Belt 124,Conveyor Belt,Metso,Met-9258,2010,33407,2023-07-10,2023-11-05,Electric,0,2,2023-06-26,Engine issue,13,Operational
+EQ-125,OD-001,Dumper 125,Dumper,Sandvik,San-7711,2023,23979,2023-12-11,2024-05-11,Diesel,44.48,0,,,6,Maintenance
+EQ-126,CG-001,Compressor 126,Compressor,Ashok Leyland,Ash-7594,2011,16733,2023-09-07,2023-12-21,Diesel,52.37,9,2023-09-05,Jam,0,Operational
+EQ-127,JH-001,Loader 127,Loader,Volvo,Vol-9792,2011,22779,2023-04-19,2023-06-13,Diesel,35.72,2,2023-04-09,Engine issue,11,Operational
+EQ-128,JH-002,Loader 128,Loader,Metso,Met-3845,2022,8315,2023-12-28,2024-04-08,Diesel,42.03,2,2023-12-03,Jam,0,Operational
+EQ-129,OD-002,Conveyor Belt 129,Conveyor Belt,Caterpillar,Cat-9143,2014,5546,2023-08-08,2024-01-25,Electric,0,6,2023-07-21,Jam,2,Operational
+EQ-130,JH-002,Roof Bolter 130,Roof Bolter,Sandvik,San-5996,2019,5617,2023-11-03,2024-04-15,Electric,0,1,2023-11-01,Electrical fault,2,Operational
+EQ-131,OD-002,Dumper 131,Dumper,Caterpillar,Cat-4098,2012,6860,2023-05-06,2023-06-29,Electric,0,6,2023-04-16,Engine issue,12,Operational
+EQ-132,OD-002,Loader 132,Loader,Ashok Leyland,Ash-2210,2021,25058,2023-10-11,2024-02-22,Electric,0,9,2023-09-16,Jam,8,Operational
+EQ-133,CG-001,Loader 133,Loader,Atlas Copco,Atl-6085,2021,15351,2023-03-25,2023-05-26,Diesel,41.9,3,2023-03-01,Jam,12,Operational
+EQ-134,JH-002,Dumper 134,Dumper,Komatsu,Kom-6293,2019,15392,2023-01-08,2023-04-25,Electric,0,3,2022-12-16,Jam,5,Operational
+EQ-135,JH-003,Drill Rig 135,Drill Rig,Metso,Met-6272,2017,28045,2023-04-08,2023-07-12,Diesel,25.3,10,2023-04-07,Electrical fault,4,Operational
+EQ-136,JH-001,Conveyor Belt 136,Conveyor Belt,Caterpillar,Cat-5671,2012,12808,2023-02-08,2023-04-24,Diesel,47.56,1,2023-01-24,Hydraulic leak,3,Operational
+EQ-137,OD-002,Excavator 137,Excavator,Atlas Copco,Atl-7457,2013,13991,2023-02-19,2023-05-03,Electric,0,0,,,8,Broken
+EQ-138,OD-002,Conveyor Belt 138,Conveyor Belt,Tata,Tat-6157,2011,7020,2023-03-28,2023-09-10,Electric,0,3,2023-03-24,Jam,11,Operational
+EQ-139,CG-002,Crusher 139,Crusher,Komatsu,Kom-1848,2013,9472,2023-05-17,2023-08-01,Diesel,45.09,6,2023-04-24,Jam,13,Operational
+EQ-140,CG-002,Crusher 140,Crusher,Sandvik,San-3844,2018,29525,2023-04-11,2023-08-09,Diesel,27.75,2,2023-03-14,Jam,15,Operational
+EQ-141,JH-003,Compressor 141,Compressor,Metso,Met-8511,2019,24469,2023-11-19,2024-01-09,Diesel,52.89,2,2023-10-31,Electrical fault,13,Operational
+EQ-142,CG-002,Roof Bolter 142,Roof Bolter,Sandvik,San-4444,2015,10947,2023-07-25,2023-12-20,Electric,0,8,2023-07-24,Hydraulic leak,7,Operational
+EQ-143,JH-003,Loader 143,Loader,Volvo,Vol-5346,2018,17020,2023-04-06,2023-05-26,Diesel,23.03,4,2023-03-22,Jam,1,Operational
+EQ-144,OD-002,Crusher 144,Crusher,Komatsu,Kom-7847,2021,6914,2023-07-26,2023-12-03,Diesel,28.81,5,2023-07-03,Hydraulic leak,11,Operational
+EQ-145,JH-002,Loader 145,Loader,Atlas Copco,Atl-3667,2013,6863,2023-09-20,2023-12-06,Electric,0,2,2023-09-12,Engine issue,5,Maintenance
+EQ-146,JH-001,Drill Rig 146,Drill Rig,Tata,Tat-6061,2015,25910,2023-09-26,2024-03-11,Diesel,49.43,6,2023-09-24,Engine issue,5,Operational
+EQ-147,JH-003,Dumper 147,Dumper,Metso,Met-2088,2015,33754,2023-01-02,2023-06-24,Electric,0,9,2022-12-10,Jam,7,Operational
+EQ-148,JH-001,Roof Bolter 148,Roof Bolter,Komatsu,Kom-2345,2016,6432,2023-08-30,2023-10-07,Electric,0,8,2023-08-02,Jam,13,Operational
+EQ-149,OD-002,Conveyor Belt 149,Conveyor Belt,Sandvik,San-4526,2013,20518,2023-06-02,2023-09-12,Diesel,25.7,0,,,1,Maintenance
+EQ-150,JH-002,Crusher 150,Crusher,Komatsu,Kom-5990,2023,15128,2023-07-30,2024-01-18,Electric,0,4,2023-07-01,Electrical fault,5,Operational
+EQ-151,JH-003,Drill Rig 151,Drill Rig,Tata,Tat-9183,2016,16570,2023-07-28,2023-09-30,Electric,0,10,2023-07-15,Jam,6,Operational
+EQ-152,OD-002,Drill Rig 152,Drill Rig,Metso,Met-4468,2020,28319,2023-08-09,2023-12-15,Diesel,56.65,9,2023-07-29,Electrical fault,13,Operational
+EQ-153,CG-001,Conveyor Belt 153,Conveyor Belt,Volvo,Vol-7972,2010,22962,2023-06-07,2023-08-26,Diesel,38.01,8,2023-05-08,Hydraulic leak,3,Operational
+EQ-154,OD-002,Roof Bolter 154,Roof Bolter,Atlas Copco,Atl-7122,2017,7878,2023-12-04,2024-05-06,Electric,0,1,2023-11-07,Jam,4,Operational
+EQ-155,JH-003,Roof Bolter 155,Roof Bolter,Volvo,Vol-6152,2018,9803,2023-10-17,2024-01-01,Diesel,21.13,6,2023-10-09,Electrical fault,5,Operational
+EQ-156,OD-001,Dumper 156,Dumper,Ashok Leyland,Ash-5537,2013,28575,2023-10-02,2023-12-10,Diesel,43.44,1,2023-09-25,Electrical fault,0,Operational
+EQ-157,JH-002,Dumper 157,Dumper,Komatsu,Kom-8210,2014,17261,2023-03-14,2023-04-15,Diesel,39.3,9,2023-03-07,Engine issue,5,Operational
+EQ-158,JH-003,Compressor 158,Compressor,Ashok Leyland,Ash-5451,2019,23867,2023-09-04,2023-10-13,Electric,0,7,2023-08-19,Jam,10,Operational
+EQ-159,JH-003,Crusher 159,Crusher,Komatsu,Kom-5545,2010,18187,2023-03-03,2023-07-26,Diesel,36.67,0,,,12,Operational
+EQ-160,OD-001,Dumper 160,Dumper,Metso,Met-3568,2018,19604,2023-11-24,2024-03-04,Diesel,46.32,1,2023-11-13,Electrical fault,10,Operational
+EQ-161,JH-002,Drill Rig 161,Drill Rig,Atlas Copco,Atl-8909,2021,8781,2023-12-28,2024-04-30,Electric,0,8,2023-12-18,Jam,11,Operational
+EQ-162,JH-001,Drill Rig 162,Drill Rig,Komatsu,Kom-9107,2011,11922,2023-04-12,2023-06-26,Electric,0,2,2023-03-28,Hydraulic leak,5,Operational
+EQ-163,CG-001,Drill Rig 163,Drill Rig,Komatsu,Kom-4902,2018,29802,2023-08-17,2023-10-13,Electric,0,8,2023-08-13,Electrical fault,11,Operational
+EQ-164,CG-001,Conveyor Belt 164,Conveyor Belt,Sandvik,San-3203,2023,24586,2023-11-13,2024-04-01,Diesel,52.86,4,2023-11-09,Electrical fault,5,Operational
+EQ-165,CG-001,Excavator 165,Excavator,Komatsu,Kom-7064,2023,12068,2023-05-18,2023-09-22,Diesel,30.56,10,2023-05-01,Engine issue,12,Operational
+EQ-166,CG-002,Excavator 166,Excavator,Tata,Tat-2292,2020,27335,2023-08-09,2023-11-17,Electric,0,6,2023-07-20,Hydraulic leak,8,Operational
+EQ-167,OD-002,Conveyor Belt 167,Conveyor Belt,Sandvik,San-3712,2012,25906,2023-01-30,2023-06-25,Diesel,29.94,9,2023-01-14,Engine issue,4,Operational
+EQ-168,OD-001,Drill Rig 168,Drill Rig,Metso,Met-6392,2011,12683,2023-11-01,2024-04-15,Diesel,59.82,1,2023-10-13,Jam,11,Operational
+EQ-169,CG-002,Compressor 169,Compressor,Komatsu,Kom-6204,2021,26706,2023-09-12,2024-01-12,Diesel,26.93,4,2023-08-17,Jam,3,Operational
+EQ-170,JH-002,Excavator 170,Excavator,Caterpillar,Cat-6512,2014,21559,2023-05-04,2023-09-21,Diesel,49.54,10,2023-05-02,Engine issue,9,Operational
+EQ-171,OD-001,Loader 171,Loader,Volvo,Vol-5601,2020,29567,2023-05-23,2023-08-17,Electric,0,0,,,6,Operational
+EQ-172,JH-001,Roof Bolter 172,Roof Bolter,Tata,Tat-8003,2023,28921,2023-11-20,2024-03-23,Electric,0,4,2023-10-21,Jam,0,Operational
+EQ-173,JH-002,Excavator 173,Excavator,Ashok Leyland,Ash-1197,2010,28678,2023-05-17,2023-07-31,Electric,0,3,2023-05-14,Electrical fault,9,Operational
+EQ-174,OD-001,Conveyor Belt 174,Conveyor Belt,Komatsu,Kom-6876,2015,12497,2023-09-28,2024-03-07,Diesel,50.71,9,2023-08-31,Jam,0,Operational
+EQ-175,JH-001,Excavator 175,Excavator,Tata,Tat-9781,2018,13919,2023-04-13,2023-05-15,Diesel,44.34,0,,,4,Operational
+EQ-176,OD-002,Conveyor Belt 176,Conveyor Belt,Sandvik,San-6323,2022,31297,2023-04-08,2023-07-17,Electric,0,7,2023-03-15,Jam,0,Operational
+EQ-177,JH-002,Excavator 177,Excavator,Volvo,Vol-2960,2017,32771,2023-01-17,2023-03-22,Electric,0,3,2023-01-04,Engine issue,3,Operational
+EQ-178,OD-001,Roof Bolter 178,Roof Bolter,Volvo,Vol-9234,2017,24360,2023-02-19,2023-07-10,Diesel,48.18,2,2023-01-24,Electrical fault,13,Maintenance
+EQ-179,OD-001,Conveyor Belt 179,Conveyor Belt,Atlas Copco,Atl-5674,2016,5261,2023-10-27,2024-02-28,Electric,0,7,2023-10-09,Hydraulic leak,0,Operational
+EQ-180,OD-002,Loader 180,Loader,Atlas Copco,Atl-7437,2021,13316,2023-05-28,2023-08-03,Electric,0,5,2023-05-10,Jam,13,Operational
+EQ-181,JH-002,Loader 181,Loader,Tata,Tat-1534,2015,31093,2023-09-19,2023-11-20,Electric,0,2,2023-09-18,Hydraulic leak,2,Operational
+EQ-182,CG-002,Excavator 182,Excavator,Ashok Leyland,Ash-6508,2011,27954,2023-06-18,2023-12-06,Diesel,38.47,4,2023-06-13,Jam,15,Operational
+EQ-183,JH-002,Dumper 183,Dumper,Tata,Tat-5675,2017,23506,2023-11-11,2024-01-24,Diesel,39.22,6,2023-10-12,Engine issue,1,Operational
+EQ-184,JH-003,Dumper 184,Dumper,Sandvik,San-4834,2017,23545,2023-03-27,2023-08-17,Electric,0,5,2023-03-11,Hydraulic leak,9,Operational
+EQ-185,JH-001,Dumper 185,Dumper,Komatsu,Kom-1270,2014,33251,2023-01-28,2023-03-13,Diesel,57.44,2,2023-01-14,Hydraulic leak,6,Operational
+EQ-186,CG-001,Conveyor Belt 186,Conveyor Belt,Caterpillar,Cat-2799,2010,29497,2023-02-09,2023-04-29,Diesel,25.44,3,2023-01-29,Jam,9,Operational
+EQ-187,JH-003,Compressor 187,Compressor,Volvo,Vol-1199,2020,15813,2023-01-06,2023-02-14,Electric,0,10,2022-12-28,Engine issue,0,Maintenance
+EQ-188,CG-001,Loader 188,Loader,Caterpillar,Cat-8702,2021,29893,2023-09-27,2024-02-17,Electric,0,7,2023-08-28,Hydraulic leak,10,Operational
+EQ-189,OD-001,Roof Bolter 189,Roof Bolter,Caterpillar,Cat-5689,2014,19777,2023-08-20,2023-10-12,Diesel,31.46,2,2023-07-28,Jam,14,Operational
+EQ-190,CG-001,Crusher 190,Crusher,Caterpillar,Cat-4173,2021,27835,2023-09-17,2024-01-28,Diesel,24.27,6,2023-08-27,Hydraulic leak,13,Operational
+EQ-191,OD-002,Dumper 191,Dumper,Tata,Tat-7745,2023,14491,2023-02-21,2023-05-28,Electric,0,2,2023-01-25,Hydraulic leak,0,Operational
+EQ-192,JH-003,Roof Bolter 192,Roof Bolter,Sandvik,San-5481,2014,19038,2023-04-05,2023-08-20,Electric,0,5,2023-03-14,Electrical fault,11,Operational
+EQ-193,OD-001,Drill Rig 193,Drill Rig,Caterpillar,Cat-6210,2018,17697,2023-07-17,2023-11-03,Diesel,27.4,2,2023-06-30,Engine issue,15,Operational
+EQ-194,JH-003,Roof Bolter 194,Roof Bolter,Komatsu,Kom-6136,2017,13817,2023-02-24,2023-07-07,Electric,0,3,2023-02-20,Engine issue,13,Operational
+EQ-195,JH-003,Roof Bolter 195,Roof Bolter,Atlas Copco,Atl-4120,2013,5246,2023-09-15,2023-12-09,Diesel,41.7,1,2023-08-19,Electrical fault,7,Operational
+EQ-196,JH-001,Drill Rig 196,Drill Rig,Volvo,Vol-7530,2017,32466,2023-06-29,2023-11-24,Electric,0,0,,,11,Operational
+EQ-197,JH-003,Crusher 197,Crusher,Metso,Met-6530,2022,27662,2023-09-06,2023-11-12,Diesel,21.04,9,2023-08-27,Engine issue,11,Operational
+EQ-198,CG-002,Crusher 198,Crusher,Metso,Met-1201,2016,22023,2023-01-12,2023-05-22,Diesel,23.02,4,2023-01-05,Hydraulic leak,2,Maintenance
+EQ-199,OD-001,Conveyor Belt 199,Conveyor Belt,Komatsu,Kom-8862,2019,5560,2023-12-27,2024-05-08,Electric,0,2,2023-12-04,Engine issue,14,Operational
+EQ-200,JH-002,Roof Bolter 200,Roof Bolter,Ashok Leyland,Ash-1601,2022,9761,2023-04-20,2023-07-26,Diesel,53.44,10,2023-04-04,Hydraulic leak,15,Maintenance
+EQ-201,JH-001,Dumper 201,Dumper,Volvo,Vol-5301,2010,13377,2023-12-06,2024-05-21,Diesel,37.41,9,2023-11-11,Electrical fault,2,Maintenance
+EQ-202,JH-001,Dumper 202,Dumper,Ashok Leyland,Ash-7607,2022,28795,2023-01-30,2023-04-19,Diesel,22.84,7,2023-01-24,Jam,10,Broken
+EQ-203,OD-002,Excavator 203,Excavator,Metso,Met-2341,2022,31277,2023-11-11,2024-04-22,Diesel,35.42,9,2023-10-19,Jam,4,Operational
+EQ-204,CG-002,Compressor 204,Compressor,Tata,Tat-9458,2019,16958,2023-03-23,2023-05-21,Diesel,40.73,8,2023-03-03,Hydraulic leak,12,Operational
+EQ-205,JH-003,Drill Rig 205,Drill Rig,Caterpillar,Cat-9636,2019,27106,2023-08-13,2024-02-05,Electric,0,6,2023-08-08,Hydraulic leak,11,Operational
+EQ-206,JH-003,Dumper 206,Dumper,Atlas Copco,Atl-1832,2010,33406,2023-09-02,2023-11-24,Electric,0,9,2023-08-21,Jam,9,Operational
+EQ-207,JH-002,Conveyor Belt 207,Conveyor Belt,Tata,Tat-3617,2018,23191,2023-07-04,2023-11-19,Diesel,27.89,4,2023-06-28,Jam,6,Operational
+EQ-208,CG-001,Loader 208,Loader,Tata,Tat-7380,2010,29442,2023-05-27,2023-07-31,Electric,0,9,2023-05-24,Hydraulic leak,5,Operational
+EQ-209,JH-003,Roof Bolter 209,Roof Bolter,Ashok Leyland,Ash-7869,2020,31217,2023-09-03,2023-11-15,Diesel,33.7,7,2023-08-25,Electrical fault,3,Operational
+EQ-210,CG-001,Compressor 210,Compressor,Tata,Tat-4221,2014,34402,2023-07-07,2023-11-17,Electric,0,8,2023-06-29,Engine issue,7,Operational
+EQ-211,OD-002,Dumper 211,Dumper,Komatsu,Kom-3382,2015,19831,2023-05-19,2023-09-05,Diesel,39.42,2,2023-04-30,Jam,0,Operational
+EQ-212,CG-001,Drill Rig 212,Drill Rig,Metso,Met-1546,2023,14300,2023-05-02,2023-07-13,Diesel,54.03,4,2023-04-07,Hydraulic leak,6,Operational
+EQ-213,JH-002,Drill Rig 213,Drill Rig,Tata,Tat-3375,2018,5141,2023-08-17,2023-10-07,Diesel,24.87,7,2023-08-02,Hydraulic leak,13,Operational
+EQ-214,OD-001,Conveyor Belt 214,Conveyor Belt,Caterpillar,Cat-5903,2020,21045,2023-12-17,2024-02-13,Diesel,59.19,5,2023-12-12,Engine issue,7,Operational
+EQ-215,JH-003,Drill Rig 215,Drill Rig,Ashok Leyland,Ash-2920,2017,13657,2023-05-25,2023-07-08,Diesel,26.27,10,2023-05-07,Electrical fault,5,Operational
+EQ-216,CG-002,Loader 216,Loader,Ashok Leyland,Ash-4944,2017,23328,2023-12-14,2024-01-14,Diesel,48.38,7,2023-11-25,Electrical fault,9,Operational
+EQ-217,OD-002,Dumper 217,Dumper,Komatsu,Kom-6332,2014,9967,2023-08-26,2023-12-28,Diesel,46.66,0,,,9,Operational
+EQ-218,CG-001,Roof Bolter 218,Roof Bolter,Komatsu,Kom-1864,2011,20563,2023-06-29,2023-11-24,Electric,0,7,2023-06-21,Hydraulic leak,9,Operational
+EQ-219,OD-001,Dumper 219,Dumper,Metso,Met-6785,2019,21356,2023-03-14,2023-04-18,Electric,0,2,2023-03-07,Hydraulic leak,13,Operational
+EQ-220,CG-001,Excavator 220,Excavator,Sandvik,San-1969,2019,22068,2023-05-29,2023-11-15,Electric,0,7,2023-05-09,Jam,8,Operational
+EQ-221,OD-002,Drill Rig 221,Drill Rig,Volvo,Vol-6162,2019,22238,2023-01-14,2023-07-09,Electric,0,5,2022-12-23,Engine issue,10,Operational
+EQ-222,CG-002,Drill Rig 222,Drill Rig,Sandvik,San-7689,2017,10909,2023-11-30,2024-02-15,Electric,0,0,,,9,Operational
+EQ-223,OD-002,Dumper 223,Dumper,Komatsu,Kom-9653,2017,16589,2023-09-30,2023-12-25,Diesel,40.65,8,2023-09-21,Electrical fault,0,Operational
+EQ-224,JH-003,Conveyor Belt 224,Conveyor Belt,Volvo,Vol-7083,2010,32247,2023-07-06,2023-12-05,Diesel,44.14,9,2023-07-03,Hydraulic leak,11,Operational
+EQ-225,CG-002,Crusher 225,Crusher,Volvo,Vol-7061,2011,6521,2023-11-08,2024-02-06,Diesel,30.68,4,2023-10-30,Electrical fault,7,Operational
+EQ-226,JH-001,Conveyor Belt 226,Conveyor Belt,Volvo,Vol-1633,2022,16404,2023-08-21,2023-11-02,Electric,0,2,2023-08-03,Jam,12,Operational
+EQ-227,JH-002,Excavator 227,Excavator,Metso,Met-9150,2015,5674,2023-05-06,2023-10-30,Electric,0,0,,,8,Operational
+EQ-228,CG-002,Excavator 228,Excavator,Metso,Met-3987,2011,28631,2023-12-01,2024-03-19,Diesel,35.78,4,2023-11-16,Jam,4,Operational
+EQ-229,JH-002,Roof Bolter 229,Roof Bolter,Metso,Met-3345,2015,25976,2023-07-11,2023-10-03,Diesel,51.25,8,2023-07-02,Jam,6,Operational
+EQ-230,OD-001,Crusher 230,Crusher,Caterpillar,Cat-7641,2010,10326,2023-10-01,2024-02-15,Diesel,25.8,4,2023-09-29,Engine issue,14,Operational
+EQ-231,OD-001,Loader 231,Loader,Sandvik,San-5141,2014,21778,2023-05-26,2023-07-02,Electric,0,0,,,5,Operational
+EQ-232,OD-002,Compressor 232,Compressor,Ashok Leyland,Ash-8516,2011,29884,2023-08-10,2023-10-17,Electric,0,9,2023-08-03,Engine issue,12,Operational
+EQ-233,OD-002,Excavator 233,Excavator,Volvo,Vol-7595,2021,17973,2023-05-24,2023-07-14,Diesel,36.59,4,2023-05-14,Jam,1,Operational
+EQ-234,CG-001,Crusher 234,Crusher,Metso,Met-8003,2017,5379,2023-03-01,2023-03-31,Electric,0,10,2023-02-19,Engine issue,3,Operational
+EQ-235,JH-002,Conveyor Belt 235,Conveyor Belt,Atlas Copco,Atl-5650,2015,27580,2023-08-07,2023-09-25,Electric,0,1,2023-07-25,Engine issue,6,Operational
+EQ-236,OD-002,Crusher 236,Crusher,Tata,Tat-4198,2022,15858,2023-01-03,2023-02-02,Electric,0,1,2022-12-14,Jam,10,Operational
+EQ-237,OD-001,Roof Bolter 237,Roof Bolter,Tata,Tat-6676,2011,5441,2023-04-28,2023-08-26,Diesel,57.39,0,,,1,Operational
+EQ-238,JH-003,Loader 238,Loader,Ashok Leyland,Ash-9715,2017,26837,2023-05-16,2023-08-29,Diesel,26.8,9,2023-05-11,Electrical fault,15,Operational
+EQ-239,CG-001,Dumper 239,Dumper,Sandvik,San-8210,2018,30879,2023-12-19,2024-05-23,Diesel,42.1,2,2023-11-22,Electrical fault,2,Maintenance
+EQ-240,JH-002,Loader 240,Loader,Atlas Copco,Atl-6831,2021,34804,2023-10-05,2023-12-11,Electric,0,7,2023-09-12,Electrical fault,3,Maintenance
+EQ-241,JH-003,Conveyor Belt 241,Conveyor Belt,Sandvik,San-7300,2014,25430,2023-05-06,2023-08-10,Electric,0,1,2023-04-28,Electrical fault,5,Operational
+EQ-242,CG-001,Dumper 242,Dumper,Tata,Tat-5133,2017,8086,2023-06-07,2023-09-02,Diesel,49.66,0,,,12,Operational
+EQ-243,OD-002,Loader 243,Loader,Caterpillar,Cat-9362,2017,21470,2023-09-17,2023-12-18,Electric,0,3,2023-09-06,Electrical fault,13,Operational
+EQ-244,CG-002,Loader 244,Loader,Caterpillar,Cat-9533,2010,5957,2023-07-24,2023-09-23,Diesel,44.52,0,,,10,Operational
+EQ-245,JH-003,Excavator 245,Excavator,Ashok Leyland,Ash-9381,2023,23071,2023-02-14,2023-06-04,Diesel,40.14,10,2023-01-29,Engine issue,13,Operational
+EQ-246,CG-001,Dumper 246,Dumper,Atlas Copco,Atl-9700,2010,13241,2023-03-09,2023-07-24,Diesel,44.11,2,2023-03-02,Jam,6,Operational
+EQ-247,JH-003,Loader 247,Loader,Volvo,Vol-4275,2021,18760,2023-05-28,2023-10-13,Diesel,37.12,0,,,3,Maintenance
+EQ-248,CG-001,Conveyor Belt 248,Conveyor Belt,Caterpillar,Cat-2427,2022,16508,2023-10-10,2024-01-17,Diesel,28.2,0,,,5,Operational
+EQ-249,CG-001,Conveyor Belt 249,Conveyor Belt,Sandvik,San-9250,2017,28762,2023-06-05,2023-11-13,Electric,0,0,,,1,Operational
+EQ-250,CG-002,Compressor 250,Compressor,Metso,Met-2350,2012,31729,2023-10-29,2024-01-05,Diesel,51.5,10,2023-10-22,Electrical fault,5,Maintenance
+EQ-251,JH-001,Drill Rig 251,Drill Rig,Sandvik,San-9143,2019,26252,2023-04-13,2023-07-12,Diesel,52.62,5,2023-04-02,Hydraulic leak,6,Operational
+EQ-252,CG-002,Drill Rig 252,Drill Rig,Caterpillar,Cat-2238,2023,26739,2023-01-05,2023-06-24,Diesel,30.76,4,2023-01-01,Engine issue,8,Maintenance
+EQ-253,CG-001,Loader 253,Loader,Tata,Tat-2174,2023,19381,2023-05-06,2023-10-29,Diesel,50.25,0,,,10,Operational
+EQ-254,JH-001,Roof Bolter 254,Roof Bolter,Sandvik,San-7345,2014,6106,2023-01-17,2023-03-09,Electric,0,4,2023-01-09,Electrical fault,5,Maintenance
+EQ-255,JH-001,Crusher 255,Crusher,Sandvik,San-8956,2020,25870,2023-09-09,2024-02-01,Electric,0,9,2023-08-18,Engine issue,10,Operational
+EQ-256,OD-001,Roof Bolter 256,Roof Bolter,Atlas Copco,Atl-3960,2011,28965,2023-12-17,2024-04-04,Diesel,39.53,0,,,10,Maintenance
+EQ-257,OD-001,Roof Bolter 257,Roof Bolter,Sandvik,San-2827,2010,28376,2023-02-13,2023-05-08,Diesel,42.74,1,2023-02-05,Engine issue,6,Operational
+EQ-258,JH-002,Compressor 258,Compressor,Komatsu,Kom-1733,2019,6781,2023-09-23,2023-12-06,Diesel,56.29,1,2023-09-13,Jam,3,Operational
+EQ-259,JH-002,Compressor 259,Compressor,Volvo,Vol-3853,2021,22808,2023-08-23,2023-11-09,Electric,0,4,2023-07-31,Jam,15,Operational
+EQ-260,OD-001,Compressor 260,Compressor,Metso,Met-5345,2012,28515,2023-10-14,2024-03-15,Electric,0,5,2023-09-14,Jam,0,Operational
+EQ-261,JH-002,Drill Rig 261,Drill Rig,Atlas Copco,Atl-8506,2010,18756,2023-02-17,2023-06-11,Electric,0,6,2023-02-03,Hydraulic leak,10,Maintenance
+EQ-262,JH-001,Crusher 262,Crusher,Sandvik,San-8481,2010,19096,2023-06-09,2023-08-06,Electric,0,0,,,1,Operational
+EQ-263,JH-002,Compressor 263,Compressor,Volvo,Vol-7280,2012,12073,2023-03-09,2023-05-19,Electric,0,1,2023-02-10,Hydraulic leak,1,Operational
+EQ-264,CG-002,Compressor 264,Compressor,Atlas Copco,Atl-9525,2016,27097,2023-09-07,2024-01-13,Diesel,30.33,8,2023-08-27,Hydraulic leak,4,Operational
+EQ-265,JH-001,Roof Bolter 265,Roof Bolter,Tata,Tat-7667,2023,18978,2023-11-22,2024-03-24,Diesel,57.59,9,2023-11-15,Engine issue,14,Operational
+EQ-266,CG-002,Loader 266,Loader,Caterpillar,Cat-6696,2017,24571,2023-08-11,2023-10-02,Diesel,22.2,2,2023-07-24,Jam,12,Operational
+EQ-267,JH-003,Compressor 267,Compressor,Volvo,Vol-1617,2021,5253,2023-01-06,2023-04-18,Electric,0,9,2022-12-09,Hydraulic leak,6,Operational
+EQ-268,JH-001,Dumper 268,Dumper,Caterpillar,Cat-5683,2014,10702,2023-01-31,2023-07-29,Diesel,31.24,7,2023-01-09,Engine issue,5,Operational
+EQ-269,JH-002,Drill Rig 269,Drill Rig,Atlas Copco,Atl-6938,2018,9967,2023-06-06,2023-07-26,Electric,0,2,2023-05-08,Hydraulic leak,1,Operational
+EQ-270,CG-001,Crusher 270,Crusher,Sandvik,San-3606,2017,17774,2023-05-27,2023-07-16,Diesel,43.17,4,2023-05-03,Engine issue,5,Operational
+EQ-271,OD-002,Excavator 271,Excavator,Tata,Tat-1121,2015,19707,2023-06-14,2023-12-08,Diesel,36.55,3,2023-06-03,Electrical fault,10,Operational
+EQ-272,CG-002,Conveyor Belt 272,Conveyor Belt,Tata,Tat-2544,2014,30504,2023-06-09,2023-07-15,Electric,0,4,2023-05-18,Jam,7,Operational
+EQ-273,CG-002,Compressor 273,Compressor,Komatsu,Kom-8801,2016,5451,2023-02-04,2023-06-08,Electric,0,8,2023-01-27,Electrical fault,6,Operational
+EQ-274,JH-002,Compressor 274,Compressor,Atlas Copco,Atl-3268,2022,22187,2023-08-03,2023-10-23,Electric,0,3,2023-07-05,Hydraulic leak,3,Maintenance
+EQ-275,OD-002,Dumper 275,Dumper,Atlas Copco,Atl-2402,2020,25034,2023-03-02,2023-07-04,Diesel,35.16,1,2023-02-18,Electrical fault,14,Operational
+EQ-276,JH-003,Crusher 276,Crusher,Komatsu,Kom-2119,2019,5243,2023-08-27,2024-01-25,Diesel,29.98,2,2023-08-25,Electrical fault,5,Operational
+EQ-277,CG-002,Conveyor Belt 277,Conveyor Belt,Sandvik,San-7522,2015,32133,2023-04-06,2023-05-28,Diesel,36.54,1,2023-03-07,Engine issue,15,Operational
+EQ-278,CG-001,Crusher 278,Crusher,Ashok Leyland,Ash-5099,2013,12187,2023-03-09,2023-06-23,Diesel,39.78,7,2023-02-20,Electrical fault,6,Broken
+EQ-279,OD-002,Excavator 279,Excavator,Ashok Leyland,Ash-8716,2016,28149,2023-06-21,2023-11-06,Diesel,25.86,10,2023-06-13,Electrical fault,2,Operational
+EQ-280,JH-003,Drill Rig 280,Drill Rig,Ashok Leyland,Ash-2731,2016,20468,2023-03-27,2023-06-20,Electric,0,10,2023-03-21,Engine issue,4,Maintenance
+EQ-281,JH-002,Loader 281,Loader,Ashok Leyland,Ash-1613,2017,25870,2023-07-13,2023-08-15,Electric,0,1,2023-06-20,Hydraulic leak,2,Operational
+EQ-282,OD-002,Excavator 282,Excavator,Atlas Copco,Atl-1090,2023,12991,2023-03-05,2023-07-12,Electric,0,9,2023-02-28,Hydraulic leak,6,Operational
+EQ-283,CG-001,Loader 283,Loader,Caterpillar,Cat-7049,2011,12143,2023-04-02,2023-05-13,Electric,0,10,2023-03-04,Engine issue,0,Operational
+EQ-284,JH-002,Roof Bolter 284,Roof Bolter,Sandvik,San-8352,2011,25173,2023-08-11,2023-11-08,Electric,0,3,2023-07-17,Electrical fault,8,Operational
+EQ-285,JH-002,Loader 285,Loader,Komatsu,Kom-9466,2018,28061,2023-03-24,2023-05-12,Electric,0,10,2023-03-15,Hydraulic leak,15,Operational
+EQ-286,OD-001,Conveyor Belt 286,Conveyor Belt,Ashok Leyland,Ash-5792,2022,14226,2023-01-21,2023-05-11,Electric,0,6,2023-01-17,Jam,10,Operational
+EQ-287,JH-001,Excavator 287,Excavator,Volvo,Vol-1633,2016,29582,2023-07-30,2023-11-30,Diesel,38.84,3,2023-07-15,Hydraulic leak,5,Operational
+EQ-288,JH-002,Roof Bolter 288,Roof Bolter,Tata,Tat-7683,2016,15228,2023-03-24,2023-04-28,Electric,0,7,2023-03-03,Jam,12,Maintenance
+EQ-289,CG-002,Roof Bolter 289,Roof Bolter,Tata,Tat-7810,2014,15292,2023-08-02,2023-09-22,Electric,0,9,2023-07-25,Hydraulic leak,6,Operational
+EQ-290,JH-001,Crusher 290,Crusher,Komatsu,Kom-3915,2013,24973,2023-02-26,2023-07-31,Electric,0,7,2023-01-30,Engine issue,6,Operational
+EQ-291,CG-002,Crusher 291,Crusher,Sandvik,San-9232,2013,22932,2023-02-08,2023-06-26,Diesel,58.78,1,2023-01-17,Electrical fault,14,Operational
+EQ-292,JH-003,Loader 292,Loader,Metso,Met-9968,2012,29822,2023-07-16,2023-10-28,Diesel,55.67,8,2023-06-28,Engine issue,3,Operational
+EQ-293,CG-001,Dumper 293,Dumper,Komatsu,Kom-5577,2023,20792,2023-09-22,2024-02-03,Electric,0,3,2023-09-13,Electrical fault,0,Operational
+EQ-294,CG-001,Compressor 294,Compressor,Atlas Copco,Atl-8410,2012,9327,2023-11-16,2024-02-26,Electric,0,4,2023-10-20,Engine issue,3,Operational
+EQ-295,CG-002,Loader 295,Loader,Atlas Copco,Atl-3280,2015,22582,2023-05-14,2023-10-22,Diesel,53.54,6,2023-05-01,Jam,11,Operational
+EQ-296,OD-001,Compressor 296,Compressor,Sandvik,San-3784,2017,28576,2023-06-10,2023-08-21,Diesel,58.59,9,2023-06-02,Engine issue,2,Operational
+EQ-297,OD-001,Dumper 297,Dumper,Volvo,Vol-4544,2014,33052,2023-12-24,2024-02-07,Diesel,45.37,6,2023-11-28,Hydraulic leak,11,Operational
+EQ-298,JH-003,Conveyor Belt 298,Conveyor Belt,Caterpillar,Cat-2883,2021,22332,2023-08-25,2023-12-11,Diesel,43.35,5,2023-07-26,Engine issue,6,Operational
+EQ-299,JH-003,Drill Rig 299,Drill Rig,Komatsu,Kom-5942,2023,6343,2023-03-24,2023-06-03,Diesel,42.34,6,2023-02-25,Electrical fault,3,Operational
+EQ-300,JH-001,Compressor 300,Compressor,Metso,Met-8733,2022,17302,2023-10-30,2024-01-13,Electric,0,8,2023-09-30,Hydraulic leak,15,Operational
+EQ-301,CG-001,Compressor 301,Compressor,Komatsu,Kom-9471,2012,11442,2023-06-15,2023-10-30,Electric,0,2,2023-05-21,Engine issue,14,Operational
+EQ-302,CG-002,Loader 302,Loader,Metso,Met-9710,2015,28405,2023-03-25,2023-08-19,Electric,0,2,2023-02-24,Engine issue,7,Operational
+EQ-303,OD-002,Crusher 303,Crusher,Ashok Leyland,Ash-7271,2016,25202,2023-11-12,2023-12-27,Diesel,20.3,9,2023-11-01,Hydraulic leak,13,Operational
+EQ-304,JH-003,Roof Bolter 304,Roof Bolter,Sandvik,San-4313,2023,11445,2023-06-20,2023-11-13,Diesel,32.05,6,2023-05-21,Engine issue,14,Operational
+EQ-305,CG-002,Excavator 305,Excavator,Volvo,Vol-1397,2023,21582,2023-12-06,2024-03-19,Electric,0,10,2023-11-17,Engine issue,5,Operational
+EQ-306,OD-002,Conveyor Belt 306,Conveyor Belt,Sandvik,San-6987,2021,15112,2023-02-07,2023-03-21,Electric,0,5,2023-01-30,Engine issue,5,Operational
+EQ-307,JH-002,Excavator 307,Excavator,Metso,Met-3627,2011,5520,2023-06-06,2023-11-14,Diesel,29.02,10,2023-06-04,Jam,5,Operational
+EQ-308,JH-003,Conveyor Belt 308,Conveyor Belt,Caterpillar,Cat-8971,2014,5403,2023-12-12,2024-04-13,Diesel,46.53,8,2023-11-23,Electrical fault,4,Operational
+EQ-309,CG-001,Excavator 309,Excavator,Metso,Met-3569,2012,22206,2023-04-11,2023-08-28,Electric,0,8,2023-03-29,Electrical fault,5,Operational
+EQ-310,JH-003,Loader 310,Loader,Atlas Copco,Atl-1650,2018,29146,2023-03-06,2023-04-23,Diesel,22.43,1,2023-02-20,Electrical fault,2,Maintenance
+EQ-311,OD-002,Drill Rig 311,Drill Rig,Sandvik,San-8126,2018,26970,2023-02-22,2023-06-03,Electric,0,1,2023-02-16,Engine issue,13,Operational
+EQ-312,CG-002,Drill Rig 312,Drill Rig,Ashok Leyland,Ash-4124,2015,8476,2023-05-17,2023-11-08,Diesel,22.11,4,2023-05-08,Hydraulic leak,3,Operational
+EQ-313,JH-002,Roof Bolter 313,Roof Bolter,Ashok Leyland,Ash-7407,2022,15370,2023-12-08,2024-03-24,Electric,0,5,2023-11-25,Hydraulic leak,15,Operational
+EQ-314,CG-001,Excavator 314,Excavator,Komatsu,Kom-6679,2013,31113,2023-06-11,2023-08-16,Electric,0,9,2023-05-27,Engine issue,8,Operational
+EQ-315,OD-002,Roof Bolter 315,Roof Bolter,Komatsu,Kom-8354,2017,34714,2023-08-12,2023-11-24,Electric,0,3,2023-07-14,Electrical fault,7,Operational
+EQ-316,OD-002,Excavator 316,Excavator,Atlas Copco,Atl-4641,2021,24902,2023-11-16,2024-04-25,Electric,0,0,,,15,Maintenance
+EQ-317,JH-003,Roof Bolter 317,Roof Bolter,Komatsu,Kom-4857,2010,32593,2023-06-30,2023-12-22,Electric,0,6,2023-06-27,Jam,0,Operational
+EQ-318,OD-001,Conveyor Belt 318,Conveyor Belt,Volvo,Vol-4525,2019,11431,2023-10-15,2024-02-11,Electric,0,7,2023-09-26,Engine issue,1,Operational
+EQ-319,CG-001,Conveyor Belt 319,Conveyor Belt,Metso,Met-8023,2019,17001,2023-06-15,2023-08-09,Diesel,23.76,2,2023-06-01,Hydraulic leak,5,Operational
+EQ-320,JH-002,Loader 320,Loader,Tata,Tat-7252,2011,20333,2023-06-04,2023-07-17,Electric,0,7,2023-05-08,Engine issue,4,Operational
+EQ-321,JH-003,Loader 321,Loader,Volvo,Vol-2703,2021,15034,2023-08-07,2024-01-23,Electric,0,3,2023-08-05,Engine issue,11,Operational
+EQ-322,OD-001,Compressor 322,Compressor,Tata,Tat-9341,2017,14532,2023-03-19,2023-07-21,Diesel,34.45,4,2023-03-18,Electrical fault,1,Maintenance
+EQ-323,OD-001,Conveyor Belt 323,Conveyor Belt,Atlas Copco,Atl-8216,2021,10995,2023-12-18,2024-02-23,Electric,0,3,2023-11-22,Engine issue,10,Operational
+EQ-324,JH-001,Dumper 324,Dumper,Caterpillar,Cat-2462,2018,7582,2023-08-23,2024-01-09,Electric,0,3,2023-08-07,Jam,6,Operational
+EQ-325,CG-001,Conveyor Belt 325,Conveyor Belt,Komatsu,Kom-4889,2010,21365,2023-09-30,2024-02-23,Electric,0,5,2023-09-10,Hydraulic leak,10,Operational
+EQ-326,JH-003,Roof Bolter 326,Roof Bolter,Ashok Leyland,Ash-2406,2014,21107,2023-06-02,2023-09-07,Electric,0,4,2023-05-14,Hydraulic leak,3,Operational
+EQ-327,CG-001,Conveyor Belt 327,Conveyor Belt,Ashok Leyland,Ash-6881,2010,13026,2023-07-16,2023-08-16,Electric,0,3,2023-07-08,Hydraulic leak,5,Maintenance
+EQ-328,CG-002,Compressor 328,Compressor,Atlas Copco,Atl-4369,2017,20474,2023-07-15,2023-08-17,Electric,0,2,2023-07-02,Hydraulic leak,1,Broken
+EQ-329,CG-001,Conveyor Belt 329,Conveyor Belt,Ashok Leyland,Ash-8240,2013,33759,2023-07-06,2023-11-08,Diesel,48.77,9,2023-07-01,Electrical fault,10,Maintenance
+EQ-330,JH-002,Drill Rig 330,Drill Rig,Atlas Copco,Atl-6844,2020,23587,2023-08-18,2023-11-18,Diesel,27.44,6,2023-07-19,Engine issue,4,Maintenance
+EQ-331,JH-001,Conveyor Belt 331,Conveyor Belt,Komatsu,Kom-8973,2013,6084,2023-07-16,2023-11-21,Diesel,23.71,2,2023-06-20,Hydraulic leak,7,Operational
+EQ-332,JH-003,Roof Bolter 332,Roof Bolter,Atlas Copco,Atl-9969,2018,7940,2023-05-18,2023-06-21,Electric,0,9,2023-04-20,Hydraulic leak,8,Operational
+EQ-333,OD-001,Drill Rig 333,Drill Rig,Caterpillar,Cat-2596,2016,21712,2023-12-25,2024-01-26,Diesel,45.37,0,,,4,Maintenance
+EQ-334,JH-002,Excavator 334,Excavator,Komatsu,Kom-1339,2022,12045,2023-04-25,2023-08-02,Diesel,37.54,5,2023-04-03,Engine issue,8,Operational
+EQ-335,JH-003,Conveyor Belt 335,Conveyor Belt,Komatsu,Kom-6664,2017,21819,2023-08-08,2023-09-27,Diesel,39.77,8,2023-07-30,Jam,13,Operational
+EQ-336,OD-001,Compressor 336,Compressor,Volvo,Vol-5215,2018,10008,2023-12-29,2024-03-10,Electric,0,7,2023-12-21,Hydraulic leak,6,Operational
+EQ-337,CG-001,Drill Rig 337,Drill Rig,Komatsu,Kom-4971,2014,30952,2023-03-17,2023-07-03,Electric,0,7,2023-02-26,Engine issue,11,Operational
+EQ-338,OD-002,Drill Rig 338,Drill Rig,Atlas Copco,Atl-7690,2010,34117,2023-04-20,2023-10-07,Electric,0,4,2023-04-08,Engine issue,4,Operational
+EQ-339,CG-002,Compressor 339,Compressor,Ashok Leyland,Ash-7072,2017,6759,2023-07-13,2023-09-28,Diesel,28.12,6,2023-06-19,Jam,0,Operational
+EQ-340,OD-001,Compressor 340,Compressor,Tata,Tat-3317,2017,12025,2023-11-01,2024-02-11,Electric,0,6,2023-10-27,Jam,6,Operational
+EQ-341,JH-002,Conveyor Belt 341,Conveyor Belt,Metso,Met-1574,2017,14347,2023-02-11,2023-08-09,Electric,0,3,2023-02-08,Hydraulic leak,0,Operational
+EQ-342,JH-001,Excavator 342,Excavator,Tata,Tat-7505,2021,31652,2023-06-27,2023-10-25,Diesel,36.73,9,2023-06-03,Electrical fault,2,Operational
+EQ-343,JH-001,Roof Bolter 343,Roof Bolter,Tata,Tat-8695,2020,9916,2023-10-10,2023-12-09,Diesel,49.61,2,2023-10-06,Engine issue,8,Operational
+EQ-344,OD-001,Conveyor Belt 344,Conveyor Belt,Sandvik,San-2611,2019,28004,2023-02-23,2023-05-02,Electric,0,6,2023-02-16,Engine issue,10,Operational
+EQ-345,JH-003,Loader 345,Loader,Tata,Tat-7420,2022,28241,2023-06-06,2023-10-01,Electric,0,3,2023-05-28,Jam,9,Operational
+EQ-346,JH-003,Roof Bolter 346,Roof Bolter,Komatsu,Kom-8866,2019,5762,2023-07-04,2023-09-03,Diesel,36.61,9,2023-06-22,Jam,9,Maintenance
+EQ-347,CG-002,Crusher 347,Crusher,Metso,Met-6360,2019,11268,2023-08-10,2023-10-02,Diesel,23.43,4,2023-08-09,Hydraulic leak,12,Operational
+EQ-348,OD-002,Loader 348,Loader,Ashok Leyland,Ash-8318,2010,28585,2023-07-29,2023-11-30,Electric,0,10,2023-07-20,Jam,8,Operational
+EQ-349,JH-001,Loader 349,Loader,Volvo,Vol-5846,2021,21414,2023-02-28,2023-04-10,Diesel,37.41,4,2023-02-23,Hydraulic leak,2,Operational
+EQ-350,CG-001,Compressor 350,Compressor,Volvo,Vol-6385,2013,13183,2023-03-03,2023-05-29,Electric,0,3,2023-02-10,Electrical fault,9,Operational
+EQ-351,CG-001,Drill Rig 351,Drill Rig,Caterpillar,Cat-1655,2020,10501,2023-02-18,2023-07-26,Diesel,25.05,5,2023-02-01,Hydraulic leak,13,Operational
+EQ-352,CG-002,Conveyor Belt 352,Conveyor Belt,Ashok Leyland,Ash-5717,2022,23806,2023-06-05,2023-10-18,Diesel,45.33,1,2023-05-27,Electrical fault,12,Operational
+EQ-353,JH-002,Excavator 353,Excavator,Metso,Met-4897,2018,30108,2023-07-25,2023-11-18,Diesel,40.9,10,2023-06-29,Hydraulic leak,2,Operational
+EQ-354,JH-003,Dumper 354,Dumper,Caterpillar,Cat-8371,2020,32279,2023-08-02,2024-01-10,Electric,0,5,2023-07-18,Engine issue,11,Operational
+EQ-355,JH-001,Excavator 355,Excavator,Sandvik,San-4885,2015,18429,2023-05-21,2023-06-29,Electric,0,10,2023-05-08,Jam,0,Operational
+EQ-356,CG-002,Compressor 356,Compressor,Volvo,Vol-6586,2017,28250,2023-02-07,2023-03-19,Diesel,39.59,3,2023-01-09,Electrical fault,12,Operational
+EQ-357,OD-002,Compressor 357,Compressor,Ashok Leyland,Ash-4698,2017,23977,2023-03-23,2023-08-04,Diesel,51.06,6,2023-03-06,Engine issue,5,Operational
+EQ-358,CG-002,Dumper 358,Dumper,Tata,Tat-7088,2023,18893,2023-08-26,2023-11-29,Electric,0,6,2023-08-08,Electrical fault,1,Operational
+EQ-359,OD-002,Compressor 359,Compressor,Ashok Leyland,Ash-7899,2021,21628,2023-07-13,2023-09-30,Electric,0,5,2023-07-04,Electrical fault,14,Operational
+EQ-360,CG-002,Excavator 360,Excavator,Metso,Met-1302,2018,21407,2023-05-01,2023-08-15,Diesel,24.26,4,2023-04-29,Electrical fault,3,Maintenance
+EQ-361,CG-002,Loader 361,Loader,Komatsu,Kom-9293,2018,31211,2023-09-25,2024-02-11,Diesel,36.34,2,2023-09-08,Jam,11,Maintenance
+EQ-362,CG-002,Conveyor Belt 362,Conveyor Belt,Caterpillar,Cat-2985,2020,19456,2023-07-26,2023-08-29,Electric,0,0,,,12,Operational
+EQ-363,JH-003,Roof Bolter 363,Roof Bolter,Atlas Copco,Atl-3890,2011,30579,2023-02-24,2023-07-24,Diesel,42.69,7,2023-02-01,Jam,10,Operational
+EQ-364,CG-001,Drill Rig 364,Drill Rig,Caterpillar,Cat-5549,2010,33170,2023-11-12,2024-02-14,Diesel,39.71,6,2023-11-08,Jam,9,Operational
+EQ-365,JH-003,Drill Rig 365,Drill Rig,Ashok Leyland,Ash-5460,2022,27673,2023-05-10,2023-08-26,Diesel,24.62,10,2023-04-11,Jam,4,Operational
+EQ-366,CG-002,Loader 366,Loader,Sandvik,San-9788,2019,33422,2023-09-07,2023-10-17,Electric,0,2,2023-08-22,Engine issue,15,Operational
+EQ-367,OD-001,Drill Rig 367,Drill Rig,Ashok Leyland,Ash-5014,2016,5973,2023-07-07,2023-12-11,Diesel,46.4,10,2023-06-14,Jam,0,Operational
+EQ-368,OD-002,Crusher 368,Crusher,Metso,Met-8920,2023,31324,2023-12-20,2024-02-01,Electric,0,7,2023-12-07,Electrical fault,3,Operational
+EQ-369,CG-001,Drill Rig 369,Drill Rig,Volvo,Vol-5149,2012,26801,2023-04-13,2023-09-08,Diesel,32.35,7,2023-03-28,Electrical fault,12,Operational
+EQ-370,JH-002,Dumper 370,Dumper,Volvo,Vol-4438,2016,13610,2023-01-20,2023-06-08,Diesel,44.93,3,2023-01-02,Electrical fault,10,Operational
+EQ-371,CG-001,Conveyor Belt 371,Conveyor Belt,Ashok Leyland,Ash-2706,2020,13301,2023-10-30,2024-04-24,Electric,0,6,2023-10-07,Hydraulic leak,3,Operational
+EQ-372,JH-002,Excavator 372,Excavator,Komatsu,Kom-3964,2017,33812,2023-02-07,2023-04-08,Electric,0,9,2023-01-17,Engine issue,8,Operational
+EQ-373,CG-002,Roof Bolter 373,Roof Bolter,Caterpillar,Cat-2154,2019,10458,2023-09-05,2023-12-09,Diesel,22.75,2,2023-08-12,Hydraulic leak,10,Broken
+EQ-374,CG-002,Roof Bolter 374,Roof Bolter,Sandvik,San-9150,2011,28551,2023-07-03,2023-10-12,Electric,0,6,2023-06-19,Electrical fault,0,Operational
+EQ-375,JH-003,Conveyor Belt 375,Conveyor Belt,Komatsu,Kom-7287,2016,28790,2023-03-04,2023-07-12,Electric,0,9,2023-02-05,Engine issue,14,Operational
+EQ-376,CG-002,Excavator 376,Excavator,Metso,Met-9700,2016,10758,2023-11-25,2024-03-12,Diesel,21.84,10,2023-10-30,Electrical fault,4,Operational
+EQ-377,JH-003,Compressor 377,Compressor,Metso,Met-4732,2010,31505,2023-01-26,2023-03-07,Electric,0,7,2023-01-05,Electrical fault,9,Operational
+EQ-378,CG-002,Excavator 378,Excavator,Volvo,Vol-1277,2022,34314,2023-06-07,2023-10-19,Electric,0,10,2023-05-25,Engine issue,0,Operational
+EQ-379,JH-002,Crusher 379,Crusher,Volvo,Vol-8626,2012,5979,2023-12-19,2024-02-20,Electric,0,1,2023-12-03,Hydraulic leak,11,Operational
+EQ-380,CG-001,Excavator 380,Excavator,Caterpillar,Cat-4021,2013,32758,2023-06-11,2023-11-18,Electric,0,3,2023-05-22,Engine issue,0,Operational
+EQ-381,JH-003,Roof Bolter 381,Roof Bolter,Metso,Met-1889,2019,6399,2023-01-10,2023-04-22,Electric,0,8,2023-01-05,Hydraulic leak,14,Maintenance
+EQ-382,CG-001,Drill Rig 382,Drill Rig,Sandvik,San-2744,2020,18243,2023-02-26,2023-07-05,Diesel,54.74,6,2023-02-18,Electrical fault,9,Operational
+EQ-383,OD-002,Conveyor Belt 383,Conveyor Belt,Sandvik,San-9187,2020,34303,2023-02-06,2023-07-13,Diesel,50.4,4,2023-01-18,Electrical fault,14,Maintenance
+EQ-384,JH-001,Excavator 384,Excavator,Atlas Copco,Atl-7679,2014,27684,2023-12-25,2024-04-14,Electric,0,5,2023-12-10,Electrical fault,4,Operational
+EQ-385,JH-002,Roof Bolter 385,Roof Bolter,Caterpillar,Cat-7905,2023,24475,2023-06-22,2023-12-11,Electric,0,7,2023-06-12,Engine issue,15,Maintenance
+EQ-386,OD-002,Crusher 386,Crusher,Sandvik,San-1482,2018,10311,2023-06-03,2023-10-08,Diesel,59.44,10,2023-05-27,Jam,4,Operational
+EQ-387,OD-002,Crusher 387,Crusher,Metso,Met-2365,2016,34815,2023-08-05,2023-09-07,Diesel,47.54,3,2023-07-06,Jam,3,Operational
+EQ-388,JH-003,Dumper 388,Dumper,Caterpillar,Cat-7105,2020,28201,2023-02-28,2023-07-05,Diesel,49.86,0,,,14,Operational
+EQ-389,OD-002,Conveyor Belt 389,Conveyor Belt,Atlas Copco,Atl-9639,2016,19563,2023-03-26,2023-06-26,Electric,0,9,2023-03-23,Engine issue,12,Operational
+EQ-390,CG-002,Roof Bolter 390,Roof Bolter,Caterpillar,Cat-8181,2016,15075,2023-04-17,2023-07-22,Electric,0,6,2023-04-14,Engine issue,8,Operational
+EQ-391,JH-001,Loader 391,Loader,Caterpillar,Cat-9844,2019,12876,2023-06-21,2023-09-22,Diesel,33.6,0,,,0,Operational
+EQ-392,OD-001,Roof Bolter 392,Roof Bolter,Sandvik,San-4581,2021,19188,2023-12-03,2024-03-05,Electric,0,9,2023-11-23,Electrical fault,3,Operational
+EQ-393,JH-002,Loader 393,Loader,Komatsu,Kom-5173,2021,34294,2023-04-02,2023-05-30,Electric,0,10,2023-03-22,Hydraulic leak,14,Operational
+EQ-394,JH-003,Excavator 394,Excavator,Atlas Copco,Atl-9669,2021,27007,2023-05-06,2023-10-18,Electric,0,3,2023-04-28,Electrical fault,4,Operational
+EQ-395,JH-003,Dumper 395,Dumper,Metso,Met-9044,2018,26886,2023-08-16,2023-12-08,Electric,0,5,2023-08-06,Hydraulic leak,3,Maintenance
+EQ-396,OD-002,Drill Rig 396,Drill Rig,Sandvik,San-7049,2018,29873,2023-02-25,2023-08-18,Diesel,38.71,6,2023-02-11,Electrical fault,3,Operational
+EQ-397,CG-002,Loader 397,Loader,Sandvik,San-5856,2015,14647,2023-07-16,2023-12-12,Diesel,50.14,4,2023-06-21,Hydraulic leak,9,Operational
+EQ-398,JH-001,Excavator 398,Excavator,Metso,Met-7104,2021,24829,2023-04-29,2023-07-15,Diesel,23.78,1,2023-04-08,Electrical fault,1,Operational
+EQ-399,JH-002,Loader 399,Loader,Tata,Tat-9318,2021,14658,2023-04-21,2023-07-09,Diesel,30.58,2,2023-04-15,Engine issue,1,Operational
+EQ-400,OD-002,Roof Bolter 400,Roof Bolter,Tata,Tat-6733,2010,14786,2023-07-16,2023-11-21,Electric,0,7,2023-07-08,Electrical fault,13,Operational
+EQ-401,OD-001,Roof Bolter 401,Roof Bolter,Tata,Tat-9098,2016,11016,2023-12-16,2024-02-22,Diesel,28.72,7,2023-11-29,Hydraulic leak,6,Operational
+EQ-402,JH-002,Conveyor Belt 402,Conveyor Belt,Sandvik,San-4454,2010,23976,2023-04-29,2023-07-06,Electric,0,6,2023-03-31,Jam,8,Maintenance
+EQ-403,JH-002,Compressor 403,Compressor,Komatsu,Kom-6152,2020,18053,2023-11-01,2024-02-07,Diesel,30.39,6,2023-10-27,Electrical fault,6,Operational
+EQ-404,JH-002,Crusher 404,Crusher,Komatsu,Kom-3772,2010,20632,2023-12-26,2024-05-03,Diesel,30.81,5,2023-11-30,Jam,13,Broken
+EQ-405,CG-002,Crusher 405,Crusher,Volvo,Vol-2408,2020,29510,2023-12-06,2024-02-15,Electric,0,6,2023-11-28,Engine issue,2,Maintenance
+EQ-406,JH-003,Compressor 406,Compressor,Tata,Tat-4833,2015,29063,2023-06-13,2023-07-21,Electric,0,9,2023-06-06,Jam,6,Operational
+EQ-407,CG-001,Loader 407,Loader,Ashok Leyland,Ash-6327,2010,27042,2023-02-18,2023-06-25,Electric,0,2,2023-02-09,Engine issue,7,Operational
+EQ-408,JH-003,Excavator 408,Excavator,Ashok Leyland,Ash-3087,2010,18951,2023-04-25,2023-07-03,Electric,0,10,2023-04-03,Electrical fault,3,Operational
+EQ-409,CG-002,Loader 409,Loader,Atlas Copco,Atl-5946,2017,24406,2023-02-23,2023-05-08,Electric,0,5,2023-02-16,Hydraulic leak,12,Operational
+EQ-410,JH-003,Conveyor Belt 410,Conveyor Belt,Sandvik,San-8026,2022,5785,2023-10-10,2023-11-28,Diesel,47.22,2,2023-09-13,Electrical fault,12,Operational
+EQ-411,CG-001,Loader 411,Loader,Ashok Leyland,Ash-1950,2015,33145,2023-06-26,2023-07-31,Electric,0,7,2023-06-02,Hydraulic leak,5,Operational
+EQ-412,JH-001,Compressor 412,Compressor,Sandvik,San-7642,2017,25976,2023-02-15,2023-06-13,Diesel,34.37,10,2023-02-03,Jam,3,Operational
+EQ-413,CG-001,Conveyor Belt 413,Conveyor Belt,Volvo,Vol-8182,2011,34227,2023-11-18,2024-04-19,Diesel,36.18,8,2023-10-31,Jam,7,Operational
+EQ-414,OD-002,Dumper 414,Dumper,Atlas Copco,Atl-6096,2016,16480,2023-07-03,2023-10-19,Electric,0,5,2023-06-09,Engine issue,5,Retired
+EQ-415,CG-001,Loader 415,Loader,Komatsu,Kom-2919,2010,17503,2023-06-14,2023-11-14,Electric,0,6,2023-05-19,Engine issue,7,Operational
+EQ-416,CG-002,Conveyor Belt 416,Conveyor Belt,Tata,Tat-2073,2016,12347,2023-03-02,2023-05-20,Electric,0,3,2023-02-17,Engine issue,15,Operational
+EQ-417,JH-003,Compressor 417,Compressor,Sandvik,San-9215,2014,32643,2023-03-05,2023-04-30,Diesel,36.63,10,2023-02-07,Engine issue,12,Operational
+EQ-418,JH-003,Crusher 418,Crusher,Volvo,Vol-6991,2012,24494,2023-04-20,2023-05-31,Diesel,39.4,10,2023-04-02,Hydraulic leak,1,Retired
+EQ-419,OD-002,Drill Rig 419,Drill Rig,Sandvik,San-9819,2011,30265,2023-10-27,2024-04-19,Electric,0,4,2023-10-05,Electrical fault,9,Operational
+EQ-420,JH-001,Loader 420,Loader,Caterpillar,Cat-4636,2011,5792,2023-07-11,2023-09-13,Diesel,31.4,4,2023-06-20,Engine issue,10,Operational
+EQ-421,JH-003,Loader 421,Loader,Atlas Copco,Atl-1690,2019,14270,2023-06-23,2023-08-21,Diesel,20.31,1,2023-06-10,Jam,4,Maintenance
+EQ-422,JH-002,Roof Bolter 422,Roof Bolter,Komatsu,Kom-2899,2013,18884,2023-09-28,2024-02-11,Electric,0,7,2023-09-07,Electrical fault,14,Operational
+EQ-423,JH-003,Dumper 423,Dumper,Caterpillar,Cat-7204,2022,5536,2023-01-18,2023-07-13,Diesel,24.99,1,2022-12-22,Jam,10,Operational
+EQ-424,JH-001,Loader 424,Loader,Ashok Leyland,Ash-6350,2015,34733,2023-12-08,2024-01-12,Electric,0,5,2023-12-06,Electrical fault,9,Operational
+EQ-425,OD-002,Drill Rig 425,Drill Rig,Tata,Tat-6279,2023,33887,2023-07-24,2024-01-07,Diesel,59.62,7,2023-07-04,Electrical fault,6,Operational
+EQ-426,OD-001,Crusher 426,Crusher,Sandvik,San-2817,2022,5587,2023-02-23,2023-04-13,Diesel,24.88,1,2023-02-16,Electrical fault,13,Operational
+EQ-427,JH-003,Roof Bolter 427,Roof Bolter,Volvo,Vol-9571,2019,20807,2023-10-27,2024-04-07,Diesel,32.34,0,,,15,Operational
+EQ-428,OD-001,Excavator 428,Excavator,Komatsu,Kom-2910,2013,22507,2023-08-07,2023-09-22,Electric,0,8,2023-08-06,Jam,10,Operational
+EQ-429,CG-001,Roof Bolter 429,Roof Bolter,Caterpillar,Cat-9770,2014,30841,2023-03-09,2023-08-02,Electric,0,7,2023-03-08,Engine issue,3,Operational
+EQ-430,CG-002,Excavator 430,Excavator,Caterpillar,Cat-5705,2011,31465,2023-07-20,2023-11-11,Electric,0,5,2023-06-30,Jam,1,Operational
+EQ-431,JH-003,Roof Bolter 431,Roof Bolter,Komatsu,Kom-5500,2011,5271,2023-02-21,2023-04-16,Electric,0,0,,,13,Operational
+EQ-432,JH-001,Excavator 432,Excavator,Komatsu,Kom-4304,2023,7441,2023-05-08,2023-07-17,Diesel,36.05,9,2023-04-18,Engine issue,3,Operational
+EQ-433,CG-001,Drill Rig 433,Drill Rig,Caterpillar,Cat-4179,2014,29900,2023-01-06,2023-05-09,Electric,0,4,2022-12-08,Jam,14,Operational
+EQ-434,OD-002,Conveyor Belt 434,Conveyor Belt,Metso,Met-8724,2021,11330,2023-02-13,2023-07-29,Electric,0,6,2023-01-31,Electrical fault,12,Operational
+EQ-435,JH-002,Crusher 435,Crusher,Komatsu,Kom-6169,2012,21348,2023-11-03,2024-01-25,Electric,0,0,,,0,Operational
+EQ-436,CG-001,Loader 436,Loader,Tata,Tat-1852,2013,16560,2023-06-19,2023-10-06,Diesel,27.86,7,2023-05-31,Jam,13,Operational
+EQ-437,JH-002,Excavator 437,Excavator,Sandvik,San-2080,2010,10032,2023-01-13,2023-04-24,Electric,0,1,2022-12-22,Engine issue,8,Operational
+EQ-438,JH-003,Conveyor Belt 438,Conveyor Belt,Ashok Leyland,Ash-3402,2011,34842,2023-02-19,2023-05-04,Diesel,47.29,6,2023-02-01,Hydraulic leak,4,Operational
+EQ-439,CG-002,Crusher 439,Crusher,Sandvik,San-5921,2023,15925,2023-10-19,2024-02-09,Electric,0,8,2023-09-28,Jam,8,Operational
+EQ-440,OD-001,Dumper 440,Dumper,Caterpillar,Cat-1812,2023,18474,2023-05-02,2023-06-29,Diesel,33.36,3,2023-04-06,Electrical fault,13,Operational
+EQ-441,CG-001,Loader 441,Loader,Atlas Copco,Atl-3986,2019,24101,2023-10-28,2024-04-11,Electric,0,10,2023-10-12,Jam,8,Operational
+EQ-442,OD-001,Compressor 442,Compressor,Tata,Tat-5295,2022,31489,2023-05-19,2023-06-23,Electric,0,0,,,8,Operational
+EQ-443,JH-001,Dumper 443,Dumper,Atlas Copco,Atl-5503,2011,26054,2023-03-28,2023-06-23,Diesel,48.15,4,2023-02-26,Engine issue,11,Operational
+EQ-444,CG-002,Loader 444,Loader,Volvo,Vol-4922,2014,19957,2023-09-17,2024-02-13,Diesel,43.06,2,2023-09-04,Hydraulic leak,13,Operational
+EQ-445,JH-002,Dumper 445,Dumper,Sandvik,San-8384,2010,32066,2023-02-10,2023-06-07,Diesel,34.41,5,2023-02-03,Electrical fault,14,Broken
+EQ-446,OD-002,Drill Rig 446,Drill Rig,Atlas Copco,Atl-8999,2016,10305,2023-01-18,2023-05-16,Electric,0,1,2022-12-30,Engine issue,5,Operational
+EQ-447,OD-002,Roof Bolter 447,Roof Bolter,Volvo,Vol-7289,2020,34371,2023-12-26,2024-04-19,Electric,0,5,2023-11-30,Engine issue,1,Broken
+EQ-448,JH-003,Excavator 448,Excavator,Caterpillar,Cat-3895,2015,9241,2023-10-09,2024-04-01,Diesel,27.4,6,2023-09-28,Hydraulic leak,15,Operational
+EQ-449,CG-001,Drill Rig 449,Drill Rig,Caterpillar,Cat-2352,2015,7485,2023-03-20,2023-06-19,Electric,0,6,2023-02-19,Electrical fault,9,Operational
+EQ-450,OD-001,Roof Bolter 450,Roof Bolter,Komatsu,Kom-4184,2022,17278,2023-08-07,2023-12-15,Electric,0,6,2023-07-25,Electrical fault,15,Operational
+EQ-451,OD-002,Loader 451,Loader,Atlas Copco,Atl-7092,2018,22216,2023-06-10,2023-10-30,Diesel,57.95,7,2023-05-21,Hydraulic leak,6,Operational
+EQ-452,OD-001,Roof Bolter 452,Roof Bolter,Sandvik,San-7443,2020,7755,2023-03-08,2023-05-15,Electric,0,3,2023-02-09,Hydraulic leak,7,Operational
+EQ-453,OD-001,Dumper 453,Dumper,Sandvik,San-4792,2015,28359,2023-06-23,2023-11-13,Diesel,24.58,5,2023-06-16,Electrical fault,3,Operational
+EQ-454,OD-002,Loader 454,Loader,Caterpillar,Cat-2469,2015,5937,2023-03-24,2023-08-14,Diesel,34.73,7,2023-03-15,Electrical fault,1,Operational
+EQ-455,JH-002,Compressor 455,Compressor,Volvo,Vol-2235,2018,21832,2023-11-08,2024-03-11,Diesel,53.5,9,2023-10-09,Hydraulic leak,14,Operational
+EQ-456,OD-001,Roof Bolter 456,Roof Bolter,Caterpillar,Cat-7738,2019,8916,2023-08-04,2024-01-21,Electric,0,1,2023-08-03,Electrical fault,1,Operational
+EQ-457,OD-002,Dumper 457,Dumper,Metso,Met-8180,2011,32782,2023-04-08,2023-07-01,Electric,0,9,2023-03-18,Jam,11,Broken
+EQ-458,OD-001,Compressor 458,Compressor,Metso,Met-5314,2022,21100,2023-07-14,2023-10-30,Electric,0,2,2023-07-07,Jam,10,Operational
+EQ-459,JH-001,Compressor 459,Compressor,Metso,Met-3137,2021,13207,2023-07-25,2023-11-26,Diesel,40.31,9,2023-07-03,Jam,0,Operational
+EQ-460,JH-002,Excavator 460,Excavator,Atlas Copco,Atl-1971,2019,9060,2023-09-29,2023-12-07,Electric,0,9,2023-09-08,Hydraulic leak,6,Operational
+EQ-461,CG-001,Drill Rig 461,Drill Rig,Volvo,Vol-5891,2018,6299,2023-12-10,2024-05-30,Diesel,46.98,10,2023-12-03,Jam,7,Operational
+EQ-462,JH-002,Dumper 462,Dumper,Komatsu,Kom-9525,2020,16158,2023-05-28,2023-10-18,Electric,0,1,2023-05-13,Hydraulic leak,3,Operational
+EQ-463,JH-001,Dumper 463,Dumper,Volvo,Vol-1128,2022,18727,2023-03-09,2023-06-27,Diesel,59.39,1,2023-02-13,Hydraulic leak,8,Operational
+EQ-464,OD-001,Drill Rig 464,Drill Rig,Ashok Leyland,Ash-8419,2021,33895,2023-07-16,2023-10-25,Electric,0,8,2023-07-15,Engine issue,6,Maintenance
+EQ-465,OD-001,Excavator 465,Excavator,Sandvik,San-2252,2016,7373,2023-01-11,2023-06-01,Diesel,59.07,10,2023-01-03,Electrical fault,9,Operational
+EQ-466,JH-002,Crusher 466,Crusher,Metso,Met-4291,2010,13713,2023-03-10,2023-09-04,Diesel,50.16,4,2023-03-07,Electrical fault,4,Operational
+EQ-467,OD-002,Loader 467,Loader,Metso,Met-5946,2017,16189,2023-07-09,2023-08-18,Diesel,52.46,2,2023-07-04,Hydraulic leak,1,Operational
+EQ-468,CG-001,Drill Rig 468,Drill Rig,Caterpillar,Cat-4847,2020,34173,2023-08-14,2024-01-08,Electric,0,6,2023-08-04,Jam,14,Operational
+EQ-469,JH-001,Conveyor Belt 469,Conveyor Belt,Caterpillar,Cat-3413,2012,27824,2023-10-26,2024-02-24,Diesel,32.41,1,2023-10-07,Jam,5,Operational
+EQ-470,JH-001,Conveyor Belt 470,Conveyor Belt,Ashok Leyland,Ash-1873,2017,20558,2023-01-30,2023-07-01,Electric,0,1,2023-01-20,Engine issue,1,Operational
+EQ-471,CG-001,Compressor 471,Compressor,Metso,Met-9255,2019,6475,2023-06-27,2023-11-07,Diesel,22.49,3,2023-06-15,Jam,7,Operational
+EQ-472,OD-002,Loader 472,Loader,Tata,Tat-5196,2010,20571,2023-07-22,2023-10-05,Electric,0,4,2023-06-25,Electrical fault,3,Operational
+EQ-473,OD-002,Conveyor Belt 473,Conveyor Belt,Metso,Met-9532,2010,28151,2023-04-16,2023-07-23,Diesel,41.98,5,2023-04-02,Engine issue,14,Operational
+EQ-474,CG-002,Roof Bolter 474,Roof Bolter,Metso,Met-4315,2017,6591,2023-08-31,2023-11-23,Diesel,42.72,1,2023-08-05,Jam,10,Operational
+EQ-475,OD-002,Crusher 475,Crusher,Metso,Met-7454,2016,24400,2023-09-14,2023-10-30,Electric,0,7,2023-08-16,Hydraulic leak,10,Operational
+EQ-476,CG-002,Excavator 476,Excavator,Sandvik,San-1701,2012,20701,2023-02-19,2023-05-09,Electric,0,6,2023-02-02,Jam,14,Operational
+EQ-477,OD-002,Roof Bolter 477,Roof Bolter,Metso,Met-2492,2020,34634,2023-05-06,2023-06-23,Diesel,41.98,6,2023-04-15,Hydraulic leak,8,Operational
+EQ-478,JH-001,Crusher 478,Crusher,Atlas Copco,Atl-1177,2021,16246,2023-06-10,2023-09-22,Electric,0,4,2023-05-20,Electrical fault,0,Operational
+EQ-479,CG-001,Crusher 479,Crusher,Sandvik,San-7007,2017,27928,2023-10-13,2023-12-24,Electric,0,8,2023-10-12,Jam,7,Operational
+EQ-480,CG-001,Roof Bolter 480,Roof Bolter,Komatsu,Kom-2904,2016,9481,2023-05-27,2023-08-03,Diesel,40.06,7,2023-05-03,Electrical fault,7,Operational
+EQ-481,JH-002,Drill Rig 481,Drill Rig,Atlas Copco,Atl-6904,2019,10553,2023-01-12,2023-05-20,Diesel,24.2,4,2022-12-22,Engine issue,15,Operational
+EQ-482,OD-001,Drill Rig 482,Drill Rig,Caterpillar,Cat-1875,2022,27180,2023-08-15,2023-09-25,Electric,0,4,2023-08-05,Hydraulic leak,9,Operational
+EQ-483,CG-001,Loader 483,Loader,Metso,Met-7380,2020,5471,2023-09-07,2023-12-01,Diesel,27.21,7,2023-08-29,Hydraulic leak,12,Operational
+EQ-484,JH-001,Loader 484,Loader,Volvo,Vol-7865,2020,23487,2023-05-25,2023-07-10,Electric,0,1,2023-05-24,Hydraulic leak,15,Operational
+EQ-485,CG-001,Compressor 485,Compressor,Volvo,Vol-5511,2018,17414,2023-11-05,2024-01-14,Diesel,33.57,0,,,13,Operational
+EQ-486,OD-002,Conveyor Belt 486,Conveyor Belt,Sandvik,San-1130,2018,5676,2023-09-01,2024-01-09,Diesel,56.1,3,2023-08-31,Hydraulic leak,4,Maintenance
+EQ-487,JH-001,Drill Rig 487,Drill Rig,Atlas Copco,Atl-1758,2018,14389,2023-11-28,2024-01-07,Electric,0,10,2023-11-08,Electrical fault,0,Operational
+EQ-488,CG-001,Excavator 488,Excavator,Tata,Tat-5301,2014,6201,2023-08-17,2023-09-20,Diesel,41.76,9,2023-08-15,Engine issue,5,Operational
+EQ-489,CG-002,Compressor 489,Compressor,Sandvik,San-2495,2014,18260,2023-04-01,2023-05-19,Diesel,42.28,4,2023-03-27,Engine issue,3,Maintenance
+EQ-490,OD-001,Compressor 490,Compressor,Ashok Leyland,Ash-9134,2014,12760,2023-08-17,2023-11-18,Electric,0,6,2023-08-02,Engine issue,1,Operational
+EQ-491,OD-002,Drill Rig 491,Drill Rig,Caterpillar,Cat-4736,2011,19064,2023-03-21,2023-08-13,Electric,0,8,2023-03-02,Electrical fault,10,Operational
+EQ-492,JH-002,Dumper 492,Dumper,Komatsu,Kom-7869,2015,10375,2023-03-01,2023-08-15,Diesel,53.38,7,2023-02-14,Electrical fault,8,Maintenance
+EQ-493,JH-002,Excavator 493,Excavator,Ashok Leyland,Ash-3449,2015,11030,2023-05-03,2023-10-04,Diesel,36.9,4,2023-04-09,Electrical fault,1,Operational
+EQ-494,JH-002,Loader 494,Loader,Atlas Copco,Atl-3028,2023,9987,2023-01-14,2023-03-24,Electric,0,4,2023-01-02,Electrical fault,12,Operational
+EQ-495,CG-001,Loader 495,Loader,Atlas Copco,Atl-3643,2022,13457,2023-12-09,2024-02-04,Diesel,33.72,10,2023-11-14,Hydraulic leak,1,Retired
+EQ-496,JH-002,Compressor 496,Compressor,Sandvik,San-5479,2018,16179,2023-06-08,2023-07-12,Diesel,58.62,5,2023-06-07,Electrical fault,10,Maintenance
+EQ-497,JH-001,Loader 497,Loader,Atlas Copco,Atl-4578,2020,17414,2023-10-06,2023-12-28,Diesel,44.62,8,2023-10-04,Hydraulic leak,3,Operational
+EQ-498,OD-001,Compressor 498,Compressor,Komatsu,Kom-2868,2017,7634,2023-11-09,2024-01-07,Diesel,54.48,0,,,0,Operational
+EQ-499,JH-003,Drill Rig 499,Drill Rig,Ashok Leyland,Ash-4348,2016,12130,2023-01-15,2023-02-20,Electric,0,7,2022-12-18,Electrical fault,2,Operational

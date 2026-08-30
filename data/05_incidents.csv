@@ -1,0 +1,301 @@
+incident_id,mine_id,incident_date,incident_time,incident_type,location,equipment_involved,cause_category,cause_description,injury_severity,persons_affected,root_cause,risk_level,reported_by,reported_date,status
+INC-JH-002-000,JH-002,2023-09-16,03:57:00,Near Miss,Crusher Area,EQ-447,Human Error,Worker slipped,Minor,0,Human error,Critical,Sita Devi,2023-09-16 01:00:00,Open
+INC-JH-001-001,JH-001,2023-06-01,08:24:00,Accident,Pit Bottom,EQ-279,Human Error,Short circuit,Minor,2,Human error,Low,Rajesh Kumar,2023-06-01 01:00:00,Investigating
+INC-JH-002-002,JH-002,2023-02-07,19:43:00,Near Miss,Loading Point,EQ-052,Electrical,Conveyor belt jam,Serious,0,Human error,Medium,Rajesh Kumar,2023-02-07 04:00:00,Investigating
+INC-JH-001-003,JH-001,2023-10-17,22:09:00,Accident,Pit Bottom,EQ-365,Mechanical,Crusher blade failure,Minor,0,Poor ventilation,Critical,Sita Devi,2023-10-17 06:00:00,Escalated
+INC-JH-001-004,JH-001,2023-12-15,12:55:00,Accident,Loading Point,EQ-082,Electrical,Worker slipped,None,0,Poor ventilation,High,Rajesh Kumar,2023-12-15 05:00:00,Open
+INC-CG-001-005,CG-001,2023-01-04,19:42:00,Near Miss,Drill Site,EQ-114,Human Error,Short circuit,None,0,Equipment failure,High,Amit Patel,2023-01-04 06:00:00,Closed
+INC-OD-002-006,OD-002,2023-01-10,23:07:00,Accident,Main Haulage Road,EQ-112,Human Error,Short circuit,Serious,0,Inadequate maintenance,Medium,Sita Devi,2023-01-10 01:00:00,Closed
+INC-CG-001-007,CG-001,2023-04-12,13:46:00,Near Miss,Drill Site,EQ-220,Electrical,Worker slipped,Fatal,3,Poor ventilation,High,Sita Devi,2023-04-12 02:00:00,Closed
+INC-JH-001-008,JH-001,2023-04-18,20:05:00,Near Miss,Loading Point,EQ-090,Electrical,Conveyor belt jam,Fatal,4,Human error,High,Amit Patel,2023-04-18 03:00:00,Investigating
+INC-JH-001-009,JH-001,2023-06-27,11:20:00,Accident,Pit Bottom,EQ-052,Environmental,Roof fall,Minor,2,Human error,Low,Rajesh Kumar,2023-06-27 03:00:00,Closed
+INC-CG-002-010,CG-002,2023-07-08,00:22:00,Accident,Drill Site,EQ-028,Environmental,Crusher blade failure,Serious,4,Human error,Medium,Amit Patel,2023-07-08 01:00:00,Escalated
+INC-OD-001-011,OD-001,2023-09-16,18:33:00,Accident,Main Haulage Road,EQ-016,Environmental,Short circuit,Serious,4,Human error,High,Sita Devi,2023-09-16 05:00:00,Investigating
+INC-JH-001-012,JH-001,2023-06-10,05:42:00,Accident,Drill Site,EQ-053,Human Error,Conveyor belt jam,None,0,Equipment failure,Critical,Rajesh Kumar,2023-06-10 03:00:00,Investigating
+INC-OD-001-013,OD-001,2023-05-14,22:08:00,Accident,Main Haulage Road,EQ-448,Human Error,Conveyor belt jam,Serious,5,Human error,Low,Sita Devi,2023-05-14 04:00:00,Investigating
+INC-OD-002-014,OD-002,2023-08-15,15:46:00,Accident,Main Haulage Road,EQ-477,Human Error,Roof fall,Minor,4,Inadequate maintenance,High,Amit Patel,2023-08-15 00:00:00,Closed
+INC-CG-002-015,CG-002,2023-05-16,05:56:00,Near Miss,Loading Point,EQ-388,Environmental,Roof fall,Minor,5,Inadequate maintenance,High,Rajesh Kumar,2023-05-16 06:00:00,Closed
+INC-OD-001-016,OD-001,2023-02-23,08:00:00,Near Miss,Drill Site,EQ-418,Human Error,Conveyor belt jam,Minor,5,Poor ventilation,Medium,Rajesh Kumar,2023-02-23 04:00:00,Open
+INC-CG-001-017,CG-001,2023-04-13,14:40:00,Accident,Main Haulage Road,EQ-204,Human Error,Conveyor belt jam,Minor,5,Poor ventilation,Critical,Amit Patel,2023-04-13 01:00:00,Investigating
+INC-JH-001-018,JH-001,2023-11-16,22:59:00,Near Miss,Drill Site,EQ-397,Mechanical,Short circuit,Fatal,2,Equipment failure,High,Rajesh Kumar,2023-11-16 03:00:00,Escalated
+INC-OD-001-019,OD-001,2023-08-22,08:06:00,Near Miss,Crusher Area,EQ-124,Environmental,Short circuit,None,0,Poor ventilation,Critical,Amit Patel,2023-08-22 02:00:00,Escalated
+INC-JH-002-020,JH-002,2023-12-17,14:06:00,Near Miss,Crusher Area,EQ-122,Environmental,Conveyor belt jam,Fatal,0,Poor ventilation,High,Amit Patel,2023-12-17 06:00:00,Closed
+INC-JH-002-021,JH-002,2023-06-09,02:57:00,Near Miss,Main Haulage Road,EQ-221,Environmental,Short circuit,None,0,Equipment failure,High,Sita Devi,2023-06-09 05:00:00,Investigating
+INC-JH-003-022,JH-003,2023-04-15,05:20:00,Accident,Main Haulage Road,EQ-063,Mechanical,Conveyor belt jam,Serious,5,Equipment failure,Low,Sita Devi,2023-04-15 04:00:00,Open
+INC-JH-003-023,JH-003,2023-02-09,01:05:00,Accident,Pit Bottom,EQ-024,Mechanical,Worker slipped,Minor,3,Human error,Low,Sita Devi,2023-02-09 05:00:00,Escalated
+INC-OD-002-024,OD-002,2023-08-12,03:37:00,Near Miss,Pit Bottom,EQ-097,Mechanical,Crusher blade failure,Fatal,1,Human error,High,Amit Patel,2023-08-12 04:00:00,Investigating
+INC-JH-003-025,JH-003,2023-09-02,23:00:00,Accident,Drill Site,EQ-023,Electrical,Worker slipped,Minor,3,Human error,Medium,Sita Devi,2023-09-02 05:00:00,Closed
+INC-JH-002-026,JH-002,2023-06-18,08:11:00,Near Miss,Drill Site,EQ-032,Electrical,Worker slipped,Fatal,5,Human error,High,Sita Devi,2023-06-18 03:00:00,Escalated
+INC-OD-002-027,OD-002,2023-11-17,04:58:00,Accident,Drill Site,EQ-397,Electrical,Roof fall,None,0,Equipment failure,Medium,Rajesh Kumar,2023-11-17 05:00:00,Open
+INC-CG-001-028,CG-001,2023-09-25,20:28:00,Accident,Loading Point,EQ-451,Environmental,Crusher blade failure,Serious,2,Human error,High,Rajesh Kumar,2023-09-25 04:00:00,Escalated
+INC-JH-003-029,JH-003,2023-01-24,17:11:00,Accident,Pit Bottom,EQ-489,Human Error,Worker slipped,Fatal,1,Human error,High,Rajesh Kumar,2023-01-24 01:00:00,Escalated
+INC-OD-002-030,OD-002,2023-04-13,13:44:00,Accident,Drill Site,EQ-283,Human Error,Roof fall,Minor,0,Human error,Critical,Amit Patel,2023-04-13 00:00:00,Closed
+INC-JH-003-031,JH-003,2023-08-22,10:05:00,Near Miss,Pit Bottom,EQ-459,Environmental,Roof fall,Serious,3,Inadequate maintenance,Critical,Rajesh Kumar,2023-08-22 04:00:00,Investigating
+INC-JH-002-032,JH-002,2023-12-16,16:09:00,Accident,Main Haulage Road,EQ-008,Electrical,Roof fall,None,0,Inadequate maintenance,Critical,Amit Patel,2023-12-16 03:00:00,Investigating
+INC-CG-001-033,CG-001,2023-05-18,13:20:00,Near Miss,Pit Bottom,EQ-003,Electrical,Crusher blade failure,Serious,1,Inadequate maintenance,Medium,Amit Patel,2023-05-18 04:00:00,Open
+INC-OD-001-034,OD-001,2023-11-16,00:13:00,Near Miss,Loading Point,EQ-420,Electrical,Crusher blade failure,Serious,1,Equipment failure,Critical,Rajesh Kumar,2023-11-16 01:00:00,Closed
+INC-JH-003-035,JH-003,2023-03-12,08:04:00,Near Miss,Main Haulage Road,EQ-265,Electrical,Roof fall,Fatal,2,Human error,Medium,Amit Patel,2023-03-12 01:00:00,Investigating
+INC-CG-001-036,CG-001,2023-04-09,04:11:00,Near Miss,Drill Site,EQ-387,Environmental,Conveyor belt jam,None,0,Inadequate maintenance,Low,Amit Patel,2023-04-09 05:00:00,Open
+INC-CG-002-037,CG-002,2023-09-18,12:12:00,Accident,Main Haulage Road,EQ-123,Electrical,Worker slipped,Minor,5,Equipment failure,Low,Sita Devi,2023-09-18 02:00:00,Closed
+INC-CG-002-038,CG-002,2023-06-04,08:28:00,Accident,Pit Bottom,EQ-245,Mechanical,Conveyor belt jam,Minor,4,Poor ventilation,High,Sita Devi,2023-06-04 01:00:00,Investigating
+INC-CG-001-039,CG-001,2023-06-25,19:43:00,Near Miss,Pit Bottom,EQ-017,Electrical,Worker slipped,Minor,4,Human error,Low,Amit Patel,2023-06-25 01:00:00,Escalated
+INC-CG-002-040,CG-002,2023-05-18,07:09:00,Accident,Main Haulage Road,EQ-205,Mechanical,Roof fall,Serious,0,Poor ventilation,Critical,Rajesh Kumar,2023-05-18 03:00:00,Escalated
+INC-OD-001-041,OD-001,2023-07-06,16:22:00,Near Miss,Drill Site,EQ-489,Mechanical,Short circuit,None,0,Equipment failure,Medium,Rajesh Kumar,2023-07-06 02:00:00,Investigating
+INC-OD-002-042,OD-002,2023-04-19,15:49:00,Accident,Pit Bottom,EQ-127,Human Error,Conveyor belt jam,Minor,3,Human error,Critical,Sita Devi,2023-04-19 06:00:00,Open
+INC-OD-002-043,OD-002,2023-03-28,14:47:00,Accident,Pit Bottom,EQ-381,Mechanical,Worker slipped,None,0,Equipment failure,High,Amit Patel,2023-03-28 00:00:00,Closed
+INC-JH-002-044,JH-002,2023-03-23,08:42:00,Accident,Drill Site,EQ-168,Environmental,Conveyor belt jam,None,0,Equipment failure,Critical,Rajesh Kumar,2023-03-23 00:00:00,Open
+INC-OD-001-045,OD-001,2023-12-21,00:04:00,Accident,Drill Site,EQ-165,Human Error,Short circuit,None,0,Poor ventilation,Critical,Sita Devi,2023-12-21 03:00:00,Investigating
+INC-JH-003-046,JH-003,2023-02-27,01:56:00,Near Miss,Drill Site,EQ-367,Human Error,Short circuit,Minor,5,Inadequate maintenance,Critical,Rajesh Kumar,2023-02-27 05:00:00,Escalated
+INC-OD-001-047,OD-001,2023-11-18,15:33:00,Accident,Pit Bottom,EQ-010,Electrical,Short circuit,Serious,1,Inadequate maintenance,Low,Amit Patel,2023-11-18 01:00:00,Investigating
+INC-JH-003-048,JH-003,2023-03-03,17:30:00,Accident,Crusher Area,EQ-362,Human Error,Conveyor belt jam,Serious,4,Equipment failure,Low,Rajesh Kumar,2023-03-03 04:00:00,Open
+INC-JH-002-049,JH-002,2023-07-09,08:13:00,Accident,Pit Bottom,EQ-226,Electrical,Conveyor belt jam,Serious,5,Human error,Low,Sita Devi,2023-07-09 04:00:00,Open
+INC-CG-002-050,CG-002,2023-11-12,17:31:00,Near Miss,Loading Point,EQ-435,Environmental,Crusher blade failure,Serious,5,Equipment failure,Medium,Sita Devi,2023-11-12 04:00:00,Open
+INC-OD-002-051,OD-002,2023-10-30,04:58:00,Accident,Loading Point,EQ-433,Environmental,Crusher blade failure,Fatal,5,Inadequate maintenance,Critical,Rajesh Kumar,2023-10-30 00:00:00,Closed
+INC-OD-001-052,OD-001,2023-08-24,17:26:00,Accident,Main Haulage Road,EQ-394,Electrical,Roof fall,Fatal,3,Inadequate maintenance,High,Amit Patel,2023-08-24 03:00:00,Escalated
+INC-JH-001-053,JH-001,2023-08-28,20:24:00,Near Miss,Crusher Area,EQ-140,Human Error,Roof fall,Fatal,0,Human error,Low,Rajesh Kumar,2023-08-28 00:00:00,Closed
+INC-JH-003-054,JH-003,2023-12-09,05:28:00,Accident,Crusher Area,EQ-172,Environmental,Crusher blade failure,Fatal,5,Inadequate maintenance,Low,Amit Patel,2023-12-09 03:00:00,Investigating
+INC-JH-003-055,JH-003,2023-09-15,09:11:00,Accident,Main Haulage Road,EQ-068,Electrical,Worker slipped,Serious,3,Human error,Medium,Rajesh Kumar,2023-09-15 05:00:00,Closed
+INC-CG-002-056,CG-002,2023-03-28,15:49:00,Accident,Pit Bottom,EQ-036,Mechanical,Short circuit,Serious,2,Inadequate maintenance,Critical,Sita Devi,2023-03-28 06:00:00,Investigating
+INC-OD-002-057,OD-002,2023-03-23,13:29:00,Near Miss,Crusher Area,EQ-407,Environmental,Crusher blade failure,None,0,Poor ventilation,Critical,Rajesh Kumar,2023-03-23 05:00:00,Closed
+INC-OD-001-058,OD-001,2023-01-14,11:12:00,Near Miss,Drill Site,EQ-471,Human Error,Worker slipped,Minor,0,Poor ventilation,Medium,Sita Devi,2023-01-14 05:00:00,Escalated
+INC-CG-002-059,CG-002,2023-11-17,19:32:00,Near Miss,Main Haulage Road,EQ-219,Human Error,Worker slipped,Serious,4,Equipment failure,Low,Sita Devi,2023-11-17 03:00:00,Investigating
+INC-OD-001-060,OD-001,2023-01-10,10:15:00,Accident,Loading Point,EQ-466,Mechanical,Conveyor belt jam,Fatal,0,Inadequate maintenance,Critical,Amit Patel,2023-01-10 03:00:00,Investigating
+INC-JH-001-061,JH-001,2023-09-23,05:46:00,Near Miss,Pit Bottom,EQ-245,Human Error,Conveyor belt jam,None,0,Inadequate maintenance,Medium,Rajesh Kumar,2023-09-23 01:00:00,Closed
+INC-JH-001-062,JH-001,2023-09-21,02:39:00,Accident,Pit Bottom,EQ-320,Electrical,Crusher blade failure,None,0,Human error,High,Sita Devi,2023-09-21 02:00:00,Closed
+INC-CG-001-063,CG-001,2023-05-26,09:58:00,Near Miss,Pit Bottom,EQ-228,Environmental,Roof fall,Serious,2,Human error,Critical,Amit Patel,2023-05-26 05:00:00,Escalated
+INC-CG-002-064,CG-002,2023-02-08,14:19:00,Accident,Drill Site,EQ-474,Environmental,Roof fall,None,0,Poor ventilation,High,Rajesh Kumar,2023-02-08 06:00:00,Open
+INC-CG-001-065,CG-001,2023-07-12,03:13:00,Near Miss,Drill Site,EQ-312,Electrical,Crusher blade failure,None,0,Poor ventilation,Low,Amit Patel,2023-07-12 01:00:00,Closed
+INC-CG-001-066,CG-001,2023-11-06,06:58:00,Accident,Loading Point,EQ-253,Environmental,Roof fall,Fatal,4,Inadequate maintenance,Medium,Amit Patel,2023-11-06 00:00:00,Investigating
+INC-JH-001-067,JH-001,2023-03-24,12:13:00,Near Miss,Loading Point,EQ-058,Human Error,Worker slipped,None,0,Inadequate maintenance,Low,Rajesh Kumar,2023-03-24 03:00:00,Investigating
+INC-JH-002-068,JH-002,2023-12-30,10:48:00,Accident,Loading Point,EQ-103,Electrical,Short circuit,None,0,Equipment failure,High,Sita Devi,2023-12-30 01:00:00,Escalated
+INC-CG-001-069,CG-001,2023-04-04,17:11:00,Near Miss,Main Haulage Road,EQ-371,Mechanical,Crusher blade failure,Minor,5,Equipment failure,Low,Rajesh Kumar,2023-04-04 02:00:00,Investigating
+INC-JH-002-070,JH-002,2023-01-24,18:04:00,Accident,Loading Point,EQ-391,Mechanical,Crusher blade failure,Minor,3,Poor ventilation,Critical,Sita Devi,2023-01-24 06:00:00,Escalated
+INC-OD-002-071,OD-002,2023-04-16,00:12:00,Accident,Drill Site,EQ-087,Human Error,Conveyor belt jam,Serious,3,Human error,Low,Rajesh Kumar,2023-04-16 03:00:00,Escalated
+INC-CG-001-072,CG-001,2023-10-01,08:33:00,Accident,Crusher Area,EQ-378,Mechanical,Roof fall,None,0,Poor ventilation,Low,Amit Patel,2023-10-01 02:00:00,Closed
+INC-JH-001-073,JH-001,2023-11-16,04:00:00,Near Miss,Loading Point,EQ-384,Environmental,Short circuit,Serious,4,Human error,Low,Amit Patel,2023-11-16 02:00:00,Open
+INC-JH-003-074,JH-003,2023-07-26,17:18:00,Near Miss,Loading Point,EQ-434,Electrical,Short circuit,Fatal,0,Inadequate maintenance,Critical,Sita Devi,2023-07-26 06:00:00,Investigating
+INC-OD-002-075,OD-002,2023-08-20,22:52:00,Near Miss,Pit Bottom,EQ-072,Human Error,Worker slipped,Minor,0,Equipment failure,Medium,Sita Devi,2023-08-20 04:00:00,Investigating
+INC-CG-001-076,CG-001,2023-03-02,21:10:00,Accident,Drill Site,EQ-087,Human Error,Short circuit,Minor,5,Human error,High,Amit Patel,2023-03-02 00:00:00,Investigating
+INC-CG-001-077,CG-001,2023-01-07,14:36:00,Near Miss,Loading Point,EQ-068,Human Error,Short circuit,None,0,Poor ventilation,Critical,Rajesh Kumar,2023-01-07 01:00:00,Escalated
+INC-OD-001-078,OD-001,2023-12-08,15:33:00,Accident,Loading Point,EQ-006,Environmental,Short circuit,Fatal,3,Equipment failure,Low,Sita Devi,2023-12-08 03:00:00,Investigating
+INC-OD-001-079,OD-001,2023-09-05,19:59:00,Near Miss,Main Haulage Road,EQ-312,Mechanical,Worker slipped,Serious,3,Equipment failure,Medium,Amit Patel,2023-09-05 05:00:00,Open
+INC-OD-001-080,OD-001,2023-07-19,08:34:00,Accident,Pit Bottom,EQ-205,Mechanical,Short circuit,Minor,2,Human error,Low,Amit Patel,2023-07-19 05:00:00,Investigating
+INC-OD-002-081,OD-002,2023-02-10,19:23:00,Near Miss,Crusher Area,EQ-010,Human Error,Roof fall,Minor,4,Human error,Low,Amit Patel,2023-02-10 02:00:00,Investigating
+INC-CG-002-082,CG-002,2023-03-06,17:14:00,Near Miss,Drill Site,EQ-018,Electrical,Crusher blade failure,Serious,2,Inadequate maintenance,Low,Amit Patel,2023-03-06 03:00:00,Closed
+INC-OD-002-083,OD-002,2023-11-21,12:12:00,Near Miss,Loading Point,EQ-125,Mechanical,Short circuit,Minor,3,Inadequate maintenance,Critical,Rajesh Kumar,2023-11-21 05:00:00,Closed
+INC-JH-002-084,JH-002,2023-06-22,21:44:00,Accident,Drill Site,EQ-192,Electrical,Conveyor belt jam,None,0,Equipment failure,Critical,Rajesh Kumar,2023-06-22 00:00:00,Closed
+INC-JH-003-085,JH-003,2023-07-23,06:59:00,Accident,Crusher Area,EQ-229,Environmental,Conveyor belt jam,Serious,3,Human error,Low,Amit Patel,2023-07-23 04:00:00,Escalated
+INC-JH-003-086,JH-003,2023-06-21,16:52:00,Near Miss,Pit Bottom,EQ-455,Environmental,Roof fall,None,0,Inadequate maintenance,Critical,Amit Patel,2023-06-21 03:00:00,Open
+INC-OD-002-087,OD-002,2023-07-27,10:04:00,Accident,Loading Point,EQ-282,Environmental,Short circuit,Minor,5,Poor ventilation,Medium,Rajesh Kumar,2023-07-27 00:00:00,Escalated
+INC-CG-001-088,CG-001,2023-08-20,16:48:00,Near Miss,Crusher Area,EQ-163,Environmental,Short circuit,None,0,Poor ventilation,Low,Sita Devi,2023-08-20 00:00:00,Closed
+INC-CG-001-089,CG-001,2023-06-23,17:46:00,Accident,Crusher Area,EQ-277,Human Error,Worker slipped,Minor,5,Equipment failure,Medium,Sita Devi,2023-06-23 05:00:00,Closed
+INC-JH-003-090,JH-003,2023-02-12,02:46:00,Near Miss,Drill Site,EQ-187,Electrical,Worker slipped,None,0,Inadequate maintenance,Low,Amit Patel,2023-02-12 02:00:00,Escalated
+INC-JH-002-091,JH-002,2023-07-19,12:56:00,Accident,Loading Point,EQ-030,Human Error,Crusher blade failure,None,0,Equipment failure,Low,Rajesh Kumar,2023-07-19 04:00:00,Closed
+INC-JH-003-092,JH-003,2023-07-23,07:52:00,Accident,Drill Site,EQ-369,Human Error,Worker slipped,Fatal,3,Poor ventilation,High,Amit Patel,2023-07-23 06:00:00,Investigating
+INC-CG-002-093,CG-002,2023-03-24,07:31:00,Near Miss,Crusher Area,EQ-356,Electrical,Roof fall,Serious,5,Equipment failure,Medium,Amit Patel,2023-03-24 00:00:00,Closed
+INC-OD-002-094,OD-002,2023-05-08,20:09:00,Near Miss,Crusher Area,EQ-262,Human Error,Roof fall,Serious,4,Equipment failure,Low,Sita Devi,2023-05-08 03:00:00,Escalated
+INC-JH-003-095,JH-003,2023-04-17,08:31:00,Near Miss,Main Haulage Road,EQ-018,Mechanical,Conveyor belt jam,Serious,4,Inadequate maintenance,Low,Rajesh Kumar,2023-04-17 00:00:00,Investigating
+INC-JH-002-096,JH-002,2023-08-03,12:26:00,Accident,Drill Site,EQ-288,Mechanical,Roof fall,None,0,Human error,High,Amit Patel,2023-08-03 04:00:00,Open
+INC-OD-001-097,OD-001,2023-03-15,15:44:00,Near Miss,Drill Site,EQ-177,Mechanical,Crusher blade failure,Minor,1,Human error,Low,Rajesh Kumar,2023-03-15 01:00:00,Investigating
+INC-CG-002-098,CG-002,2023-10-21,03:23:00,Accident,Crusher Area,EQ-104,Environmental,Short circuit,Serious,3,Inadequate maintenance,Critical,Sita Devi,2023-10-21 05:00:00,Escalated
+INC-JH-001-099,JH-001,2023-07-12,05:18:00,Accident,Loading Point,EQ-386,Electrical,Crusher blade failure,Fatal,0,Inadequate maintenance,Critical,Amit Patel,2023-07-12 00:00:00,Open
+INC-OD-001-100,OD-001,2023-08-25,09:19:00,Near Miss,Main Haulage Road,EQ-277,Electrical,Short circuit,None,0,Human error,Low,Sita Devi,2023-08-25 05:00:00,Closed
+INC-JH-001-101,JH-001,2023-08-22,17:48:00,Accident,Main Haulage Road,EQ-476,Electrical,Crusher blade failure,Serious,0,Human error,Medium,Sita Devi,2023-08-22 04:00:00,Escalated
+INC-OD-001-102,OD-001,2023-03-30,03:53:00,Near Miss,Crusher Area,EQ-037,Mechanical,Crusher blade failure,None,0,Human error,Low,Sita Devi,2023-03-30 00:00:00,Escalated
+INC-JH-003-103,JH-003,2023-10-15,23:47:00,Near Miss,Drill Site,EQ-271,Electrical,Crusher blade failure,None,0,Equipment failure,Medium,Sita Devi,2023-10-15 04:00:00,Escalated
+INC-JH-001-104,JH-001,2023-03-23,16:18:00,Near Miss,Pit Bottom,EQ-455,Human Error,Short circuit,Minor,5,Inadequate maintenance,Low,Rajesh Kumar,2023-03-23 00:00:00,Open
+INC-JH-003-105,JH-003,2023-12-13,18:45:00,Near Miss,Pit Bottom,EQ-165,Electrical,Short circuit,Minor,1,Inadequate maintenance,Low,Amit Patel,2023-12-13 03:00:00,Closed
+INC-JH-003-106,JH-003,2023-10-19,23:31:00,Accident,Crusher Area,EQ-406,Human Error,Short circuit,Minor,5,Inadequate maintenance,High,Sita Devi,2023-10-19 01:00:00,Open
+INC-JH-001-107,JH-001,2023-03-12,01:40:00,Accident,Loading Point,EQ-280,Environmental,Conveyor belt jam,None,0,Inadequate maintenance,Medium,Amit Patel,2023-03-12 05:00:00,Escalated
+INC-JH-001-108,JH-001,2023-05-28,04:04:00,Accident,Main Haulage Road,EQ-412,Mechanical,Conveyor belt jam,Minor,3,Poor ventilation,Critical,Sita Devi,2023-05-28 01:00:00,Open
+INC-JH-001-109,JH-001,2023-01-31,16:18:00,Near Miss,Crusher Area,EQ-154,Electrical,Short circuit,Minor,5,Poor ventilation,Critical,Rajesh Kumar,2023-01-31 01:00:00,Investigating
+INC-OD-002-110,OD-002,2023-01-29,23:41:00,Near Miss,Crusher Area,EQ-146,Mechanical,Worker slipped,Fatal,0,Human error,Critical,Sita Devi,2023-01-29 01:00:00,Investigating
+INC-OD-002-111,OD-002,2023-04-21,22:55:00,Near Miss,Loading Point,EQ-428,Mechanical,Worker slipped,Fatal,3,Human error,Critical,Rajesh Kumar,2023-04-21 05:00:00,Investigating
+INC-JH-003-112,JH-003,2023-09-26,23:12:00,Near Miss,Main Haulage Road,EQ-237,Human Error,Crusher blade failure,Fatal,2,Poor ventilation,Critical,Rajesh Kumar,2023-09-26 00:00:00,Closed
+INC-OD-002-113,OD-002,2023-04-11,22:00:00,Near Miss,Drill Site,EQ-067,Environmental,Crusher blade failure,Serious,2,Human error,Medium,Amit Patel,2023-04-11 01:00:00,Escalated
+INC-CG-002-114,CG-002,2023-06-07,06:35:00,Accident,Pit Bottom,EQ-357,Environmental,Crusher blade failure,Serious,2,Inadequate maintenance,Critical,Rajesh Kumar,2023-06-07 02:00:00,Investigating
+INC-OD-001-115,OD-001,2023-05-01,23:43:00,Accident,Pit Bottom,EQ-439,Mechanical,Conveyor belt jam,Minor,3,Human error,Critical,Sita Devi,2023-05-01 02:00:00,Open
+INC-JH-002-116,JH-002,2023-09-29,01:50:00,Near Miss,Crusher Area,EQ-461,Mechanical,Roof fall,Minor,5,Equipment failure,Low,Rajesh Kumar,2023-09-29 04:00:00,Escalated
+INC-JH-001-117,JH-001,2023-01-23,03:44:00,Accident,Crusher Area,EQ-387,Human Error,Crusher blade failure,Serious,0,Human error,Low,Amit Patel,2023-01-23 04:00:00,Open
+INC-CG-002-118,CG-002,2023-10-25,18:57:00,Accident,Crusher Area,EQ-022,Environmental,Conveyor belt jam,Fatal,5,Poor ventilation,Critical,Amit Patel,2023-10-25 02:00:00,Escalated
+INC-JH-003-119,JH-003,2023-06-17,16:42:00,Near Miss,Pit Bottom,EQ-084,Human Error,Crusher blade failure,None,0,Poor ventilation,Critical,Amit Patel,2023-06-17 02:00:00,Escalated
+INC-JH-003-120,JH-003,2023-07-07,22:27:00,Near Miss,Crusher Area,EQ-497,Electrical,Roof fall,Serious,3,Poor ventilation,High,Rajesh Kumar,2023-07-07 00:00:00,Investigating
+INC-JH-002-121,JH-002,2023-07-04,04:45:00,Near Miss,Drill Site,EQ-160,Human Error,Crusher blade failure,Serious,1,Inadequate maintenance,Critical,Sita Devi,2023-07-04 00:00:00,Closed
+INC-JH-002-122,JH-002,2023-04-08,16:50:00,Accident,Crusher Area,EQ-312,Environmental,Conveyor belt jam,Minor,1,Inadequate maintenance,Medium,Amit Patel,2023-04-08 02:00:00,Escalated
+INC-OD-001-123,OD-001,2023-08-19,19:14:00,Accident,Pit Bottom,EQ-130,Mechanical,Short circuit,Serious,4,Poor ventilation,Medium,Sita Devi,2023-08-19 01:00:00,Investigating
+INC-JH-001-124,JH-001,2023-09-09,10:40:00,Near Miss,Pit Bottom,EQ-112,Environmental,Crusher blade failure,Minor,3,Poor ventilation,Critical,Rajesh Kumar,2023-09-09 00:00:00,Escalated
+INC-JH-003-125,JH-003,2023-10-02,11:32:00,Accident,Drill Site,EQ-452,Environmental,Short circuit,Minor,5,Poor ventilation,Low,Sita Devi,2023-10-02 05:00:00,Escalated
+INC-JH-002-126,JH-002,2023-11-22,00:40:00,Accident,Drill Site,EQ-386,Human Error,Roof fall,Fatal,2,Human error,Medium,Amit Patel,2023-11-22 04:00:00,Investigating
+INC-OD-001-127,OD-001,2023-09-30,14:26:00,Accident,Loading Point,EQ-011,Environmental,Short circuit,Fatal,2,Poor ventilation,Low,Rajesh Kumar,2023-09-30 05:00:00,Closed
+INC-CG-002-128,CG-002,2023-06-30,11:51:00,Accident,Main Haulage Road,EQ-253,Human Error,Roof fall,Fatal,4,Poor ventilation,Critical,Rajesh Kumar,2023-06-30 00:00:00,Closed
+INC-OD-002-129,OD-002,2023-09-28,19:01:00,Accident,Drill Site,EQ-037,Environmental,Crusher blade failure,None,0,Inadequate maintenance,Low,Amit Patel,2023-09-28 01:00:00,Escalated
+INC-OD-002-130,OD-002,2023-04-20,20:07:00,Near Miss,Drill Site,EQ-087,Human Error,Crusher blade failure,Fatal,3,Inadequate maintenance,High,Amit Patel,2023-04-20 00:00:00,Open
+INC-OD-001-131,OD-001,2023-11-16,15:26:00,Accident,Crusher Area,EQ-137,Electrical,Short circuit,Serious,3,Equipment failure,Low,Amit Patel,2023-11-16 06:00:00,Closed
+INC-CG-001-132,CG-001,2023-08-18,02:37:00,Accident,Pit Bottom,EQ-342,Electrical,Crusher blade failure,None,0,Inadequate maintenance,Low,Amit Patel,2023-08-18 03:00:00,Investigating
+INC-JH-002-133,JH-002,2023-06-24,14:23:00,Accident,Main Haulage Road,EQ-481,Electrical,Crusher blade failure,Fatal,1,Human error,Low,Sita Devi,2023-06-24 03:00:00,Closed
+INC-CG-002-134,CG-002,2023-04-15,02:28:00,Accident,Main Haulage Road,EQ-378,Mechanical,Short circuit,None,0,Equipment failure,Low,Rajesh Kumar,2023-04-15 04:00:00,Escalated
+INC-CG-002-135,CG-002,2023-08-21,00:41:00,Accident,Loading Point,EQ-276,Environmental,Roof fall,Serious,2,Inadequate maintenance,High,Sita Devi,2023-08-21 02:00:00,Closed
+INC-OD-002-136,OD-002,2023-04-08,03:35:00,Accident,Pit Bottom,EQ-498,Mechanical,Crusher blade failure,Minor,2,Poor ventilation,Low,Amit Patel,2023-04-08 04:00:00,Escalated
+INC-JH-002-137,JH-002,2023-05-12,03:15:00,Near Miss,Main Haulage Road,EQ-478,Human Error,Short circuit,Fatal,3,Poor ventilation,High,Sita Devi,2023-05-12 00:00:00,Escalated
+INC-CG-001-138,CG-001,2023-03-08,20:37:00,Near Miss,Pit Bottom,EQ-210,Mechanical,Crusher blade failure,Fatal,2,Human error,Medium,Amit Patel,2023-03-08 02:00:00,Open
+INC-CG-002-139,CG-002,2023-08-28,04:49:00,Accident,Drill Site,EQ-392,Human Error,Short circuit,Minor,2,Human error,Low,Rajesh Kumar,2023-08-28 01:00:00,Investigating
+INC-OD-001-140,OD-001,2023-09-05,12:43:00,Accident,Pit Bottom,EQ-050,Mechanical,Worker slipped,None,0,Poor ventilation,Medium,Sita Devi,2023-09-05 01:00:00,Escalated
+INC-OD-002-141,OD-002,2023-04-09,23:46:00,Near Miss,Crusher Area,EQ-462,Human Error,Short circuit,Fatal,5,Inadequate maintenance,Critical,Sita Devi,2023-04-09 03:00:00,Closed
+INC-CG-001-142,CG-001,2023-03-15,02:46:00,Accident,Loading Point,EQ-099,Mechanical,Worker slipped,Serious,5,Human error,High,Rajesh Kumar,2023-03-15 06:00:00,Escalated
+INC-JH-001-143,JH-001,2023-01-10,21:42:00,Near Miss,Pit Bottom,EQ-170,Environmental,Short circuit,Minor,1,Equipment failure,Critical,Rajesh Kumar,2023-01-10 02:00:00,Investigating
+INC-CG-001-144,CG-001,2023-05-13,18:54:00,Near Miss,Pit Bottom,EQ-160,Environmental,Roof fall,Serious,1,Equipment failure,High,Rajesh Kumar,2023-05-13 02:00:00,Open
+INC-JH-002-145,JH-002,2023-04-04,14:59:00,Near Miss,Crusher Area,EQ-334,Environmental,Roof fall,Fatal,1,Equipment failure,High,Sita Devi,2023-04-04 06:00:00,Open
+INC-JH-002-146,JH-002,2023-09-02,00:21:00,Near Miss,Drill Site,EQ-373,Human Error,Crusher blade failure,Serious,1,Inadequate maintenance,Medium,Amit Patel,2023-09-02 00:00:00,Open
+INC-CG-001-147,CG-001,2023-06-06,00:40:00,Accident,Pit Bottom,EQ-339,Human Error,Crusher blade failure,Fatal,1,Equipment failure,Critical,Amit Patel,2023-06-06 01:00:00,Closed
+INC-JH-003-148,JH-003,2023-04-18,11:53:00,Accident,Main Haulage Road,EQ-065,Mechanical,Short circuit,None,0,Equipment failure,Medium,Sita Devi,2023-04-18 03:00:00,Escalated
+INC-OD-002-149,OD-002,2023-05-24,20:48:00,Accident,Drill Site,EQ-447,Human Error,Roof fall,None,0,Human error,Low,Amit Patel,2023-05-24 04:00:00,Escalated
+INC-OD-002-150,OD-002,2023-12-22,10:54:00,Accident,Pit Bottom,EQ-364,Human Error,Short circuit,Minor,5,Human error,Medium,Amit Patel,2023-12-22 01:00:00,Escalated
+INC-OD-001-151,OD-001,2023-09-12,06:31:00,Near Miss,Loading Point,EQ-160,Electrical,Roof fall,Serious,0,Poor ventilation,Low,Sita Devi,2023-09-12 03:00:00,Escalated
+INC-JH-002-152,JH-002,2023-05-05,09:11:00,Accident,Loading Point,EQ-042,Mechanical,Short circuit,Minor,5,Inadequate maintenance,Critical,Amit Patel,2023-05-05 01:00:00,Closed
+INC-OD-002-153,OD-002,2023-08-26,14:00:00,Near Miss,Crusher Area,EQ-342,Mechanical,Conveyor belt jam,Minor,0,Poor ventilation,High,Amit Patel,2023-08-26 02:00:00,Escalated
+INC-OD-001-154,OD-001,2023-06-30,03:11:00,Near Miss,Drill Site,EQ-351,Human Error,Roof fall,Fatal,3,Human error,Medium,Sita Devi,2023-06-30 00:00:00,Investigating
+INC-OD-002-155,OD-002,2023-05-08,08:59:00,Near Miss,Drill Site,EQ-085,Electrical,Crusher blade failure,Minor,5,Human error,Critical,Sita Devi,2023-05-08 00:00:00,Closed
+INC-CG-001-156,CG-001,2023-09-30,04:09:00,Accident,Main Haulage Road,EQ-305,Human Error,Worker slipped,None,0,Inadequate maintenance,High,Amit Patel,2023-09-30 03:00:00,Escalated
+INC-OD-001-157,OD-001,2023-07-06,21:48:00,Near Miss,Main Haulage Road,EQ-086,Human Error,Roof fall,Serious,1,Human error,High,Rajesh Kumar,2023-07-06 02:00:00,Escalated
+INC-OD-001-158,OD-001,2023-10-24,12:37:00,Accident,Loading Point,EQ-301,Electrical,Short circuit,Serious,4,Inadequate maintenance,High,Amit Patel,2023-10-24 04:00:00,Investigating
+INC-OD-001-159,OD-001,2023-04-20,10:40:00,Accident,Loading Point,EQ-025,Electrical,Conveyor belt jam,Fatal,5,Poor ventilation,Critical,Sita Devi,2023-04-20 05:00:00,Closed
+INC-CG-002-160,CG-002,2023-05-15,14:33:00,Near Miss,Loading Point,EQ-470,Environmental,Crusher blade failure,Serious,0,Poor ventilation,Low,Amit Patel,2023-05-15 00:00:00,Open
+INC-OD-001-161,OD-001,2023-11-12,08:16:00,Accident,Loading Point,EQ-074,Environmental,Roof fall,None,0,Inadequate maintenance,Critical,Amit Patel,2023-11-12 00:00:00,Open
+INC-JH-003-162,JH-003,2023-04-27,23:36:00,Near Miss,Crusher Area,EQ-488,Mechanical,Short circuit,Minor,0,Inadequate maintenance,High,Amit Patel,2023-04-27 05:00:00,Closed
+INC-CG-001-163,CG-001,2023-03-04,03:58:00,Near Miss,Crusher Area,EQ-087,Environmental,Conveyor belt jam,Minor,1,Equipment failure,Critical,Sita Devi,2023-03-04 00:00:00,Closed
+INC-JH-003-164,JH-003,2023-02-11,05:53:00,Accident,Loading Point,EQ-349,Human Error,Roof fall,Serious,5,Poor ventilation,Low,Amit Patel,2023-02-11 00:00:00,Open
+INC-CG-001-165,CG-001,2023-05-01,11:28:00,Near Miss,Pit Bottom,EQ-466,Mechanical,Roof fall,Fatal,0,Inadequate maintenance,High,Amit Patel,2023-05-01 06:00:00,Investigating
+INC-JH-003-166,JH-003,2023-07-25,01:53:00,Accident,Pit Bottom,EQ-278,Human Error,Short circuit,None,0,Equipment failure,Critical,Rajesh Kumar,2023-07-25 00:00:00,Closed
+INC-JH-001-167,JH-001,2023-09-20,02:00:00,Near Miss,Drill Site,EQ-227,Mechanical,Short circuit,Serious,5,Human error,Critical,Amit Patel,2023-09-20 00:00:00,Investigating
+INC-JH-003-168,JH-003,2023-05-23,21:02:00,Near Miss,Crusher Area,EQ-077,Electrical,Crusher blade failure,Minor,4,Human error,Critical,Sita Devi,2023-05-23 04:00:00,Open
+INC-OD-002-169,OD-002,2023-08-03,09:48:00,Near Miss,Main Haulage Road,EQ-090,Mechanical,Crusher blade failure,Serious,2,Poor ventilation,Low,Sita Devi,2023-08-03 04:00:00,Investigating
+INC-CG-002-170,CG-002,2023-09-13,01:45:00,Near Miss,Pit Bottom,EQ-238,Electrical,Crusher blade failure,Minor,1,Poor ventilation,High,Amit Patel,2023-09-13 06:00:00,Investigating
+INC-OD-001-171,OD-001,2023-02-15,03:15:00,Near Miss,Main Haulage Road,EQ-363,Human Error,Worker slipped,Fatal,3,Equipment failure,High,Sita Devi,2023-02-15 05:00:00,Closed
+INC-JH-003-172,JH-003,2023-09-15,15:02:00,Accident,Loading Point,EQ-221,Human Error,Worker slipped,Fatal,2,Poor ventilation,High,Amit Patel,2023-09-15 01:00:00,Closed
+INC-OD-001-173,OD-001,2023-01-23,03:27:00,Near Miss,Loading Point,EQ-174,Environmental,Worker slipped,None,0,Human error,Medium,Amit Patel,2023-01-23 01:00:00,Closed
+INC-OD-002-174,OD-002,2023-08-19,10:51:00,Accident,Loading Point,EQ-108,Mechanical,Crusher blade failure,None,0,Inadequate maintenance,Medium,Rajesh Kumar,2023-08-19 03:00:00,Open
+INC-JH-002-175,JH-002,2023-10-05,22:47:00,Near Miss,Main Haulage Road,EQ-324,Human Error,Worker slipped,Minor,1,Equipment failure,Critical,Amit Patel,2023-10-05 01:00:00,Escalated
+INC-CG-001-176,CG-001,2023-09-26,00:43:00,Accident,Drill Site,EQ-041,Environmental,Conveyor belt jam,None,0,Human error,Low,Sita Devi,2023-09-26 02:00:00,Escalated
+INC-CG-002-177,CG-002,2023-03-01,22:09:00,Accident,Crusher Area,EQ-429,Environmental,Short circuit,Minor,2,Poor ventilation,High,Sita Devi,2023-03-01 03:00:00,Investigating
+INC-CG-001-178,CG-001,2023-07-17,23:48:00,Accident,Drill Site,EQ-100,Mechanical,Crusher blade failure,Serious,5,Equipment failure,Medium,Rajesh Kumar,2023-07-17 06:00:00,Open
+INC-JH-003-179,JH-003,2023-04-04,03:03:00,Accident,Drill Site,EQ-305,Electrical,Conveyor belt jam,Minor,5,Poor ventilation,Medium,Sita Devi,2023-04-04 05:00:00,Open
+INC-CG-002-180,CG-002,2023-02-17,05:14:00,Accident,Crusher Area,EQ-396,Environmental,Roof fall,Serious,5,Poor ventilation,Critical,Amit Patel,2023-02-17 05:00:00,Closed
+INC-OD-002-181,OD-002,2023-01-04,02:11:00,Accident,Loading Point,EQ-427,Electrical,Roof fall,Serious,0,Inadequate maintenance,Medium,Rajesh Kumar,2023-01-04 03:00:00,Open
+INC-CG-001-182,CG-001,2023-05-27,10:56:00,Near Miss,Crusher Area,EQ-366,Mechanical,Roof fall,Minor,0,Poor ventilation,High,Amit Patel,2023-05-27 05:00:00,Open
+INC-JH-001-183,JH-001,2023-04-26,19:09:00,Accident,Pit Bottom,EQ-448,Environmental,Roof fall,None,0,Human error,Medium,Amit Patel,2023-04-26 06:00:00,Investigating
+INC-CG-002-184,CG-002,2023-08-10,17:14:00,Accident,Pit Bottom,EQ-281,Mechanical,Conveyor belt jam,Serious,1,Equipment failure,Medium,Sita Devi,2023-08-10 05:00:00,Escalated
+INC-CG-001-185,CG-001,2023-04-12,22:25:00,Accident,Crusher Area,EQ-369,Mechanical,Short circuit,None,0,Poor ventilation,Low,Amit Patel,2023-04-12 02:00:00,Closed
+INC-OD-001-186,OD-001,2023-02-14,21:46:00,Near Miss,Loading Point,EQ-056,Mechanical,Conveyor belt jam,Fatal,3,Human error,Medium,Amit Patel,2023-02-14 01:00:00,Investigating
+INC-JH-002-187,JH-002,2023-02-02,23:39:00,Near Miss,Loading Point,EQ-297,Human Error,Roof fall,Serious,5,Equipment failure,Low,Rajesh Kumar,2023-02-02 06:00:00,Open
+INC-CG-001-188,CG-001,2023-10-14,19:50:00,Accident,Main Haulage Road,EQ-247,Electrical,Crusher blade failure,Serious,5,Equipment failure,Critical,Sita Devi,2023-10-14 05:00:00,Escalated
+INC-OD-002-189,OD-002,2023-05-02,01:05:00,Near Miss,Crusher Area,EQ-064,Mechanical,Roof fall,Serious,2,Human error,High,Rajesh Kumar,2023-05-02 02:00:00,Investigating
+INC-OD-001-190,OD-001,2023-05-30,04:17:00,Near Miss,Main Haulage Road,EQ-414,Environmental,Roof fall,Minor,4,Human error,Critical,Amit Patel,2023-05-30 03:00:00,Open
+INC-JH-002-191,JH-002,2023-04-21,18:08:00,Accident,Main Haulage Road,EQ-029,Mechanical,Short circuit,None,0,Inadequate maintenance,Low,Rajesh Kumar,2023-04-21 02:00:00,Investigating
+INC-CG-001-192,CG-001,2023-10-31,14:49:00,Accident,Pit Bottom,EQ-497,Human Error,Conveyor belt jam,Fatal,5,Equipment failure,High,Rajesh Kumar,2023-10-31 02:00:00,Open
+INC-JH-003-193,JH-003,2023-11-07,21:24:00,Accident,Main Haulage Road,EQ-029,Environmental,Crusher blade failure,None,0,Human error,High,Rajesh Kumar,2023-11-07 04:00:00,Escalated
+INC-CG-002-194,CG-002,2023-08-28,13:53:00,Near Miss,Main Haulage Road,EQ-354,Environmental,Worker slipped,None,0,Equipment failure,Critical,Rajesh Kumar,2023-08-28 05:00:00,Open
+INC-JH-003-195,JH-003,2023-03-29,18:31:00,Near Miss,Loading Point,EQ-322,Mechanical,Conveyor belt jam,Fatal,5,Human error,Low,Rajesh Kumar,2023-03-29 05:00:00,Open
+INC-OD-002-196,OD-002,2023-03-18,11:58:00,Accident,Pit Bottom,EQ-025,Environmental,Short circuit,Fatal,0,Poor ventilation,Critical,Amit Patel,2023-03-18 01:00:00,Closed
+INC-JH-001-197,JH-001,2023-06-13,04:57:00,Accident,Main Haulage Road,EQ-159,Environmental,Conveyor belt jam,Minor,2,Poor ventilation,Low,Sita Devi,2023-06-13 06:00:00,Open
+INC-OD-002-198,OD-002,2023-06-03,20:41:00,Near Miss,Main Haulage Road,EQ-244,Mechanical,Short circuit,Serious,0,Human error,Critical,Rajesh Kumar,2023-06-03 06:00:00,Open
+INC-OD-002-199,OD-002,2023-08-14,17:34:00,Near Miss,Crusher Area,EQ-476,Electrical,Worker slipped,Serious,1,Equipment failure,High,Sita Devi,2023-08-14 00:00:00,Investigating
+INC-JH-002-200,JH-002,2023-12-14,06:20:00,Accident,Pit Bottom,EQ-350,Mechanical,Conveyor belt jam,Serious,3,Poor ventilation,Low,Rajesh Kumar,2023-12-14 01:00:00,Investigating
+INC-CG-002-201,CG-002,2023-04-20,10:34:00,Accident,Pit Bottom,EQ-170,Mechanical,Worker slipped,Serious,3,Human error,Low,Amit Patel,2023-04-20 06:00:00,Closed
+INC-OD-001-202,OD-001,2023-01-28,16:54:00,Accident,Pit Bottom,EQ-260,Environmental,Conveyor belt jam,Minor,0,Poor ventilation,Low,Sita Devi,2023-01-28 01:00:00,Closed
+INC-CG-002-203,CG-002,2023-05-24,07:51:00,Near Miss,Loading Point,EQ-466,Mechanical,Roof fall,Serious,2,Human error,High,Sita Devi,2023-05-24 05:00:00,Closed
+INC-CG-001-204,CG-001,2023-08-04,20:18:00,Accident,Pit Bottom,EQ-119,Mechanical,Short circuit,Fatal,1,Inadequate maintenance,High,Amit Patel,2023-08-04 06:00:00,Open
+INC-OD-002-205,OD-002,2023-03-02,11:42:00,Near Miss,Pit Bottom,EQ-176,Mechanical,Worker slipped,Serious,4,Equipment failure,High,Amit Patel,2023-03-02 05:00:00,Open
+INC-CG-001-206,CG-001,2023-11-02,19:17:00,Accident,Loading Point,EQ-336,Human Error,Crusher blade failure,None,0,Equipment failure,Medium,Rajesh Kumar,2023-11-02 00:00:00,Investigating
+INC-CG-002-207,CG-002,2023-11-11,06:44:00,Near Miss,Crusher Area,EQ-173,Environmental,Roof fall,Minor,5,Inadequate maintenance,Medium,Rajesh Kumar,2023-11-11 00:00:00,Open
+INC-JH-003-208,JH-003,2023-04-08,17:45:00,Near Miss,Drill Site,EQ-489,Electrical,Worker slipped,Minor,0,Equipment failure,Medium,Amit Patel,2023-04-08 02:00:00,Escalated
+INC-JH-003-209,JH-003,2023-02-08,17:12:00,Near Miss,Loading Point,EQ-051,Human Error,Worker slipped,Fatal,5,Equipment failure,Low,Rajesh Kumar,2023-02-08 05:00:00,Closed
+INC-JH-001-210,JH-001,2023-08-21,18:57:00,Accident,Crusher Area,EQ-010,Mechanical,Worker slipped,None,0,Inadequate maintenance,Critical,Amit Patel,2023-08-21 00:00:00,Open
+INC-CG-001-211,CG-001,2023-01-16,17:46:00,Accident,Main Haulage Road,EQ-438,Environmental,Crusher blade failure,Minor,4,Poor ventilation,Medium,Rajesh Kumar,2023-01-16 00:00:00,Closed
+INC-JH-003-212,JH-003,2023-04-24,20:48:00,Accident,Loading Point,EQ-403,Environmental,Short circuit,Serious,0,Poor ventilation,High,Rajesh Kumar,2023-04-24 06:00:00,Escalated
+INC-JH-001-213,JH-001,2023-04-05,21:10:00,Near Miss,Main Haulage Road,EQ-460,Mechanical,Conveyor belt jam,Serious,2,Equipment failure,Critical,Amit Patel,2023-04-05 02:00:00,Open
+INC-OD-002-214,OD-002,2023-04-27,10:02:00,Accident,Pit Bottom,EQ-075,Environmental,Short circuit,Fatal,5,Poor ventilation,High,Amit Patel,2023-04-27 03:00:00,Closed
+INC-CG-002-215,CG-002,2023-03-11,07:22:00,Accident,Loading Point,EQ-480,Mechanical,Crusher blade failure,None,0,Human error,Medium,Rajesh Kumar,2023-03-11 05:00:00,Closed
+INC-OD-002-216,OD-002,2023-03-13,17:45:00,Near Miss,Main Haulage Road,EQ-199,Electrical,Short circuit,Minor,3,Poor ventilation,Medium,Sita Devi,2023-03-13 05:00:00,Escalated
+INC-OD-002-217,OD-002,2023-04-12,19:42:00,Accident,Main Haulage Road,EQ-178,Human Error,Conveyor belt jam,Minor,5,Poor ventilation,Low,Sita Devi,2023-04-12 06:00:00,Closed
+INC-CG-002-218,CG-002,2023-04-07,23:47:00,Accident,Main Haulage Road,EQ-149,Electrical,Short circuit,Minor,4,Inadequate maintenance,High,Amit Patel,2023-04-07 04:00:00,Investigating
+INC-CG-001-219,CG-001,2023-07-19,16:30:00,Near Miss,Crusher Area,EQ-113,Electrical,Worker slipped,Serious,0,Human error,Low,Rajesh Kumar,2023-07-19 04:00:00,Open
+INC-JH-002-220,JH-002,2023-01-11,01:34:00,Accident,Main Haulage Road,EQ-114,Mechanical,Conveyor belt jam,Fatal,5,Human error,Low,Sita Devi,2023-01-11 02:00:00,Closed
+INC-OD-002-221,OD-002,2023-08-28,17:50:00,Near Miss,Pit Bottom,EQ-037,Environmental,Crusher blade failure,Minor,4,Human error,High,Rajesh Kumar,2023-08-28 00:00:00,Closed
+INC-JH-002-222,JH-002,2023-06-04,08:59:00,Near Miss,Crusher Area,EQ-457,Human Error,Conveyor belt jam,Serious,1,Equipment failure,Low,Sita Devi,2023-06-04 00:00:00,Investigating
+INC-OD-001-223,OD-001,2023-12-01,02:37:00,Near Miss,Loading Point,EQ-275,Mechanical,Worker slipped,Serious,1,Poor ventilation,Low,Sita Devi,2023-12-01 03:00:00,Investigating
+INC-JH-003-224,JH-003,2023-06-25,09:09:00,Near Miss,Drill Site,EQ-418,Environmental,Crusher blade failure,None,0,Equipment failure,Low,Rajesh Kumar,2023-06-25 06:00:00,Investigating
+INC-JH-002-225,JH-002,2023-09-26,07:48:00,Accident,Pit Bottom,EQ-247,Mechanical,Short circuit,Minor,1,Equipment failure,Critical,Amit Patel,2023-09-26 02:00:00,Open
+INC-JH-002-226,JH-002,2023-07-14,11:21:00,Near Miss,Loading Point,EQ-093,Human Error,Short circuit,Fatal,1,Equipment failure,Medium,Rajesh Kumar,2023-07-14 00:00:00,Open
+INC-OD-002-227,OD-002,2023-07-01,20:17:00,Accident,Crusher Area,EQ-383,Mechanical,Short circuit,Serious,5,Equipment failure,Critical,Rajesh Kumar,2023-07-01 03:00:00,Closed
+INC-OD-002-228,OD-002,2023-01-24,18:36:00,Near Miss,Crusher Area,EQ-255,Mechanical,Roof fall,Fatal,5,Equipment failure,Medium,Sita Devi,2023-01-24 06:00:00,Open
+INC-OD-001-229,OD-001,2023-03-18,02:46:00,Near Miss,Drill Site,EQ-049,Electrical,Crusher blade failure,Minor,2,Poor ventilation,Medium,Amit Patel,2023-03-18 01:00:00,Escalated
+INC-JH-001-230,JH-001,2023-03-28,10:20:00,Near Miss,Drill Site,EQ-098,Human Error,Roof fall,Fatal,2,Inadequate maintenance,High,Sita Devi,2023-03-28 03:00:00,Open
+INC-OD-002-231,OD-002,2023-01-29,23:28:00,Near Miss,Loading Point,EQ-070,Electrical,Crusher blade failure,None,0,Poor ventilation,High,Rajesh Kumar,2023-01-29 04:00:00,Closed
+INC-CG-001-232,CG-001,2023-02-23,20:16:00,Accident,Loading Point,EQ-001,Electrical,Worker slipped,Minor,2,Poor ventilation,High,Sita Devi,2023-02-23 03:00:00,Closed
+INC-CG-002-233,CG-002,2023-10-25,20:48:00,Accident,Crusher Area,EQ-010,Environmental,Worker slipped,Serious,1,Poor ventilation,Medium,Sita Devi,2023-10-25 02:00:00,Investigating
+INC-JH-003-234,JH-003,2023-04-29,15:07:00,Accident,Main Haulage Road,EQ-150,Environmental,Crusher blade failure,Fatal,3,Inadequate maintenance,Low,Amit Patel,2023-04-29 02:00:00,Investigating
+INC-CG-002-235,CG-002,2023-01-11,08:10:00,Near Miss,Pit Bottom,EQ-077,Electrical,Conveyor belt jam,Fatal,1,Poor ventilation,High,Amit Patel,2023-01-11 02:00:00,Escalated
+INC-JH-003-236,JH-003,2023-09-02,08:43:00,Near Miss,Loading Point,EQ-103,Environmental,Worker slipped,None,0,Equipment failure,High,Rajesh Kumar,2023-09-02 00:00:00,Escalated
+INC-JH-001-237,JH-001,2023-09-24,07:19:00,Accident,Pit Bottom,EQ-467,Environmental,Short circuit,Fatal,4,Equipment failure,Medium,Sita Devi,2023-09-24 04:00:00,Escalated
+INC-JH-003-238,JH-003,2023-09-01,19:59:00,Accident,Crusher Area,EQ-113,Human Error,Worker slipped,Serious,0,Human error,High,Rajesh Kumar,2023-09-01 05:00:00,Escalated
+INC-JH-002-239,JH-002,2023-07-31,14:54:00,Accident,Loading Point,EQ-276,Electrical,Worker slipped,None,0,Inadequate maintenance,Low,Rajesh Kumar,2023-07-31 03:00:00,Open
+INC-OD-002-240,OD-002,2023-02-17,13:24:00,Near Miss,Pit Bottom,EQ-096,Electrical,Conveyor belt jam,None,0,Poor ventilation,High,Amit Patel,2023-02-17 02:00:00,Open
+INC-JH-003-241,JH-003,2023-05-16,15:30:00,Accident,Main Haulage Road,EQ-394,Human Error,Short circuit,Serious,1,Poor ventilation,Critical,Amit Patel,2023-05-16 06:00:00,Escalated
+INC-OD-002-242,OD-002,2023-02-21,22:27:00,Accident,Drill Site,EQ-205,Electrical,Short circuit,Serious,4,Poor ventilation,Low,Sita Devi,2023-02-21 01:00:00,Open
+INC-JH-001-243,JH-001,2023-08-27,18:33:00,Accident,Pit Bottom,EQ-363,Electrical,Roof fall,Fatal,3,Poor ventilation,Medium,Amit Patel,2023-08-27 05:00:00,Closed
+INC-CG-002-244,CG-002,2023-08-03,07:39:00,Accident,Main Haulage Road,EQ-056,Environmental,Roof fall,Fatal,5,Poor ventilation,Medium,Sita Devi,2023-08-03 05:00:00,Escalated
+INC-OD-001-245,OD-001,2023-04-23,10:47:00,Accident,Main Haulage Road,EQ-181,Environmental,Crusher blade failure,Minor,2,Poor ventilation,High,Rajesh Kumar,2023-04-23 00:00:00,Closed
+INC-OD-001-246,OD-001,2023-11-12,21:16:00,Near Miss,Loading Point,EQ-084,Electrical,Worker slipped,Fatal,3,Poor ventilation,Medium,Amit Patel,2023-11-12 05:00:00,Open
+INC-OD-002-247,OD-002,2023-08-16,18:56:00,Accident,Loading Point,EQ-202,Environmental,Crusher blade failure,None,0,Poor ventilation,Critical,Sita Devi,2023-08-16 01:00:00,Escalated
+INC-OD-001-248,OD-001,2023-04-28,11:08:00,Near Miss,Pit Bottom,EQ-207,Mechanical,Conveyor belt jam,None,0,Human error,High,Rajesh Kumar,2023-04-28 02:00:00,Open
+INC-CG-001-249,CG-001,2023-10-14,08:07:00,Accident,Loading Point,EQ-119,Mechanical,Conveyor belt jam,Fatal,3,Human error,Medium,Amit Patel,2023-10-14 05:00:00,Investigating
+INC-JH-001-250,JH-001,2023-11-25,15:38:00,Accident,Drill Site,EQ-248,Environmental,Conveyor belt jam,Serious,2,Poor ventilation,Low,Sita Devi,2023-11-25 03:00:00,Closed
+INC-JH-001-251,JH-001,2023-03-29,17:41:00,Accident,Pit Bottom,EQ-456,Mechanical,Crusher blade failure,Serious,1,Human error,High,Sita Devi,2023-03-29 03:00:00,Open
+INC-CG-001-252,CG-001,2023-07-31,10:05:00,Near Miss,Crusher Area,EQ-288,Environmental,Worker slipped,None,0,Equipment failure,Critical,Sita Devi,2023-07-31 03:00:00,Open
+INC-JH-003-253,JH-003,2023-04-22,17:51:00,Accident,Pit Bottom,EQ-387,Electrical,Crusher blade failure,Minor,0,Inadequate maintenance,Medium,Sita Devi,2023-04-22 04:00:00,Open
+INC-OD-001-254,OD-001,2023-07-27,08:36:00,Near Miss,Drill Site,EQ-228,Human Error,Crusher blade failure,None,0,Equipment failure,High,Amit Patel,2023-07-27 04:00:00,Closed
+INC-JH-001-255,JH-001,2023-12-14,21:43:00,Near Miss,Main Haulage Road,EQ-370,Human Error,Short circuit,None,0,Equipment failure,Low,Amit Patel,2023-12-14 01:00:00,Escalated
+INC-JH-003-256,JH-003,2023-07-18,22:20:00,Accident,Loading Point,EQ-487,Environmental,Worker slipped,Minor,3,Inadequate maintenance,Low,Amit Patel,2023-07-18 03:00:00,Escalated
+INC-OD-002-257,OD-002,2023-01-23,15:14:00,Accident,Main Haulage Road,EQ-015,Mechanical,Worker slipped,None,0,Poor ventilation,Critical,Sita Devi,2023-01-23 05:00:00,Open
+INC-JH-001-258,JH-001,2023-04-02,05:00:00,Accident,Pit Bottom,EQ-353,Environmental,Short circuit,Serious,1,Equipment failure,Medium,Rajesh Kumar,2023-04-02 02:00:00,Closed
+INC-JH-002-259,JH-002,2023-03-14,00:38:00,Near Miss,Main Haulage Road,EQ-085,Human Error,Short circuit,None,0,Equipment failure,Low,Rajesh Kumar,2023-03-14 05:00:00,Open
+INC-JH-002-260,JH-002,2023-07-04,08:52:00,Accident,Loading Point,EQ-130,Mechanical,Conveyor belt jam,Serious,4,Poor ventilation,High,Sita Devi,2023-07-04 02:00:00,Investigating
+INC-JH-003-261,JH-003,2023-12-22,10:06:00,Near Miss,Drill Site,EQ-164,Environmental,Roof fall,Serious,3,Human error,High,Rajesh Kumar,2023-12-22 06:00:00,Investigating
+INC-OD-001-262,OD-001,2023-03-17,16:59:00,Near Miss,Crusher Area,EQ-347,Environmental,Crusher blade failure,Fatal,5,Equipment failure,Low,Sita Devi,2023-03-17 05:00:00,Investigating
+INC-CG-002-263,CG-002,2023-01-06,12:06:00,Near Miss,Pit Bottom,EQ-416,Electrical,Roof fall,Minor,4,Human error,Critical,Rajesh Kumar,2023-01-06 04:00:00,Open
+INC-OD-001-264,OD-001,2023-11-03,18:46:00,Accident,Loading Point,EQ-290,Electrical,Crusher blade failure,None,0,Inadequate maintenance,Low,Sita Devi,2023-11-03 02:00:00,Open
+INC-OD-001-265,OD-001,2023-02-19,21:06:00,Accident,Drill Site,EQ-130,Environmental,Roof fall,Fatal,3,Poor ventilation,High,Amit Patel,2023-02-19 00:00:00,Investigating
+INC-OD-002-266,OD-002,2023-02-21,04:41:00,Near Miss,Drill Site,EQ-317,Mechanical,Short circuit,Serious,5,Poor ventilation,High,Rajesh Kumar,2023-02-21 05:00:00,Closed
+INC-JH-002-267,JH-002,2023-05-09,05:53:00,Near Miss,Main Haulage Road,EQ-118,Environmental,Worker slipped,Serious,1,Inadequate maintenance,Low,Sita Devi,2023-05-09 00:00:00,Closed
+INC-CG-001-268,CG-001,2023-04-10,05:41:00,Near Miss,Loading Point,EQ-455,Human Error,Short circuit,Fatal,0,Human error,Medium,Rajesh Kumar,2023-04-10 06:00:00,Investigating
+INC-JH-001-269,JH-001,2023-01-18,22:55:00,Near Miss,Crusher Area,EQ-280,Environmental,Crusher blade failure,Serious,1,Human error,Critical,Amit Patel,2023-01-18 00:00:00,Investigating
+INC-JH-003-270,JH-003,2023-03-27,02:04:00,Near Miss,Drill Site,EQ-331,Human Error,Worker slipped,None,0,Human error,Critical,Rajesh Kumar,2023-03-27 01:00:00,Closed
+INC-JH-001-271,JH-001,2023-12-29,20:16:00,Accident,Crusher Area,EQ-452,Environmental,Conveyor belt jam,None,0,Equipment failure,Low,Rajesh Kumar,2023-12-29 02:00:00,Investigating
+INC-JH-002-272,JH-002,2023-03-01,23:37:00,Near Miss,Loading Point,EQ-490,Electrical,Short circuit,None,0,Poor ventilation,Low,Sita Devi,2023-03-01 02:00:00,Open
+INC-JH-002-273,JH-002,2023-06-17,20:45:00,Accident,Main Haulage Road,EQ-021,Human Error,Worker slipped,Minor,0,Poor ventilation,Medium,Sita Devi,2023-06-17 01:00:00,Closed
+INC-JH-001-274,JH-001,2023-07-20,18:53:00,Near Miss,Crusher Area,EQ-135,Mechanical,Crusher blade failure,Serious,3,Equipment failure,Low,Amit Patel,2023-07-20 00:00:00,Closed
+INC-JH-001-275,JH-001,2023-10-10,20:48:00,Accident,Pit Bottom,EQ-315,Electrical,Conveyor belt jam,Serious,1,Inadequate maintenance,Medium,Rajesh Kumar,2023-10-10 03:00:00,Open
+INC-JH-003-276,JH-003,2023-12-08,10:50:00,Accident,Pit Bottom,EQ-332,Environmental,Conveyor belt jam,None,0,Equipment failure,High,Rajesh Kumar,2023-12-08 00:00:00,Escalated
+INC-JH-002-277,JH-002,2023-09-15,14:12:00,Near Miss,Crusher Area,EQ-064,Electrical,Roof fall,Minor,0,Poor ventilation,Medium,Amit Patel,2023-09-15 05:00:00,Closed
+INC-JH-003-278,JH-003,2023-10-05,12:31:00,Accident,Main Haulage Road,EQ-195,Mechanical,Crusher blade failure,None,0,Poor ventilation,Medium,Amit Patel,2023-10-05 05:00:00,Closed
+INC-OD-002-279,OD-002,2023-08-14,13:49:00,Near Miss,Drill Site,EQ-469,Mechanical,Crusher blade failure,Fatal,3,Human error,High,Rajesh Kumar,2023-08-14 00:00:00,Open
+INC-JH-001-280,JH-001,2023-12-23,19:48:00,Near Miss,Pit Bottom,EQ-041,Environmental,Conveyor belt jam,Minor,3,Poor ventilation,Critical,Amit Patel,2023-12-23 04:00:00,Closed
+INC-OD-002-281,OD-002,2023-08-16,03:13:00,Near Miss,Main Haulage Road,EQ-059,Electrical,Roof fall,Serious,5,Inadequate maintenance,Low,Sita Devi,2023-08-16 01:00:00,Investigating
+INC-OD-002-282,OD-002,2023-11-19,21:20:00,Accident,Crusher Area,EQ-231,Environmental,Short circuit,Minor,2,Human error,Low,Amit Patel,2023-11-19 02:00:00,Closed
+INC-JH-003-283,JH-003,2023-10-04,16:56:00,Near Miss,Loading Point,EQ-264,Mechanical,Worker slipped,Fatal,2,Equipment failure,Critical,Amit Patel,2023-10-04 04:00:00,Closed
+INC-OD-002-284,OD-002,2023-11-24,17:55:00,Near Miss,Crusher Area,EQ-433,Mechanical,Worker slipped,Fatal,1,Poor ventilation,Low,Amit Patel,2023-11-24 05:00:00,Closed
+INC-OD-002-285,OD-002,2023-06-07,01:22:00,Accident,Main Haulage Road,EQ-500,Mechanical,Crusher blade failure,Fatal,3,Poor ventilation,Critical,Rajesh Kumar,2023-06-07 00:00:00,Open
+INC-JH-003-286,JH-003,2023-04-28,00:10:00,Accident,Pit Bottom,EQ-104,Environmental,Worker slipped,None,0,Inadequate maintenance,High,Rajesh Kumar,2023-04-28 04:00:00,Escalated
+INC-OD-002-287,OD-002,2023-03-11,11:14:00,Near Miss,Main Haulage Road,EQ-362,Electrical,Worker slipped,Fatal,1,Equipment failure,High,Rajesh Kumar,2023-03-11 01:00:00,Investigating
+INC-CG-001-288,CG-001,2023-07-03,16:48:00,Near Miss,Main Haulage Road,EQ-156,Mechanical,Worker slipped,Serious,3,Human error,Medium,Rajesh Kumar,2023-07-03 00:00:00,Investigating
+INC-CG-001-289,CG-001,2023-02-27,02:47:00,Near Miss,Crusher Area,EQ-334,Human Error,Short circuit,Minor,0,Equipment failure,High,Sita Devi,2023-02-27 05:00:00,Open
+INC-JH-001-290,JH-001,2023-12-14,22:04:00,Near Miss,Loading Point,EQ-048,Mechanical,Worker slipped,Fatal,1,Poor ventilation,Critical,Amit Patel,2023-12-14 04:00:00,Escalated
+INC-JH-002-291,JH-002,2023-01-08,19:40:00,Near Miss,Main Haulage Road,EQ-362,Human Error,Worker slipped,Fatal,3,Equipment failure,Critical,Rajesh Kumar,2023-01-08 00:00:00,Closed
+INC-JH-001-292,JH-001,2023-05-05,20:11:00,Near Miss,Main Haulage Road,EQ-146,Human Error,Conveyor belt jam,Fatal,1,Inadequate maintenance,Critical,Amit Patel,2023-05-05 02:00:00,Escalated
+INC-CG-001-293,CG-001,2023-11-24,06:57:00,Near Miss,Pit Bottom,EQ-205,Mechanical,Short circuit,Minor,2,Inadequate maintenance,Low,Rajesh Kumar,2023-11-24 04:00:00,Open
+INC-JH-003-294,JH-003,2023-05-03,02:58:00,Accident,Loading Point,EQ-223,Environmental,Worker slipped,None,0,Poor ventilation,High,Sita Devi,2023-05-03 02:00:00,Escalated
+INC-OD-002-295,OD-002,2023-09-14,21:12:00,Near Miss,Pit Bottom,EQ-106,Electrical,Conveyor belt jam,Minor,4,Inadequate maintenance,Critical,Amit Patel,2023-09-14 06:00:00,Closed
+INC-JH-002-296,JH-002,2023-02-13,18:57:00,Accident,Loading Point,EQ-242,Mechanical,Conveyor belt jam,Minor,3,Inadequate maintenance,Critical,Rajesh Kumar,2023-02-13 06:00:00,Investigating
+INC-OD-001-297,OD-001,2023-12-24,07:56:00,Accident,Crusher Area,EQ-410,Environmental,Worker slipped,Serious,0,Human error,Critical,Sita Devi,2023-12-24 01:00:00,Closed
+INC-CG-002-298,CG-002,2023-01-15,16:51:00,Accident,Pit Bottom,EQ-073,Human Error,Crusher blade failure,None,0,Poor ventilation,High,Amit Patel,2023-01-15 05:00:00,Escalated
+INC-CG-001-299,CG-001,2023-09-09,06:09:00,Accident,Drill Site,EQ-081,Human Error,Roof fall,Serious,4,Equipment failure,Low,Rajesh Kumar,2023-09-09 01:00:00,Investigating
