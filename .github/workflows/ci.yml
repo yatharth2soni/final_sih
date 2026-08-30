@@ -10,41 +10,61 @@ jobs:
   lint-and-build:
     name: Lint & Build
     runs-on: ubuntu-latest
-    
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: test
+          POSTGRES_PASSWORD: test
+          POSTGRES_DB: testdb
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U test -d testdb"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=10
+
+    env:
+      DATABASE_URL: postgresql://test:test@localhost:5432/testdb
+      JWT_ACCESS_SECRET: ci-test-access-secret
+      JWT_REFRESH_SECRET: ci-test-refresh-secret
+      NODE_ENV: test
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       # Frontend
       - name: Install Frontend Dependencies
         run: npm ci
-      
+
       - name: Build Frontend
         run: npm run build
-      
+
       # Backend API
       - name: Install API Dependencies
         working-directory: ./api
         run: npm ci
-      
+
       - name: Generate Prisma Client
         working-directory: ./api
         run: npx prisma generate
-      
+
+      - name: Apply Prisma Migrations
+        working-directory: ./api
+        run: npx prisma migrate deploy
+
       - name: Build API
         working-directory: ./api
         run: npm run build
-      
+
       - name: Run API Tests
         working-directory: ./api
         run: npm test
-        env:
-          DATABASE_URL: postgresql://test:test@localhost:5432/testdb
-          JWT_ACCESS_SECRET: ci-test-access-secret
-          JWT_REFRESH_SECRET: ci-test-refresh-secret
-          NODE_ENV: test
