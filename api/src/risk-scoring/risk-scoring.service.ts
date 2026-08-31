@@ -32,7 +32,7 @@ export class RiskScoringService {
     private prisma: PrismaService,
     private scopeService: ScopeService,
     private escalationService: EscalationService,
-  ) {}
+  ) { }
 
   /**
    * Determine RiskBand from a 0-100 integer score.
@@ -94,7 +94,7 @@ export class RiskScoringService {
     );
     const baselineStart = new Date(
       windowStart.getTime() -
-        RISK_SCORING_CONFIG.baselineWindowDays * 24 * 3600 * 1000,
+      RISK_SCORING_CONFIG.baselineWindowDays * 24 * 3600 * 1000,
     );
     const baselineEnd = windowStart;
 
@@ -141,7 +141,7 @@ export class RiskScoringService {
 
     const violationRawPoints =
       criticalViolations *
-        RISK_SCORING_CONFIG.pointScale.violations.CRITICAL +
+      RISK_SCORING_CONFIG.pointScale.violations.CRITICAL +
       highViolations * RISK_SCORING_CONFIG.pointScale.violations.HIGH +
       mediumViolations * RISK_SCORING_CONFIG.pointScale.violations.MEDIUM +
       lowViolations * RISK_SCORING_CONFIG.pointScale.violations.LOW;
@@ -150,7 +150,7 @@ export class RiskScoringService {
       100,
       (violationRawPoints /
         RISK_SCORING_CONFIG.pointScale.violations.maxPointsDenominator) *
-        100,
+      100,
     );
     const violationWeightedScore =
       Math.round(
@@ -179,7 +179,7 @@ export class RiskScoringService {
       100,
       (capaRawPoints /
         RISK_SCORING_CONFIG.pointScale.capas.maxPointsDenominator) *
-        100,
+      100,
     );
     const capaWeightedScore =
       Math.round(capaNormalized * RISK_SCORING_CONFIG.weights.capas * 10) / 10;
@@ -204,7 +204,7 @@ export class RiskScoringService {
 
     const compRawPoints =
       nonCompliantRecords *
-        RISK_SCORING_CONFIG.pointScale.compliance.NON_COMPLIANT +
+      RISK_SCORING_CONFIG.pointScale.compliance.NON_COMPLIANT +
       overdueCompliance * RISK_SCORING_CONFIG.pointScale.compliance.OVERDUE +
       pendingCompliance * RISK_SCORING_CONFIG.pointScale.compliance.PENDING;
 
@@ -212,7 +212,7 @@ export class RiskScoringService {
       100,
       (compRawPoints /
         RISK_SCORING_CONFIG.pointScale.compliance.maxPointsDenominator) *
-        100,
+      100,
     );
     const compWeightedScore =
       Math.round(compNormalized * RISK_SCORING_CONFIG.weights.compliance * 10) /
@@ -243,8 +243,8 @@ export class RiskScoringService {
     const inspectionWeightedScore =
       Math.round(
         inspectionNormalized *
-          RISK_SCORING_CONFIG.weights.inspectionGap *
-          10,
+        RISK_SCORING_CONFIG.weights.inspectionGap *
+        10,
       ) / 10;
 
     // 5. Final Score & Band
@@ -350,7 +350,7 @@ export class RiskScoringService {
       absoluteIncrease >= vSpikeThresh.minAbsoluteIncrease &&
       (baselineVCount === 0 ||
         currentVCount >=
-          baselineVCount * vSpikeThresh.relativeSurgeMultiplier)
+        baselineVCount * vSpikeThresh.relativeSurgeMultiplier)
     ) {
       const dedupKey = `${mineId}:VIOLATION_SPIKE:${dateKey}`;
       const anomaly = await this.prisma.anomalyFlag.upsert({
@@ -449,6 +449,12 @@ export class RiskScoringService {
   /**
    * Phase 7 notification dispatch for High/Critical Risk Score.
    */
+  /**
+   * Phase 7 notification dispatch for High/Critical Risk Score.
+   *
+   * Only real users from the database are used as recipients.
+   * A missing recipient cannot abort the complete risk recalculation.
+   */
   private async escalateHighRisk(
     mine: any,
     riskScore: any,
@@ -457,41 +463,107 @@ export class RiskScoringService {
     const recipients = await this.prisma.user.findMany({
       where: {
         OR: [
-          { role: { in: [UserRole.ADMIN, UserRole.REGULATOR] } },
-          { role: UserRole.CORPORATE_MANAGEMENT, companyId: mine.companyId },
+          {
+            role: {
+              in: [UserRole.ADMIN, UserRole.REGULATOR],
+            },
+          },
+          {
+            role: UserRole.CORPORATE_MANAGEMENT,
+            companyId: mine.companyId,
+          },
           {
             role: UserRole.MINE_OFFICIAL,
-            mineAssignments: { some: { mineId: mine.id, active: true } },
+            mineAssignments: {
+              some: {
+                mineId: mine.id,
+                active: true,
+              },
+            },
           },
         ],
       },
+      select: {
+        id: true,
+        role: true,
+      },
     });
 
-    const dateKey = riskScore.calculatedAt.toISOString().split('T')[0];
+    if (recipients.length === 0) {
+      this.logger.warn(
+        `No notification recipients found for high-risk mine ${mine.id}`,
+      );
+      return;
+    }
+
+    const dateKey = riskScore.calculatedAt
+      .toISOString()
+      .split('T')[0];
 
     for (const recipient of recipients) {
-      await this.escalationService.recordAndDeliver({
-        ruleKey: `RISK_HIGH_${riskScore.band}`,
-        resourceType: 'MineRiskScore',
-        resourceId: `${mine.id}:${dateKey}`,
-        stage: riskScore.band === RiskBand.CRITICAL ? 2 : 1,
-        recipientId: recipient.id,
-        recipientRole: recipient.role,
-        occurredAt: nowDate,
-        notificationPayload: {
-          type: NotificationType.RISK_HIGH,
-          title: `⚠️ ${riskScore.band} Risk Score Detected — ${mine.name}`,
-          body: riskScore.plainLanguageExplanation,
-          severity: riskScore.band === RiskBand.CRITICAL ? 'CRITICAL' : 'HIGH',
-          resourceType: 'RiskScore',
-          resourceId: riskScore.id,
-          metadata: {
-            mineId: mine.id,
-            score: riskScore.score,
-            band: riskScore.band,
+      try {
+        // Re-validate the user immediately before notification creation.
+        // This protects against a user being removed between findMany()
+        // and notification.create().
+        const validRecipient = await this.prisma.user.findUnique({
+          where: { id: recipient.id },
+          select: { id: true },
+        });
+
+        if (!validRecipient) {
+          this.logger.warn(
+            `Skipping missing recipient ${recipient.id} for mine ${mine.id}`,
+          );
+          continue;
+        }
+
+        await this.escalationService.recordAndDeliver({
+          ruleKey: `RISK_HIGH_${riskScore.band}`,
+          resourceType: 'MineRiskScore',
+          resourceId: `${mine.id}:${dateKey}`,
+          stage:
+            riskScore.band === RiskBand.CRITICAL
+              ? 2
+              : 1,
+          recipientId: validRecipient.id,
+          recipientRole: recipient.role,
+          occurredAt: nowDate,
+          notificationPayload: {
+            type: NotificationType.RISK_HIGH,
+            title: `⚠️ ${riskScore.band} Risk Score Detected — ${mine.name}`,
+            body: riskScore.plainLanguageExplanation,
+            severity:
+              riskScore.band === RiskBand.CRITICAL
+                ? 'CRITICAL'
+                : 'HIGH',
+            resourceType: 'RiskScore',
+            resourceId: riskScore.id,
+            metadata: {
+              mineId: mine.id,
+              score: riskScore.score,
+              band: riskScore.band,
+            },
           },
-        },
-      });
+        });
+      } catch (error: any) {
+        // P2003 = foreign-key violation. A bad recipient must not
+        // terminate calculation for all mines.
+        if (error?.code === 'P2003') {
+          this.logger.warn(
+            `Skipping invalid notification recipient ${recipient.id} ` +
+            `for mine ${mine.id}: ${error.message}`,
+          );
+          continue;
+        }
+
+        this.logger.error(
+          `Failed to deliver high-risk notification to recipient ` +
+          `"${recipient.id}" for mine "${mine.id}": ${error.message}`,
+          error.stack,
+        );
+
+        continue;
+      }
     }
   }
 
@@ -504,17 +576,23 @@ export class RiskScoringService {
 
     const mines = await this.prisma.mine.findMany({ where });
     const results: any[] = [];
-
-    for (const mine of mines) {
-      const res = await this.calculateMineRiskScore(mine.id, nowDate);
-      results.push({
-        mineId: mine.id,
-        mineName: mine.name,
-        mineCode: mine.code,
-        score: res.riskScore.score,
-        band: res.riskScore.band,
-        anomaliesCount: res.anomalies.length,
-      });
+    const concurrency = 5;
+    for (let i = 0; i < mines.length; i += concurrency) {
+      const chunk = mines.slice(i, i + concurrency);
+      const chunkResults = await Promise.all(
+        chunk.map(async (mine) => {
+          const res = await this.calculateMineRiskScore(mine.id, nowDate);
+          return {
+            mineId: mine.id,
+            mineName: mine.name,
+            mineCode: mine.code,
+            score: res.riskScore.score,
+            band: res.riskScore.band,
+            anomaliesCount: res.anomalies.length,
+          };
+        }),
+      );
+      results.push(...chunkResults);
     }
 
     return {

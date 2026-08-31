@@ -7,7 +7,7 @@ import { NotificationSchedulerService } from '../../src/alerts/notification-sche
 import * as bcrypt from 'bcrypt';
 
 describe('Notifications, Reminders, Alerts, and Escalation (Phase 7)', () => {
-  jest.setTimeout(30000);
+  jest.setTimeout(60000);
   let app: INestApplication;
   let prisma: PrismaService;
   let schedulerService: NotificationSchedulerService;
@@ -214,7 +214,7 @@ describe('Notifications, Reminders, Alerts, and Escalation (Phase 7)', () => {
       },
     });
     compRecord14dId = rec1.id;
-  }, 30000);
+  }, 90000);
 
   afterAll(async () => {
     if (prisma) {

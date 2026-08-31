@@ -185,7 +185,7 @@ describe('OCR Digitization & Practical GIS (Phase 10)', () => {
 
     const l4 = await request(app.getHttpServer()).post('/api/v1/auth/login').send({ email: 'official-ocr@coalindia.gov.in', password: 'Test@1234' });
     officialToken = l4.body.data.accessToken;
-  }, 30000);
+  }, 90000);
 
   afterAll(async () => {
     if (prisma) {

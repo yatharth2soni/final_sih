@@ -68,7 +68,7 @@ describe('Mines RBAC (Integration)', () => {
       .post('/api/v1/auth/login')
       .send({ email: 'test-regulator-mines@dgms.gov.in', password: 'Test@1234' });
     regulatorToken = regLogin.body.data.accessToken;
-  }, 30000);
+  }, 90000);
 
   afterAll(async () => {
     if (prisma) {

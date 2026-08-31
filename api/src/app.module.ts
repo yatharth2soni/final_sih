@@ -2,8 +2,10 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { APP_FILTER, APP_GUARD } from '@nestjs/core';
 import { ThrottlerModule, ThrottlerGuard } from '@nestjs/throttler';
+
 import configuration from './config/configuration';
 import { PrismaModule } from './prisma/prisma.module';
+
 import { AuthModule } from './auth/auth.module';
 import { CompaniesModule } from './companies/companies.module';
 import { MinesModule } from './mines/mines.module';
@@ -39,12 +41,16 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
       isGlobal: true,
       load: [configuration],
     }),
-    ThrottlerModule.forRoot([
-      {
-        ttl: 60000,
-        limit: process.env.NODE_ENV === 'test' ? 10000 : 100,
-      },
-    ]),
+
+    ThrottlerModule.forRoot({
+      throttlers: [
+        {
+          ttl: 60000,
+          limit: process.env.NODE_ENV === 'test' ? 10000 : 100,
+        },
+      ],
+    }),
+
     PrismaModule,
     RedisModule,
     AuthModule,
@@ -73,7 +79,9 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
     GovernanceControlModule,
     SatelliteModule,
   ],
+
   controllers: [HealthController],
+
   providers: [
     {
       provide: APP_FILTER,
@@ -85,4 +93,4 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
     },
   ],
 })
-export class AppModule {}
+export class AppModule { }

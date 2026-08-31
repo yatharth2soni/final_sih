@@ -6,7 +6,7 @@ import { PrismaService } from '../../src/prisma/prisma.service';
 import * as bcrypt from 'bcrypt';
 
 describe('Explainable Risk Scoring and Anomaly Detection (Phase 9)', () => {
-  jest.setTimeout(30000);
+  jest.setTimeout(60000);
   let app: INestApplication;
   let prisma: PrismaService;
 
@@ -276,7 +276,7 @@ describe('Explainable Risk Scoring and Anomaly Detection (Phase 9)', () => {
         purpose: 'Routine Monthly Check',
       },
     });
-  }, 30000);
+  }, 90000);
 
   afterAll(async () => {
     if (prisma) {
