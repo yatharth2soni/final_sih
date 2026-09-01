@@ -2005,31 +2005,28 @@ export default function App() {
     setAssistantLoading(true);
 
     try {
-      let res;
-      try {
-        const targetMine = selectedMineId || liveMines[0]?.id;
-        // Primary call to backend AI Assistant with RAG & multi-provider fallback
-        res = await api.assistant.query(userText, lang, targetMine);
-      } catch (backendErr) {
-        // Direct Client-Side Gemini AI & CMR 2017 DeepReasoning Fallback
-        const aiRes = await queryGrokAssistant({
-          prompt: userText,
-          context: {
-            mineName: activeMine.name,
-            subsidiary: activeMine.subsidiary,
-            riskScore: computedRiskScore,
-            riskBand: computedRiskBand,
-            methane: activeTelemetry.ch4Str,
-            coPpm: activeTelemetry.coStr,
-            airflow: activeTelemetry.airflowStr,
-            dust: activeTelemetry.dustStr,
-            gassiness: activeMine.gassiness || 'Degree-II',
-          },
-          language: lang,
-        });
+      // Primary call to Google Gemini AI Intelligence Engine with dynamic context
+      const aiRes = await queryGrokAssistant({
+        prompt: userText,
+        context: {
+          mineName: activeMine.name,
+          subsidiary: activeMine.subsidiary,
+          riskScore: computedRiskScore,
+          riskBand: computedRiskBand,
+          methane: activeTelemetry.ch4Str,
+          coPpm: activeTelemetry.coStr,
+          airflow: activeTelemetry.airflowStr,
+          dust: activeTelemetry.dustStr,
+          gassiness: activeMine.gassiness || 'Degree-II',
+        },
+        language: lang,
+      });
 
-        res = {
-          answer: aiRes.text,
+      setAssistantHistory(prev => [
+        ...prev,
+        {
+          role: "assistant",
+          text: aiRes.text,
           citations: aiRes.citations || [
             { resourceType: "STATUTE", label: "Coal Mines Regulations (CMR) 2017" },
             { resourceType: "TELEMETRY", label: `${activeMine.name} Live IoT Stream` }
@@ -2039,18 +2036,6 @@ export default function App() {
             : "Google Gemini AI एवं डीजीएमएस खान सुरक्षा नियमों द्वारा सत्यापित।"),
           intent: aiRes.intent || "STATUTORY_SAFETY_ASSISTANT",
           provider: aiRes.provider || "gemini",
-        };
-      }
-
-      setAssistantHistory(prev => [
-        ...prev,
-        {
-          role: "assistant",
-          text: res.answer || res.text,
-          citations: res.citations || [],
-          disclaimer: res.disclaimer,
-          intent: res.intent,
-          provider: res.provider || "gemini",
         }
       ]);
     } catch (err) {

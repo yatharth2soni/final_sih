@@ -73,7 +73,35 @@ export class AssistantService {
 
     const isMultiMineRisk = /\b(all\s+mines|which\s+mines|high\s+risk\s+mines|mines\s+risk|सभी\s+खदान|कौन-?सी\s+खदान|खदानों\s+का\s+जोखिम|खदानों\s+की\s+सूची)\b/i.test(question);
 
-    // 3. Dispatch to server-owned domain handlers based on allowlisted intent
+    // 3. If AI Orchestrator is available, use Gemini Generative AI for rich, natural, dynamic responses
+    try {
+      const aiRes = await this.aiOrchestrator.chat(
+        question,
+        lang,
+        targetMineId,
+        dto.companyId,
+        accessibleMineIds,
+      );
+
+      if (aiRes && aiRes.answer && aiRes.answer.trim().length > 0 && aiRes.provider !== 'deterministic') {
+        return {
+          answer: aiRes.answer,
+          language: aiRes.language,
+          intent: (Object.values(AssistantIntent).includes(aiRes.intent as any) ? aiRes.intent as AssistantIntent : intent),
+          dataAsOf: aiRes.dataAsOf || new Date().toISOString(),
+          citations: (aiRes.citations || []) as any,
+          limitations: [
+            'Response dynamically generated and grounded in live statutory compliance, inspection records, and telemetry.',
+          ],
+          disclaimer: aiRes.disclaimer,
+          provider: aiRes.provider,
+        };
+      }
+    } catch (aiErr: any) {
+      this.logger.warn(`AI Orchestrator chat failed: ${aiErr.message}. Falling back to domain formatter.`);
+    }
+
+    // 4. Dispatch to server-owned domain handlers if AI is offline
     switch (intent) {
       case AssistantIntent.MINE_RISK:
         if (isMultiMineRisk && !isExplicitlyMentioned) {
@@ -98,26 +126,7 @@ export class AssistantService {
 
       case AssistantIntent.UNKNOWN:
       default: {
-        const aiRes = await this.aiOrchestrator.chat(
-          question,
-          lang,
-          targetMineId,
-          dto.companyId,
-          accessibleMineIds,
-        );
-
-        return {
-          answer: aiRes.answer,
-          language: aiRes.language,
-          intent: (Object.values(AssistantIntent).includes(aiRes.intent as any) ? aiRes.intent as AssistantIntent : AssistantIntent.UNKNOWN),
-          dataAsOf: aiRes.dataAsOf,
-          citations: aiRes.citations as any,
-          limitations: [
-            'Response grounded in live statutory compliance, inspection records, and telemetry.',
-          ],
-          disclaimer: aiRes.disclaimer,
-          provider: aiRes.provider,
-        };
+        return ResponseGenerator.formatUnknown(lang);
       }
     }
   }
