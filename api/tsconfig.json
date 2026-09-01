@@ -16,10 +16,11 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
+    "types": ["jest", "node", "multer"],
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*", "prisma/seed.ts"],
-  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+  "include": ["src/**/*", "test/**/*", "prisma/seed.ts"],
+  "exclude": ["node_modules", "dist"]
 }
