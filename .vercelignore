@@ -1,0 +1,9 @@
+# Ignore NestJS backend and non-frontend folders on Vercel
+api/
+scripts/
+data/
+docs/
+venv/
+.venv/
+*.py
+*.sql
