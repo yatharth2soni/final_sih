@@ -1,9 +1,16 @@
-# Ignore NestJS backend and non-frontend folders on Vercel
-api/
-scripts/
-data/
-docs/
-venv/
-.venv/
+# Anchor root-level folders only (do NOT ignore src/data or src/api)
+/api
+/scripts
+/data
+/docs
+/venv
+/.venv
 *.py
 *.sql
+
+# Explicitly ensure all frontend assets are included
+!src/**
+!index.html
+!vite.config.js
+!package.json
+!package-lock.json
