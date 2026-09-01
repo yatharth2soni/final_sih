@@ -39,33 +39,43 @@ export class GeminiProvider implements AiProviderInterface {
     }
 
     const timeoutMs = options?.timeoutMs || 12000;
-    const modelName = 'gemini-3.6-flash';
+    const candidateModels = ['gemini-3.6-flash', 'gemini-2.5-pro', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+    let lastError: Error | null = null;
 
-    const modelConfig: any = {
-      model: modelName,
-      generationConfig: {
-        temperature: options?.temperature ?? 0.3,
-        maxOutputTokens: options?.maxTokens ?? 2048,
-        ...(options?.jsonMode ? { responseMimeType: 'application/json' } : {}),
-      },
-    };
+    for (const modelName of candidateModels) {
+      try {
+        const modelConfig: any = {
+          model: modelName,
+          generationConfig: {
+            temperature: options?.temperature ?? 0.3,
+            maxOutputTokens: options?.maxTokens ?? 2048,
+            ...(options?.jsonMode ? { responseMimeType: 'application/json' } : {}),
+          },
+        };
 
-    if (systemPrompt) {
-      modelConfig.systemInstruction = systemPrompt;
+        if (systemPrompt) {
+          modelConfig.systemInstruction = systemPrompt;
+        }
+
+        const model = this.client.getGenerativeModel(modelConfig);
+
+        const callPromise = async (): Promise<string> => {
+          const result = await model.generateContent(prompt);
+          const response = await result.response;
+          return response.text();
+        };
+
+        const timeoutPromise = new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error(`Gemini ${modelName} request timed out after ${timeoutMs}ms`)), timeoutMs),
+        );
+
+        return await Promise.race([callPromise(), timeoutPromise]);
+      } catch (err: any) {
+        this.logger.warn(`Gemini model ${modelName} call failed: ${err.message}`);
+        lastError = err;
+      }
     }
 
-    const model = this.client.getGenerativeModel(modelConfig);
-
-    const callPromise = async (): Promise<string> => {
-      const result = await model.generateContent(prompt);
-      const response = await result.response;
-      return response.text();
-    };
-
-    const timeoutPromise = new Promise<never>((_, reject) =>
-      setTimeout(() => reject(new Error(`Gemini request timed out after ${timeoutMs}ms`)), timeoutMs),
-    );
-
-    return Promise.race([callPromise(), timeoutPromise]);
+    throw lastError || new Error('All Gemini model candidates failed to respond.');
   }
 }
