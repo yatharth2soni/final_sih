@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { api, tokenStorage } from "./api/client";
-import { VoiceInput } from "./components/VoiceInput";
 import { GisMap } from "./components/GisMap";
 import { INDIAN_MINES_MASTER } from "./data/indianMinesMaster";
 import { getMineTelemetry, getNearbyMines } from "./data/mineTelemetryHelper";
@@ -4696,13 +4695,6 @@ export default function App() {
                 </div>
 
                 <form onSubmit={handleSendAssistantQuery} className="assistant-input-bar">
-                  <VoiceInput
-                    language={lang}
-                    disabled={assistantLoading}
-                    onTranscription={(transcribedText) => {
-                      setAssistantQueryText(transcribedText);
-                    }}
-                  />
                   <input
                     type="text"
                     placeholder={lang === "en" ? "Ask in English or Hindi (e.g. What is the current safety risk score?)..." : "हिन्दी या अंग्रेजी में प्रश्न पूछें (उदा. सुरक्षा जोखिम स्कोर क्या है?)..."}
