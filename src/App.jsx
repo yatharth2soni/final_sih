@@ -9,6 +9,7 @@ import { queryGrokAssistant } from "./services/grokService";
 import { generateGovernanceReport } from "./services/governanceReportGenerator";
 import { DigitalGovernanceReportViewer } from "./components/governance/DigitalGovernanceReportViewer";
 import { supabase } from "./lib/supabaseClient";
+import { printStatutoryDossier, downloadValidPdf } from "./services/pdfExportService";
 
 
 
@@ -3895,9 +3896,21 @@ export default function App() {
                   <button
                     className="btn btn-ghost"
                     type="button"
-                    onClick={async () => {
-                      showToast(lang === "en" ? "Downloading Risk Dossier (PDF)..." : "जोखिम डोजियर (पीडीएफ) डाउनलोड हो रहा है...");
-                      await api.reports.downloadRiskDossier(selectedMineId || activeMine.id);
+                    title={lang === "en" ? "Generate Official DGMS PDF Dossier" : "डीजीएमएस आधिकारिक पीडीएफ डोजियर"}
+                    onClick={() => {
+                      showToast(lang === "en" ? "Generating Official Statutory Dossier (PDF)..." : "आधिकारिक वैधानिक डोजियर (पीडीएफ) तैयार हो रहा है...");
+                      printStatutoryDossier({
+                        mineName: activeMine.name,
+                        subsidiary: activeMine.subsidiary || 'Coal India Limited',
+                        riskScore: computedRiskScore,
+                        riskBand: computedRiskBand,
+                        methane: activeTelemetry.methane,
+                        coPpm: activeTelemetry.coPpm,
+                        airflow: activeTelemetry.airflow,
+                        dust: activeTelemetry.dust,
+                        complianceRate: `${dynamicComplianceRate}%`,
+                        officerName: dynamicProfileName,
+                      });
                     }}
                   >
                     <DownloadIcon className="ic ic-sm" />
@@ -5245,10 +5258,21 @@ export default function App() {
               <button
                 className="btn btn-primary"
                 type="button"
-                onClick={async () => {
+                onClick={() => {
                   setAckModalOpen(false);
                   showToast(lang === "en" ? "Downloading signed acknowledgment PDF..." : "हस्ताक्षरित पावती डाउनलोड हो रही है...");
-                  await api.reports.downloadExport('pdf', selectedMineId || activeMine.id);
+                  printStatutoryDossier({
+                    mineName: activeMine.name,
+                    subsidiary: activeMine.subsidiary || 'Coal India Limited',
+                    riskScore: computedRiskScore,
+                    riskBand: computedRiskBand,
+                    methane: activeTelemetry.methane,
+                    coPpm: activeTelemetry.coPpm,
+                    airflow: activeTelemetry.airflow,
+                    dust: activeTelemetry.dust,
+                    complianceRate: `${dynamicComplianceRate}%`,
+                    officerName: dynamicProfileName,
+                  });
                 }}
               >
                 <DownloadIcon className="ic ic-sm" />
